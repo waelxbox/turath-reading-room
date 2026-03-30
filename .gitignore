@@ -21,18 +21,13 @@ wheels/
 .installed.cfg
 *.egg
 
-# Streamlit
-.streamlit/
-
 # Virtual Environment
 venv/
 ENV/
 
-# Data and Databases
+# Generated database (rebuilt at runtime)
 data/archive_database.db
-data/selim_transcriptions/
 *.sqlite3
-*.db
 
 # macOS
 .DS_Store
