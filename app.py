@@ -106,11 +106,28 @@ def get_connection() -> sqlite3.Connection:
 
 
 # ── Image helper: respect EXIF orientation ───────────────────────────────────
+# ── Image helper: respect EXIF orientation & ignore case-sensitivity ──────────
 @st.cache_data(show_spinner=False)
 def load_portrait_image(image_path: str) -> bytes | None:
-    """Load a PNG, apply EXIF rotation so it always displays portrait, return PNG bytes."""
+    """Load a PNG, apply EXIF rotation, and handle Linux case-insensitivity."""
     try:
-        img = Image.open(image_path)
+        target = Path(image_path)
+        actual_path = None
+        
+        # 1. Try the exact match first
+        if target.exists():
+            actual_path = target
+        # 2. If not found, scan the folder and ignore all uppercase/lowercase rules
+        elif target.parent.exists():
+            for f in target.parent.iterdir():
+                if f.name.lower() == target.name.lower():
+                    actual_path = f
+                    break
+                    
+        if not actual_path:
+            return None
+            
+        img = Image.open(actual_path)
         img = ImageOps.exif_transpose(img)   # applies EXIF orientation tag
         # If still landscape after EXIF correction, rotate 90° CW to portrait
         if img.width > img.height:
