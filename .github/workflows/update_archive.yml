@@ -24,12 +24,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          # We install these here because the Action server has 7GB of RAM,
-          # unlike the Streamlit server which only has 1GB.
-          pip install chromadb numpy<2.0.0 
+          python -m pip install --upgrade pip setuptools wheel
+          # Only try to install from requirements.txt if the file actually exists
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          # Force install the heavy hitters needed for the build script
+          pip install "chromadb>=0.4.0" "numpy<2.0.0" pysqlite3-binary
 
       - name: Run Database Ingestion
         run: python build_db.py
