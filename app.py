@@ -266,18 +266,6 @@ def main() -> None:
             st.session_state.doc_index = max(
                 0, min(st.session_state.doc_index, len(options) - 1)
             )
-with left:
-        st.markdown("### 📜 The Artifact")
-        
-        # --- DEBUG TOOL: What does Streamlit actually see? ---
-        if Path("data").exists():
-            st.info(f"Folders inside 'data/': {[f.name for f in Path('data').iterdir() if f.is_dir()]}")
-            if Path("data/images").exists():
-                st.info(f"Number of images found: {len(list(Path('data/images').iterdir()))}")
-            else:
-                st.error("The folder 'data/images' does NOT exist on the Streamlit server.")
-        else:
-            st.error("The 'data' folder does NOT exist on the Streamlit server.")
         # -----------------------------------------------------
 
         img_path = doc["image_path"]
@@ -333,6 +321,17 @@ with left:
     # ── Left: The Artifact ────────────────────────────────────────────────────
     with left:
         st.markdown("### 📜 The Artifact")
+        # --- DEBUG TOOL: What does Streamlit actually see? ---
+        if Path("data").exists():
+            st.info(f"Folders inside 'data/': {[f.name for f in Path('data').iterdir() if f.is_dir()]}")
+            if Path("data/images").exists():
+                st.info(f"Number of images found: {len(list(Path('data/images').iterdir()))}")
+            else:
+                st.error("The folder 'data/images' does NOT exist on the Streamlit server.")
+        else:
+            st.error("The 'data' folder does NOT exist on the Streamlit server.")
+        # -----------------------------------------------------
+
         img_path = doc["image_path"]
 
         img_bytes = load_portrait_image(img_path) if img_path else None
