@@ -16,7 +16,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          # This ensures the bot has permission to push back to the repo
           persist-credentials: true
 
       - name: Set up Python
@@ -24,13 +23,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      - - name: Install dependencies
+      - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip setuptools wheel
-          # Only try to install from requirements.txt if the file actually exists
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # Force install the heavy hitters needed for the build script
-          pip install "chromadb>=0.4.0" "numpy<2.0.0" pysqlite3-binary
+          python -m pip install --upgrade pip
+          pip install chromadb "numpy<2.0.0" pysqlite3-binary Pillow openai
 
       - name: Run Database Ingestion
         run: python build_db.py
@@ -39,11 +35,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Force add both the SQLite file and the entire ChromaDB folder
           git add data/archive_database.db
           git add data/chroma_db/ || true
-          
-          # The "|| echo" prevents the Action from failing if nothing changed
-          git commit -m "Auto-update databases with new archive files" || echo "No changes to commit"
+          git commit -m "Auto-update databases" || echo "No changes to commit"
           git push
