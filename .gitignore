@@ -24,10 +24,5 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
-
-# Generated database (rebuilt at runtime)
-data/archive_database.db
-*.sqlite3
-
 # macOS
 .DS_Store
