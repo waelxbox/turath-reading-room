@@ -1,0 +1,40 @@
+name: Build Digital Archive Databases
+
+on:
+  push:
+    paths:
+      - 'data/selim_transcriptions/**.json'
+  workflow_dispatch: # <--- THIS IS THE NEW LINE
+
+permissions:
+  contents: write
+
+jobs:
+  build-dbs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install chromadb
+
+      - name: Run Database Ingestion
+        run: python build_db.py
+
+      - name: Commit and Push Updated Databases
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/archive_database.db
+          # If you upgrade to semantic search, this captures the chroma folder too:
+          git add data/chroma_db/ || true 
+          git commit -m "Auto-update databases with new archive files" || echo "No changes to commit"
+          git push
