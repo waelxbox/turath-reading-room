@@ -209,7 +209,7 @@ def main() -> None:
                 full_response = ""
                 
                 responses = client.chat.completions.create(
-                    model="gemini-2.5-flash",
+                    model="gemini-3-flash",
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": f"Context: {context}\n\nQuestion: {prompt}"}
