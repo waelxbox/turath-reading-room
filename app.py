@@ -22,6 +22,17 @@ from PIL import Image, ImageOps
 from openai import OpenAI
 import chromadb
 
+def find_artifact_image(image_filename):
+    """Recursively searches for the image anywhere inside data/images/"""
+    if not image_filename:
+        return None
+    
+    # Search through all subfolders for the exact filename
+    matches = list(Path("data/images").rglob(image_filename))
+    
+    if matches:
+        return str(matches[0]) # Returns the correct path, even if it's nested!
+    return None
 # ── Paths ─────────────────────────────────────────────────────────────────────
 DB_FILE    = Path("data/archive_database.db")
 JSON_FOLDER = Path("data/selim_transcriptions")
