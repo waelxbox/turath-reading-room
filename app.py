@@ -9,14 +9,17 @@ Launch with:
     streamlit run app.py
 """
 
-import io
-import sqlite3
-import subprocess
+# --- STREAMLIT CLOUD SQLITE FIX ---
 import sys
-from pathlib import Path
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# ----------------------------------
 
+import sqlite3
+from pathlib import Path
 import streamlit as st
-from PIL import Image, ImageOps
+import chromadb
+from PIL import Image
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 DB_FILE = Path("data/archive_database.db")
