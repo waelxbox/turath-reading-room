@@ -143,7 +143,10 @@ def main() -> None:
             st.error("Missing OpenAI API Key. Please add it to your Streamlit Secrets.")
             return
         
-        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+        client = OpenAI(
+    api_key=st.secrets["OPENAI_API_KEY"], 
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+)
 
         if "messages" not in st.session_state:
             st.session_state.messages = [{"role": "assistant", "content": "Welcome to the TURATH Reading Room. How can I help you research the collection today?"}]
@@ -206,7 +209,7 @@ def main() -> None:
                 full_response = ""
                 
                 responses = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="gemini-2.5-flash",
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": f"Context: {context}\n\nQuestion: {prompt}"}
