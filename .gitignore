@@ -1,3 +1,6 @@
+# ChromaDB — built at runtime, never committed
+data/chroma_db/
+
 # Python
 __pycache__/
 *.py[cod]
