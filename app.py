@@ -4,9 +4,6 @@ app.py — TURATH Reading Room Streamlit Application
 A split-screen digital archive viewer for the Selim Hassan archaeological
 records. Connects to a local SQLite database (built by build_db.py) and
 serves a clean, academic research interface.
-
-Launch with:
-    streamlit run app.py
 """
 
 # --- STREAMLIT CLOUD SQLITE FIX ---
@@ -15,11 +12,11 @@ __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # ----------------------------------
 
+import io
 import sqlite3
 from pathlib import Path
 import streamlit as st
-import chromadb
-from PIL import Image
+from PIL import Image, ImageOps
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 DB_FILE = Path("data/archive_database.db")
@@ -98,6 +95,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+
 @st.cache_resource
 def get_connection() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_FILE, check_same_thread=False)
@@ -105,7 +103,6 @@ def get_connection() -> sqlite3.Connection:
     return conn
 
 
-# ── Image helper: respect EXIF orientation ───────────────────────────────────
 # ── Image helper: respect EXIF orientation & ignore case-sensitivity ──────────
 @st.cache_data(show_spinner=False)
 def load_portrait_image(image_path: str) -> bytes | None:
@@ -263,160 +260,3 @@ def main() -> None:
             # Initialise / clamp session index
             if "doc_index" not in st.session_state:
                 st.session_state.doc_index = 0
-            st.session_state.doc_index = max(
-                0, min(st.session_state.doc_index, len(options) - 1)
-            )
-        # -----------------------------------------------------
-
-        img_path = doc["image_path"]
-        # -----------------------------------------------------
-
-        img_path = doc["image_path"]
-
-            # ── Prev / Next arrows ────────────────────────────────────────────
-        arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
-            with arrow_l:
-                if st.button("◀", key="prev_btn", disabled=(st.session_state.doc_index == 0)):
-                    st.session_state.doc_index -= 1
-                    st.rerun()
-            with arrow_mid:
-                st.caption(
-                    f"Document {st.session_state.doc_index + 1} of {len(options)}"
-                )
-            with arrow_r:
-                if st.button("▶", key="next_btn", disabled=(st.session_state.doc_index == len(options) - 1)):
-                    st.session_state.doc_index += 1
-                    st.rerun()
-
-            # ── Dropdown selector (synced with arrow index) ───────────────────
-            chosen_idx = st.selectbox(
-                "Jump to document",
-                range(len(options)),
-                index=st.session_state.doc_index,
-                format_func=lambda i: options[i][1],
-                key="doc_selector",
-            )
-            # If user changed the dropdown, update the index
-            if chosen_idx != st.session_state.doc_index:
-                st.session_state.doc_index = chosen_idx
-                st.rerun()
-
-            selected_id = options[st.session_state.doc_index][0]
-
-    # ── Main Stage (Split-Screen Viewer) ──────────────────────────────────────
-    if not results or selected_id is None:
-        st.markdown(
-            "> 👈 Use the **Command Center** in the sidebar to search for documents "
-            "and select one to begin exploring the archive."
-        )
-        return
-
-    doc = get_document(conn, selected_id)
-    if doc is None:
-        st.error("Document not found in the database.")
-        return
-
-    left, right = st.columns([1, 1], gap="large")
-
-    # ── Left: The Artifact ────────────────────────────────────────────────────
-    with left:
-        st.markdown("### 📜 The Artifact")
-        # --- DEBUG TOOL: What does Streamlit actually see? ---
-        if Path("data").exists():
-            st.info(f"Folders inside 'data/': {[f.name for f in Path('data').iterdir() if f.is_dir()]}")
-            if Path("data/images").exists():
-                st.info(f"Number of images found: {len(list(Path('data/images').iterdir()))}")
-            else:
-                st.error("The folder 'data/images' does NOT exist on the Streamlit server.")
-        else:
-            st.error("The 'data' folder does NOT exist on the Streamlit server.")
-        # -----------------------------------------------------
-
-        img_path = doc["image_path"]
-
-        img_bytes = load_portrait_image(img_path) if img_path else None
-
-        if img_bytes:
-            st.image(img_bytes, use_container_width=True)
-        else:
-            st.warning(
-                f"Image not found: `{img_path}`\n\n"
-                "Place the corresponding PNG in `data/images/` and rebuild the database."
-            )
-            st.markdown(
-                "<div style='height:300px;background:#1a1a2e;border-radius:8px;"
-                "display:flex;align-items:center;justify-content:center;"
-                "color:#555;font-size:3rem;'>🖼️</div>",
-                unsafe_allow_html=True,
-            )
-
-    # ── Right: The Decoded Data ───────────────────────────────────────────────
-    with right:
-        st.markdown("### 📖 The Decoded Data")
-
-        # Header badges
-        badges = ""
-        if doc["Reference_Number"]:
-            badges += f'<span class="badge">📁 {doc["Reference_Number"]}</span>'
-        if doc["Document_Date"]:
-            badges += f'<span class="badge">📅 {doc["Document_Date"]}</span>'
-        if doc["Excavation_Site"]:
-            badges += f'<span class="badge">📍 {doc["Excavation_Site"]}</span>'
-        if badges:
-            st.markdown(badges, unsafe_allow_html=True)
-
-        st.divider()
-
-        # Sender / Recipient
-        c1, c2 = st.columns(2)
-        with c1:
-            st.caption("**From**")
-            st.write(doc["Sender"] or "—")
-        with c2:
-            st.caption("**To**")
-            st.write(doc["Recipient"] or "—")
-
-        st.divider()
-
-        # English Translation
-        st.markdown("**English Translation**")
-        translation = doc["English_Translation"] or "_No translation available._"
-        st.markdown(
-            f'<div class="translation-block">{translation}</div>',
-            unsafe_allow_html=True,
-        )
-
-        st.divider()
-
-        # Thematic Tags
-        st.markdown("**Thematic Tags**")
-        render_pills(doc["Thematic_Tags"])
-
-        # Entities Mentioned
-        st.markdown("**Entities Mentioned**")
-        render_pills(doc["Entities_Mentioned"])
-
-        st.divider()
-
-        # Original Arabic Transcription (collapsed)
-        with st.expander("📄 View Original Arabic Transcription"):
-            transcription = doc["Full_Transcription"]
-            if transcription:
-                st.markdown(
-                    f'<div dir="rtl" style="font-size:1rem;line-height:1.8;">'
-                    f"{transcription}</div>",
-                    unsafe_allow_html=True,
-                )
-            else:
-                st.write("No transcription available.")
-            if doc["Confidence_Notes"]:
-                st.caption(f"**Confidence Notes:** {doc['Confidence_Notes']}")
-
-        # Stamps & Annotations (collapsed)
-        if doc["Stamps_and_Annotations"]:
-            with st.expander("🔖 Stamps & Annotations"):
-                render_pills(doc["Stamps_and_Annotations"])
-
-
-if __name__ == "__main__":
-    main()
