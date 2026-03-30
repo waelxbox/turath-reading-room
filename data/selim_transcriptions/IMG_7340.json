@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "N° 19.3/15",
+  "Document_Date": "1923-03-24",
+  "Sender": "G. Daressy, Acting Director General of the Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Director of Works for the Antiquities Service, Luxor",
+  "Excavation_Site": "Luxor",
+  "Entities_Mentioned": [
+    "Ibrahim Boktor",
+    "E. Baraize",
+    "G. Daressy",
+    "Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Personnel management",
+    "Employment history",
+    "Security personnel",
+    "Antiquities Service administration"
+  ],
+  "Brief_Summary": "The Antiquities Service informs E. Baraize that he has hired Ibrahim Boktor, an ex-ghafir who was dismissed in 1912 for losing three tourist cards, advising Baraize to act accordingly given this background.",
+  "English_Translation": "ANTIQUITIES SERVICE.\nGENERAL DIRECTORATE.\nN° 19.3/15\nAttached documents____\n\n(MODEL N° 37 — 37 Form Number)\nCairo, the____ 24 March 1923 19____\n\nSubject: Ex-ghafir Ibrahim Boktor.\n\nSir,\n\nWe note from your payroll sheets that you have hired for your works the named Ibrahim Boktor.\nHowever, this worker was dismissed from our Service in 1912, while he was employed as a day-ghafir, for having lost 3 tourist cards.\nI am informing you of this man's background so that you know who you are dealing with and act accordingly.\nPlease accept, Sir, the assurance of my distinguished consideration.\n\nFOR THE DIRECTOR GENERAL,\n[Signature: G. Darassy]\n\nMonsieur E. Baraize,\nDirector of Works for the Antiquities Service, at Luxor",
+  "Stamps_and_Annotations": [
+    "Stamp: F.D. [illegible date]",
+    "Handwritten Arabic: أخذ علم (Acknowledged / Noted)",
+    "Stamp: TIEN IMEN T (vertical)",
+    "Stamp: ١٩٢٣ / 24 MAR. 1923 / CAIRO",
+    "Stamp: REGISTERED DEPARTMENT / مصلحة البريد / POST OFFICE CAIRO",
+    "Printed label: (132 A) EGYPTIAN GOV"
+  ],
+  "Confidence_Notes": "The stamp 'F.D. [illegible date]' has an unclear date. The vertical stamp 'TIEN IMEN T' appears to be a partial or misread stamp.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\nN° 19.3/15\nPièces jointes____\n\n(MODÈLE N° 37 — ٣٧ أورنيك نمرة)\nLe Caire, le____ 24 Mars 1923 19____\n[Stamp: F.D. [illegible date]]\n\nObjet : Ex-ghafir Ibrahim Boktor.\n\nMonsieur,\n\nNous constatons sur vos feuilles de paie que vous\navez engagé pour vos travaux le nommé Ibrahim Boktor.\nOr, cet ouvrier a été licencié de notre Service,\nen 1912, alors qu'il était employé comme ghafir à la\njournée, pour avoir perdu 3 cartes de touristes.\nJe vous signale les antécédents de cet homme pour\nque vous sachiez à qui vous avez affaire et agissiez en\nconséquence.\nVeuillez agréer, Monsieur, l'assurance de ma consi-\ndération distinguée.\n\nP. LE DIRECTEUR GENERAL,\n[Signature: G. Darassy]\n[Handwritten Arabic: أخذ علم]\n[Stamp: TIEN IMEN T (vertical)]\n\nMonsieur E. Baraize,\nDirecteur de Travaux du Sce\ndes Antiquités, à Louxor\n------\n[Stamp: ١٩٢٣ / 24 MAR. 1923 / CAIRO]\n[Stamp: REGISTERED DEPARTMENT / مصلحة البريد / POST OFFICE CAIRO]\n[Printed label: (132 A) EGYPTIAN GOV]"
+}

@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "16-29/17",
+  "Document_Date": "1922-02-20",
+  "Sender": "The Director General, Antiquities Service",
+  "Recipient": "Monsieur Emile Baraize, Directeur des Travaux du Service des Antiquités à Dendarah (Kena)",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Monsieur Emile Baraize",
+    "Na-zir"
+  ],
+  "Thematic_Tags": [
+    "Administration",
+    "Procurement",
+    "Correspondence",
+    "Infrastructure"
+  ],
+  "Brief_Summary": "The document contains two parts: a personal note from the Survey of Egypt thanking Mr. Baraize for his help, and an official letter from the Director General of the Antiquities Service requesting Mr. Baraize's urgent opinion on tenders for the purchase of iron girders.",
+  "English_Translation": "SURVEY OF EGYPT\nGIZA (Mudiria)\n18th. February, 1922.\n\nDear Mr. Baraize,\nI must apologise for not having written sooner to\nthank you for your two letters and the kind way in which\nyou have met my requests.\n\nANTIQUITIES SERVICE.\nINSPECTORATE\nOF THE\nMIDDLE EGYPT.\n\n(MODEL N° 25 - Form No. 25)\n\n20/2/1922\n\nSUBJECT - Purchase of iron girders etc.\n\nN° 16-29/17\nurgent\n\nAttachments 13\nR.D.\n\nMr. Director,\n\nIn response to your letter of 9/2/1922 N°155,\nI have the honor to transmit to you herewith, for return,\nthree tenders & a note from the Nazir (Overseer)\nrelating to the purchase of iron girders etc., with\nthe request that you kindly let us know your opinion on\nthis matter.\nPlease accept, Mr. Director, the assurance of my\nmost distinguished consideration.\n\nTHE DIRECTOR GENERAL\n[Handwritten signature]\n\nPlease\nprovide\nopinion\nurgently\n\nMr. Emile Baraize,\nDirector of Works of the\nAntiquities\nService\nat Dendarah (Kena)",
+  "Stamps_and_Annotations": [
+    "SURVEY OF EGYPT (Header/Stamp)",
+    "GIZA (Mudiria) (Location/Stamp)",
+    "SERVICE DES ANTIQUITÉS. INSPECTORAT DE LA MOYENNE EGYPTE. (Header/Stamp)",
+    "(MODÈLE N° 25 - Handwritten Arabic: أورنيك نمرة ٢٥) (Form model with Arabic annotation: Form No. 25)",
+    "urgent (Handwritten annotation)",
+    "Pièces jointes 13 (Handwritten annotation: Attachments 13)",
+    "R.D. (Handwritten annotation)",
+    "[Handwritten signature] (Description of signature)",
+    "Handwritten Arabic: يرجى إفادة بالرأي عاجل (Handwritten Arabic annotation: Please provide opinion urgently)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SURVEY OF EGYPT\nGIZA (Mudiria)\n18th. February, 1922.\n\nDear Mr. Baraize,\nI must apologise for not have written sooner to\nthank you for your two letters and the kind way in which\nyou have met my requests.\n\nSERVICE DES ANTIQUITÉS.\nINSPECTORAT\nDE LA\nMOYENNE EGYPTE.\n\n(MODÈLE N° 25 - [Handwritten Arabic: أورنيك نمرة ٢٥])\n\n20/2/1922\n\nOBJet-Achat de poutrelles en fer etc.\n\nN° [Handwritten: 16-29/17]\n[Handwritten: urgent]\n\nPièces jointes [Handwritten: 13]\nR.D.\n\nMonsieur le Directeur,\n\nEn réponse à votre lettre du 9/2/1922 N°155 ,\nj'ai l'honneur de vous transmettre ci-joint, sous béné-\nfice de retour, trois adjudications & une note du Na-\nzir relatives à l'achat des poutrelles en fer etc, avec\nprière de vouloir bien nous faire savoir votre avis à\ncet égard .\nVeuillez agréer , Monsieur le Directeur , l'as-\nsurance de ma considération très distinguée .\n\nLE DIRECTEUR GENERAL\n[Handwritten signature]\n\n[Handwritten Arabic: يرجى]\n[Handwritten Arabic: إفادة]\n[Handwritten Arabic: بالرأي]\n[Handwritten Arabic: عاجل]\n\nMonsieur Emile Baraize ,\nDirecteur des Travaux du\nService\ndes Antiquités\nà Dendarah (Kena)"
+}

@@ -1,0 +1,43 @@
+{
+  "Reference_Number": "N° 26-23/17",
+  "Document_Date": "1922-12-12",
+  "Sender": "Michon",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Michon",
+    "Monsieur Baraize",
+    "Ministère",
+    "SERVICE DES ANTIQUITÉS"
+  ],
+  "Thematic_Tags": [
+    "Correspondence",
+    "Administrative",
+    "Confidentiality",
+    "Leave of Absence"
+  ],
+  "Brief_Summary": "Michon sends four annexes to Monsieur Baraize, referencing a previous letter, and confidentially informs him that the Ministry is likely to overlook their delayed return from leave, advising secrecy until official notification.",
+  "English_Translation": "SERVICE OF ANTIQUITIES.\n(MODEL N° 37 — [Handwritten Arabic: Form No. 37])\n\nCairo, the\n\nDear Monsieur Baraize,\n\nI am sending you herewith 4 annexes\nwhich should have been attached to our\nletter N° 26-23/17 of 11 December 1922.\nI hope you are doing\nwonderfully.\n\nSincerely yours,\nMichon\n12-12-22\n\nI believe the Ministry will\noverlook the delay in our return\nfrom leave. I ask you to keep this\nin the strictest confidence; until you are\nofficially notified.\nM",
+  "Stamps_and_Annotations": [
+    "Printed header: SERVICE DES ANTIQUITÉS.",
+    "Printed text: (MODÈLE N° 37 —",
+    "Handwritten Arabic next to MODÈLE N° 37: اورنيك نمرة ٣٧ (Form No. 37)",
+    "Pencil note: PT",
+    "Pencil note: a)",
+    "Pencil note: 2.",
+    "Pencil note: 4 Sent. 1922 (likely 4 Sept. 1922)",
+    "Pencil note: 22",
+    "Pencil note: 1922",
+    "Pencil note: 1921",
+    "Pencil note: ou-",
+    "Pencil note: de",
+    "Pencil note: l",
+    "Pencil note: itier",
+    "Pencil note: a",
+    "Pencil note: B",
+    "Handwritten Arabic at bottom: المصرية (Egyptian)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\n(MODÈLE N° 37 — [Handwritten Arabic: اورنيك نمرة ٣٧])\n[Pencil note: PT]\n[Pencil note: a)]\n[Pencil note: 2.]\n[Pencil note: 4 Sent. 1922]\n[Pencil note: 22]\n[Pencil note: 1922]\n[Pencil note: 1921]\n[Pencil note: ou-]\n[Pencil note: de]\n[Pencil note: l]\n[Pencil note: itier]\n[Pencil note: a]\n[Pencil note: B]\n\nLe Caire, le\n\nCher Monsieur Baraize,\n\nJe vous envoie ci-joint 4 annexes\nqui devaient être annexés à notre\nlettre N° 26-23/17 du 11 Décembre 1922.\nJ'espère que vous vous portez à\nmerveille.\n\nBien à vous\nMichon\n12-12-22\n\nJe crois que le Ministère va\npasser outre du retard porté dans\nnotre retour de congé. Je vous\nprie de garder ceci dans le plus\ngrand secret; lorsque jusqu'à ce que vous serez\navisé officiellement.\nM\n\n[Handwritten Arabic: المصرية]"
+}

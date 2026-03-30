@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "25/14",
+  "Document_Date": "1920-01-25",
+  "Sender": null,
+  "Recipient": null,
+  "Excavation_Site": "Temple",
+  "Entities_Mentioned": [
+    "Ali Golei Mansour",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Pensions Law",
+    "Legal Dispute",
+    "Antiquities Trade",
+    "Labor Practices"
+  ],
+  "Brief_Summary": "This document discusses a complainant, identified as a merchant of the Antiquities Service, who is involved in a dispute concerning a pension law. It highlights his involvement in works at the Temple, noting he was not a traditional laborer but an intermediary, and mentions his attached criminal record, suggesting a problematic history.",
+  "English_Translation": "ARCHIVES.\nGENERAL.\n25/14\n\nSUBJECT.- Law on pensions.\n\n[Handwritten Arabic: Date 1920/1/25]\n[Pencil note: 04 know r see fra- what]\n[Stamp: ANTIQUITIES SERVICE]\n\nto be done date present at the Temple and at the Coffer offers at P.20 one the family 1/3 at P.20 has it first as well as it at P.18. C.m3 of stone at the work site.\n\nI draw your attention to the fact that the complainant did not have hunger to haul, nor livestock to transport the stones to the mountain at the Temple but, he is a merchant of the Service,\n\nI draw your attention to the fact that the complainant is an intermediary and did not solicit and\n[Handwritten French in left margin, written vertically:] is perfectly aware of the works and that he was present at the 'aly' at the Temple and had dealings with our Service. As a first-time antiquities merchant. but written in our archives or in the case of Ali Golei Mansour and his criminal record is attached. sufficiently charged. the charges. attached is a bad report from the 'aly' admitted to the registry of the Temple\nI draw your attention to the fact that the complainant is perfectly aware of the works and that he was present at the 'aly' at the Temple and had dealings with our Service. As a first-time antiquities merchant. but written in our archives or in the case of Ali Golei Mansour and his criminal record is attached. sufficiently charged. the charges.\n\nattached is a bad report from the 'aly' admitted to the registry of the Temple",
+  "Stamps_and_Annotations": [
+    "ARCHIVES.",
+    "GÉNÉRALE.",
+    "Handwritten Arabic: تاريخ 1920/1/25",
+    "Pencil note: 04 connaî r voir fra- qué",
+    "Stamp: SERVICE DES ANTIQUITÉS",
+    "Handwritten French in left margin, written vertically"
+  ],
+  "Confidence_Notes": "The pencil note is highly fragmented and its meaning is unclear. The word 'aly' is ambiguous; it could refer to a person, a place, or a specific type of report/document. The phrase 'mal au rapport' is an unusual construction, translated as 'bad report'.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "ARCHIVES.\nGÉNÉRALE.\n25/14\n\nOBJET.- Loi sur les pensions.\n\n[Handwritten Arabic: تاريخ 1920/1/25]\n[Pencil note: 04\nconnaî\nr\nvoir\nfra-\nqué]\n[Stamp: SERVICE DES ANTIQUITÉS]\n\nà faire\ndate presente au Temple et au Coffre\nc'offre à P.20 un la famille 1/3 à P.20\nl'a d'abord ainsi que elle à P.18. C.m3\nde pierre à pied d'œuvre.\n\nJ'attire votre attention, que le plaignant\nn'a pas eu faim à charrier, ni du bétail pour\ntransporter les pierres à la montagne au Temple\nmais, c'est un marchand du Service,\n\nJ'attire votre attention, que le plaignant\nest un intermédiaire et n'a pas sollicité et\n[Handwritten French in left margin, written vertically:]\nsoit\nparfaitement\nau courant\ndes travaux\net qu'il était\nprésent à l'aly\nau Temple et\na eu des\naffaires avec\nnotre Service.\nComme\npremière fois\nmarchand\nd'antiquité.\nmais écrit\ndans nos\narchives\nou en cas\nde Ali Golei\nMansour\net son casier\njudiciaire est\nattaché.\nsuffisamment\nchargé.\nles charges.\nci joint une\nmal au rapport\nde l'aly\nadmis au gref\ndu Temple\nJ'attire votre attention, que le plaignant\nsoit parfaitement au courant des travaux et qu'il était présent à l'aly\nau Temple et a eu des affaires avec notre Service. Comme\npremière fois marchand d'antiquité. mais écrit\ndans nos archives ou en cas de Ali Golei\nMansour et son casier judiciaire est attaché.\nsuffisamment chargé. les charges.\n\nci joint une mal au rapport de l'aly\nadmis au gref du Temple"
+}

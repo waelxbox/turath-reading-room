@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "N° I.25/14",
+  "Document_Date": null,
+  "Sender": "G. Daressy, Interim Director General",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Pagney, poste restante; JURA",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "G. Daressy",
+    "Ministère des Travaux Publics"
+  ],
+  "Thematic_Tags": [
+    "Pensions",
+    "Civil Service",
+    "Administrative",
+    "Legislation"
+  ],
+  "Brief_Summary": "This administrative letter from the interim Director General (G. Daressy) to Monsieur E. Baraize, Director of Works, concerns the implementation of Law N°22 of 1922 regarding pension payments. It requests Baraize to choose and return one of the attached forms (N°1 or N°2) by November 10th, indicating his preferred method for paying pension arrears for his provisional services.",
+  "English_Translation": "N° I.25/14\nAttached pieces 2\nR.D.\n[Handwritten: Registered]\n\nSUBJECT.- Law on pensions.\n\nMonsieur the Director of Works,\n\nIn execution of the provisions of Law N°22, of 1922, of which you have taken cognizance and which regulates the payment of arrears of deductions for pension by officials authorized to count their provisional services, I have the honor to transmit to you herewith an copy of forms N°1 and 2, relating to the payment method chosen by the interested party, and to ask you to kindly return to us, after having signed it, the one for which you are willing to opt.\nThis option must reach us before November 10th next.\n\nPlease accept, Monsieur the Director, the assurance of my distinguished consideration.\n\nTHE INTERIM DIRECTOR GENERAL\n[Signature: Daressy]\n\nMonsieur E. Baraize,\nat Pagney,\nposte restante; JURA\n-----\n[Pencil note: 12/8/29]\n\n...partment\n...re des Travaux Publics, Cairo\n-----",
+  "Stamps_and_Annotations": [
+    "Pièces jointes 2",
+    "R.D.",
+    "Handwritten: Recommandé",
+    "Pencil note: 12/8/29",
+    "Fragmentary text: ...partment ...re des Travaux Publics, Le Caire"
+  ],
+  "Confidence_Notes": "The signature 'Saresy' has been interpreted as 'Daressy', a known Director General p.i. of the Egyptian Antiquities Service during the 1920s. The exact date of the letter is not specified, but the reference to 'Loi N°22, de 1922' and the deadline '10 Novembre prochain', combined with the pencil annotation '12/8/29', strongly suggest the letter was sent in 1929. The last two lines are a fragmentary text, likely from a letterhead or stamp, partially illegible, but 'Ministère des Travaux Publics' (Ministry of Public Works) is inferred.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "N° I.25/14\nPièces jointes 2\nR.D.\n[Handwritten: Recommandé]\n\nOBJET.- Loi sur les pensions.\n\nMonsieur le Directeur de Travaux,\n\nEn exécution des prescriptions de la\nLoi N°22, de 1922, dont vous avez pris connaissance\net réglant le paiement des arriérés de retenue pour\nla pension par les fonctionnaires autorisés à faire\ncompter leurs services provisoires, j'ai l'honneur\nde vous transmettre ci-joint un exemplaire des for-\nmules N°1 et 2, se rapportant au mode de paiement\nchoisi par l'intéressé, et de vous prier de vouloir\nnous retourner, après l'avoir signée, celle pour la-\nquelle vous êtes disposé à opter.\nCette option devra nous parvenir avant\nle 10 Novembre prochain.\n\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GENERAL p.i.\n[Signature: Saresy]\n\nMonsieur E. Baraize,\nà Pagney,\nposte restante; JURA\n-----\n[Pencil note: 12/8/29]\n\n...partment\n...re des Travaux Publics, Le Caire\n-----"
+}

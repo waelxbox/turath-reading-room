@@ -1,0 +1,34 @@
+{
+  "Reference_Number": "16.29./17.",
+  "Document_Date": "1923-01-15",
+  "Sender": "G. Daressy (For the Director General)",
+  "Recipient": "Monsieur Emile Baraize, Directeur des Travaux du Service des Antiquités Italiana",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Emile Baraize",
+    "Service des Antiquités",
+    "G. Daressy"
+  ],
+  "Thematic_Tags": [
+    "Administrative correspondence",
+    "Supply request",
+    "Logistics",
+    "Material procurement"
+  ],
+  "Brief_Summary": "The Egyptian Antiquities Service sends a package of steel soldering material to Monsieur Baraize and requests further specifications (intended use, soft or hard steel) for a steel bar to facilitate its purchase.",
+  "English_Translation": "(MODEL N° 37. — Form No. 37)\n\nGENERAL ADMINISTRATION\nOF THE\nANTIQUITIES SERVICE.\n\nCairo, January 15, 1923\n\nSubject - Sending Lafitte plate.\n\nattached— postal parcel.\n\nMonsieur the Director of Works,\n\nIn response to your letter of December 27, 1922 No.\n232, I have the honor to send you by postal parcel\na package of steel soldering material with the request\nthat you kindly acknowledge receipt.\nAs for the steel bar, the merchant asks\nto know for what work this steel is required,\nthen if it is soft steel or hard steel: the\nformer sells for 35 m/m per Kilo; while the latter\nis 120 m/m per Kilo. Please therefore let us know\nthis information to allow us to\npurchase this item under the required conditions.\nPlease accept, Monsieur the Director of\nWorks, the assurance of my very distinguished consideration.\n\nFOR THE DIRECTOR GENERAL.\n[Signature: G. Daressy]\n\nMonsieur Emile Baraize,\nDirector of Works of the\nAntiquities Service\nItaliana.",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: أورنيك نمرة ٣٧ (Form No. 37)",
+    "Pencil note: 15",
+    "Pencil note: 16",
+    "Pencil note: 16.29./17.",
+    "Signature: G. Daressy",
+    "Stamp: EGYPTE / SERVICE DES ANTIQUITÉS / 17 JA 23 308",
+    "Handwritten Arabic: استلمت / ١/٢١ (Received / 1/21)",
+    "Stamp: EGYPT GOVERN / (132 D.) / حكومة مصرية (Egyptian Government)",
+    "Stamp: EGYPT GOVER / (132 D.) / مصرية (Egyptian)"
+  ],
+  "Confidence_Notes": "The date '15 Janvier 1923' has a '16' written below it, which might indicate a correction or alternative date. The term 'Italiana' in the recipient's address is unusual and its specific meaning in this context is unclear.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(MODÈLE N° 37. — [Handwritten Arabic: أورنيك نمرة ٣٧])\n\nION GÉNÉRALE\nDU\nDES ANTIQUITÉS.\n\nCaire, le [Pencil note: 15] Janvier 1923\n[Pencil note: 16]\n\nObjet - Envoi plaque Lafitte.\n\n[Pencil note: 16.29./17.]\n\ns jointes— colis postal.\n\nMonsieur le Directeur des Travaux,\n\nEn réponse à votre lettre du 27 Décembre 1922 No\n232 , j'ai l'honneur de vous envoyer par colis pos-\ntal un paquet de matière à souder l'acier avec prière\nde vouloir bien nous en accuser réception.\nQuant à la barre en acier , le commerçant de-\nmande à savoir pour quel travail cet acier est requi\npuis si c'est de l'acier doux ou de l'acier sec : le\npremier se vend à 35m/m le Kilo; tandis que le se-\ncond est à 120 m/m le Kilo. Prière donc de nous faire\nsavoir ces renseignements pour nous permettre l'a-\nchat de cet article dans les conditions voulues.\nVeuillez agréer , Monsieur le Directeur des\nTravaux, l'assurance de ma considération très distin-\nguée.\n\nP. LE DIRECTEUR GENERAL.\n[Signature: G. Darung]\n\nMonsieur Emile Baraize ,\nDirecteur des Travaux du\nService des Antiquités\nItaliana.\n\n[Stamp: EGYPTE / SERVICE DES ANTIQUITÉS / 17 JA 23 308]\n[Handwritten Arabic: استلمت / ١/٢١]\n[Stamp: EGYPT GOVERN / (132 D.) / [Handwritten Arabic: حكومة مصرية]]\n[Stamp: EGYPT GOVER / (132 D.) / [Handwritten Arabic: مصرية]]"
+}

@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "N° 5-3/1",
+  "Document_Date": "1925-12-17",
+  "Sender": "The Director General of the Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Director of Works of the Antiquities Service, at the Pyramids",
+  "Excavation_Site": "Tomb of Seti I in the Valley of the Kings",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "Seti I",
+    "Service des Antiquités",
+    "Chief Inspector of Upper Egypt"
+  ],
+  "Thematic_Tags": [
+    "Tomb conservation",
+    "Valley of the Kings",
+    "Seti I",
+    "Structural damage"
+  ],
+  "Brief_Summary": "The Director General informs E. Baraize that a small fragment of a wall in Seti I's tomb in the Valley of the Kings has fallen due to an old crack. Baraize is requested to reattach the fragment during his next visit to Luxor.",
+  "English_Translation": "SERVICE OF ANTIQUITIES.\nGENERAL DIRECTION.\n\nN° 5-3/1\n\nAttached documents\n\n(FORM No. 1533, F.C.) Cairo, December 17, 1925\n\nSubject:\n\nMr. Director of Works,\n\n[Handwritten Arabic: ح] Our Chief Inspector of Upper Egypt has just informed us that a small fragment of the wall of the last room of the tomb of Seti I in the Valley of the Kings has fallen. It appears that this fall was accidental, due to the existence of an old crack trace to which fine dust had adhered. Furthermore, the debris has been collected. [Handwritten Arabic: ١٢/١]\n\nI ask you, when you go to Luxor, to put the wall fragment in question back in place.\n\nPlease accept, Mr. Director of Works, the assurance of my distinguished consideration.\n\nFor THE DIRECTOR GENERAL,\nL.L. Empr\n[Handwritten Arabic: The Director General]\n\nMr. E. Baraize\nDirector of Works\nof the Antiquities Service\nAt the Pyramids\n[Handwritten Arabic: ١٢/١]",
+  "Stamps_and_Annotations": [
+    "Handwritten '1' added to reference number N° 5-3/",
+    "FORM No. 1533, F.C.",
+    "Handwritten Arabic character 'ح'",
+    "Handwritten Arabic numbers '١٢/١'",
+    "Signature 'L.L. Empr'",
+    "Handwritten Arabic 'المدير العام' (The Director General)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\n\n             N° 5-3/[Handwritten: 1]\n\nPièces jointes\n\n                                          (FORM No. 1533, F.C.) Le Caire, le 17 Décembre 1925\n\nObjet:\n\nMonsieur le Directeur de Travaux,\n\n[Handwritten Arabic: ح] Notre Inspecteur en Chef de la Haute-Egypte\nvient de nous faire savoir qu'un petit fragment\ndu mur de la dernière salle de la tombe de Séti I\nà la vallée des Rois est tombé. Il paraît, a-\nt-il, que cette chute a été fortuite, à cause de\nl'existence de la trace d'une lézarde ancienne à\nlaquelle s'est attachée la poussière fine. D'ail-\nleurs les débris ont été recueillis. [Handwritten Arabic: ١٢/١]\n\nJe vous prie, quand vous irez à Louxor, de\nremettre en place le fragment de mur en question.\n\nVeuillez agréer, Monsieur le Directeur de\ntravaux, l'assurance de ma considération distinguée.\n\n                                          Pr. LE DIRECTEUR GENERAL,\n                                          L.L. Empr\n                                          [Handwritten Arabic: المدير العام]\n\nMonsieur E.Baraize\nDirecteur de travaux\ndu Service des Antiquités\nAux Pyramides\n                                                                [Handwritten Arabic: ١٢/١]"
+}

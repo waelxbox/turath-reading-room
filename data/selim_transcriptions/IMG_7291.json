@@ -1,0 +1,31 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1928-02-20",
+  "Sender": "J.E. QUIBELL, Director of the French Archaeological Mission of Saqqara",
+  "Recipient": "Monsieur E. Baraize (Directeur de Travaux)",
+  "Excavation_Site": "Saqqara (North of the Unas causeway, East of the Mastaba of Ti)",
+  "Entities_Mentioned": [
+    "J.E. QUIBELL",
+    "French Archaeological Mission of Saqqara",
+    "Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Excavation Permit",
+    "Saqqara",
+    "Archaeological Mission",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "J.E. Quibell, Director of the French Archaeological Mission of Saqqara, requests an excavation permit for the necropolis of Saqqara, specifically north of the Unas causeway and east of the Mastaba of Ti, intending to start work on March 1st, 1928.",
+  "English_Translation": "Cairo, February 20, 1928.\n\nMr. Director General of the Antiquities Service,\n\nSubject: Request for an excavation permit.\n\nI have the honor to solicit from your benevolence the granting of an excavation permit in the necropolis of Saqqara, North of the Unas causeway, and East of the Mastaba of Ti.\n\nI propose to begin my work on March 1st next.\n\nI would be grateful if you would let me know your decision as soon as possible.\n\nPlease accept, Mr. Director General, the expression of my highest consideration.\n\nThe Director of the French Archaeological Mission of Saqqara,\n\nJ.E. QUIBELL",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: ادارة ١٢٤ (Administration 124)",
+    "Stamp: SERVICE DES ANTIQUITÉS DIRECTION GÉNÉRALE (Antiquities Service, General Directorate)",
+    "Pencil note: Administration",
+    "Pencil note: 2. Dossier No.",
+    "Pencil note: 3. by the",
+    "Pencil note: 4. dern"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: ادارة ١٢٤]\nLe Caire, le 20 Février 1928.\n\nMonsieur le Directeur Général du Service des Antiquités,\n\nObjet: Demande de permis de fouilles.\n\nJ'ai l'honneur de solliciter de votre bienveillance l'octroi d'un permis de fouilles dans la nécropole de Saqqarah, au Nord de la chaussée d'Ounas, et à l'Est du Mastaba de Ti.\n\nJe me propose de commencer mes travaux le 1er Mars prochain.\n\nJe vous serais reconnaissant de bien vouloir me faire connaître votre décision dans le plus bref délai possible.\n\nVeuillez agréer, Monsieur le Directeur Général, l'expression de ma très haute considération.\n\n[Stamp: SERVICE DES ANTIQUITÉS\nDIRECTION GÉNÉRALE]\n\nLe Directeur de la Mission Archéologique Française de Saqqarah,\n\n[Signature]\nJ.E. QUIBELL\n\n[Pencil note: Administration]\n[Pencil note: 2. Dossier No.]\n[Pencil note: 3. by the]\n[Pencil note: 4. dern]"
+}

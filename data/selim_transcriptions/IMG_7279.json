@@ -1,0 +1,25 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": null,
+  "Recipient": null,
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "The American University in Cairo",
+    "Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Archival Context",
+    "Collection Description",
+    "Antiquities Service Records",
+    "Library Archives"
+  ],
+  "Brief_Summary": "The provided text describes the archival location of 'Antiquities Service daily business records' within The American University in Cairo's Rare Books & Special Collections Library, identified by collection number SC2021.02 and Box 6.",
+  "English_Translation": "[Logo: Stylized geometric shape] The American University in Cairo\nRare Books & Special Collections Library - Archives\nSC2021.02\nAntiquities Service daily\nbusiness records\nBox 6",
+  "Stamps_and_Annotations": [
+    "Logo: Stylized geometric shape"
+  ],
+  "Confidence_Notes": "The provided text is an archival description of a collection, not a transcription of a 1920s Egyptian Antiquities Service document. Therefore, most document-specific metadata fields (Reference_Number, Document_Date, Sender, Recipient, Excavation_Site) cannot be extracted from the given input. The 'English_Translation' field contains the original English text as no translation was required. The 'Brief_Summary' and 'Thematic_Tags' reflect the nature of the provided archival context.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Logo: Stylized geometric shape] The American University in Cairo\nRare Books & Special Collections Library - Archives\nSC2021.02\nAntiquities Service daily\nbusiness records\nBox 6"
+}

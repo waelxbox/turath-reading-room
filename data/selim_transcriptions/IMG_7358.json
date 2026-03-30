@@ -1,0 +1,36 @@
+{
+  "Reference_Number": "N° 5.2/2",
+  "Document_Date": "1922-12-09",
+  "Sender": "P. Lacau, Director General of the Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Director of Works for the Antiquities Service, at Abydos",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "E. Baraize",
+    "Antiquities Service",
+    "Balianch",
+    "Badawi"
+  ],
+  "Thematic_Tags": [
+    "Abydos Temple",
+    "Archaeological Plans",
+    "Antiquities Administration",
+    "Correspondence"
+  ],
+  "Brief_Summary": "The Director General of the Antiquities Service, P. Lacau, sends five copies of the Abydos temple plan to Monsieur E. Baraize, Director of Works, as previously requested in a letter dated November 27th.",
+  "English_Translation": "SUBJECT.- Law on the...\n(MODEL N° 37 — Form No. 37)\n\nANTIQUITIES SERVICE.\n\nGENERAL DIRECTORATE.\n\nN° 5.2/2\n\nAttachments 6\n\nCairo, December 9, 1922\n\nSUBJECT.- Temple of Abydos.\n\nSir,\n\nI have the honor to send you herewith, along with the original, the five copies of the plan of the temple of Abydos that you requested in your letter of November 27th instant, N°203.\n\nPlease accept, Sir, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n\nP. Lacau (handwritten signature)\n\n[Stamp: ANTIQUITIES DEPARTMENT]\n[Stamp: CAIRO 3.DE.22. 2:15]\nMonsieur E. Baraize,\nDirector of Works\nfor the Antiquities Service,\nat Abydos\n\nBalianch (handwritten note)\nBadawi (handwritten note)\n\n[Stamp: ANTIQUITIES SERVICE GENERAL DIRECTORATE]\n[Stamp: (132 D.) EGYPTIAN GOVT (Egyptian Government) with handwritten Arabic: حكومة مصرية]",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: أورنيك نمرة ٣٧ (Form No. 37)",
+    "Pencil note: 9 (for the date)",
+    "Handwritten signature: P. Lacau",
+    "Stamp: ANTIQUITIES DEPARTMENT",
+    "Stamp: CAIRO 3.DE.22. 2:15",
+    "Handwritten note: Balianch",
+    "Handwritten note: Badawi",
+    "Stamp: SERVICE DES ANTIQUITES DIRECTION GENERALE (Antiquities Service General Directorate)",
+    "Stamp: (132 D.) EGYP GOVT (Egyptian Government) with handwritten Arabic: حكومة مصرية"
+  ],
+  "Confidence_Notes": "The initial 'OBJET.- Loi sur les pe' is an incomplete phrase, likely a general file subject. The handwritten names 'Balianch' and 'Badawi' appear to be internal processing notes or initials, their specific roles are not detailed in the document.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "OBJET.- Loi sur les pe\n\n(MODÈLE N° 37 — [Handwritten Arabic: أورنيك نمرة ٣٧])\n\nSERVICE DES ANTIQUITÉS.\n\nDIRECTION GÉNÉRALE.\n\nN° 5.2/2\n\nPièces jointes 6\n\nLe Caire, le [Pencil note: 9] Déc. 1922\n\nOBJET.- Temple d' Abydos.\n\nMonsieur,\n\nJ'ai l'honneur de vous faire parvenir ci-\njoint, avec l'original, les cinq copies du plan du temple\nd'Abydos que vous nous avez demandées suivant votre lettre\ndu 27 Novembre courant, N°203.\n\nVeuillez agréer, Monsieur, l'assurance de ma\nconsidération distinguée.\n\nLE DIRECTEUR GENERAL,\n\n[Handwritten: Placan]\n\n[Stamp: ANTIQUITIES DEPARTMENT]\n[Stamp: CAIRO 3.DE.22. 2:15]\nMonsieur E. Baraize,\nDirecteur de Travaux\ndu Sce des Antiquités,\nà Abydos\n\n[Handwritten: Balianch]\n[Handwritten: Badawi]\n\n[Stamp: SERVICE DES ANTIQUITES DIRECTION GENERALE]\n[Stamp: (132 D.) EGYP GOVT [Handwritten Arabic: حكومة مصرية]]"
+}

@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "No.71.7/1",
+  "Document_Date": "1923-03-11",
+  "Sender": "Inspector of Quarries, Department of Mines & Quarries",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux du Service des Antiquités, à Louxor",
+  "Excavation_Site": "Bayadia",
+  "Entities_Mentioned": [
+    "Inspector of Antiquities at Luxor",
+    "Mulahiz of Quarries of Luxor",
+    "Department of Mines & Quarries",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Permit",
+    "Sand Extraction",
+    "Quarries",
+    "Luxor"
+  ],
+  "Brief_Summary": "A provisional permit is granted to the Inspector of Antiquities at Luxor for one month to extract sand from the Bayadia site, pending a full survey and official handover.",
+  "English_Translation": "GENERAL\nOF THE\nANTIQUITIES\n\nCairo, 11 March 1923\n[Handwritten Arabic: 10]\n\nDepart-ent of Mines & Quarries.\n[Handwritten: Cr. 8th March, 1923]\n\nNo.71.7/1\n\nPermit\n\nThe Inspector of Antiquities at Luxor\nis hereby authorized to extract sand\nfrom the site at Bayadia which has been\nindicated by him to the Mulahiz of\nQuarries of Luxor.\n\nThis permit is granded provisionally for\n-a period of one month from to-day pending\nthe survey of the site and its definite\ndelivery to him.\n\n[Handwritten signature: illegible]\nInspt of Quarries.\n\nAF/3\n\n[Stamp: Faint circular stamp, partially legible \"OFFICE...\"]\n[Pencil note: faint, illegible]\nMonsieur E. Baraize,\nDirecteur de Travaux du Service des\nAntiquités, at Luxor",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: ١٠",
+    "Handwritten note: Cr. 8th March, 1923",
+    "Illegible handwritten signature",
+    "Faint circular stamp, partially legible \"OFFICE...\"",
+    "Faint, illegible pencil note"
+  ],
+  "Confidence_Notes": "The French header 'ON GÉNÉRALE DU DES ANTIQUITÉS' and the recipient's title 'eur E. Baraize, eur de Travaux du Sce tiquités, à Louxor' appear incomplete in the raw transcription. The signature is illegible, and the stamp and pencil note are faint/illegible.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "ON GÉNÉRALE\nDU\nDES ANTIQUITÉS\n\nCaire, le II Mars 1923\n[Handwritten Arabic: ١٠]\n\nDepart-ent of Mines & Quarries.\n[Handwritten: Cr. 8th March, 1923]\n\nNo.71.7/1\n\nPermit\n\nThe Inspector of Antiquities at Luxor\nis hereby authorized to extract sand\nfrom the site at Bayadia which has been\nindicated by him to the Mulahiz of\nQuarries of Luxor.\n\nThis permit is granded provisionally for\n-a period of one month from to-day pending\nthe survey of the site and its definite\ndelivery to him.\n\n[Handwritten signature: illegible]\nInspt of Quarries.\n\nAF/3\n\n[Stamp: Faint circular stamp, partially legible \"OFFICE...\"]\n[Pencil note: faint, illegible]\neur E. Baraize,\neur de Travaux du Sce\ntiquités, à Louxor"
+}

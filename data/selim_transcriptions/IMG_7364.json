@@ -1,0 +1,41 @@
+{
+  "Reference_Number": "N° 5-2/5",
+  "Document_Date": "1922-03-01",
+  "Sender": "M. Chaban, Le Directeur Général",
+  "Recipient": "Monsieur Emile Baraize, Directeur des travaux du Service des Antiquités à Kena",
+  "Excavation_Site": "Kena",
+  "Entities_Mentioned": [
+    "M. Chaban",
+    "Emile Baraize",
+    "Service des Antiquités",
+    "Inspectorat de la Moyenne Egypte",
+    "Survey of Egypt"
+  ],
+  "Thematic_Tags": [
+    "Logistics",
+    "Supplies",
+    "Correspondence",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "M. Chaban, the Director General of the Antiquities Service, sends a railway bill of lading for beams, iron, and sheet metal to Monsieur Emile Baraize, Director of Works in Kena, requesting acknowledgment of receipt and the return of a signed form.",
+  "English_Translation": "SURVEY OF EGYPT\nGIZA (Mudiria)\n18th. February, 1922.\n\nANTIQUITIES SERVICE.\nINSPECTORATE\nOF THE\nMIDDLE EGYPT. March 1, 1922.\nSubject - Sending bill of lading concerning beams, iron & sheet metal.\n\nNo. 5-2/5\nAttached documents: a bill of lading\nand a form No. 194\n\nDear Sir, the Director,\n\nIn response to your letter of February 9, 1922, No. 155,\nI have the honor to transmit to you herewith a railway\nbill of lading concerning the dispatch\nby slow freight of beams, iron & sheet metal, with\nthe request that you kindly acknowledge receipt thereof &\nreturn the attached form No. 194 duly\nsigned.\nPlease accept, Sir, the Director, the assurance\nof my most distinguished consideration.\n\nM. Chaban\nTHE DIRECTOR GENERAL\n\nMr. Emile Baraize\nDirector of Works\nof the Antiquities Service\nin Kena.",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: دهان",
+    "Handwritten Arabic: من",
+    "Handwritten Arabic: نمرة",
+    "Annotation: Modèle N° 25 — اورنيك نمرة ٢٥ (appears twice)",
+    "Handwritten Arabic: ان (next to Pièces jointes)",
+    "Handwritten Arabic: ان (next to formule N° 194)",
+    "Stamp: 32 D)",
+    "Stamp: EGYI GOVER",
+    "Handwritten Arabic: مصلحة",
+    "Stamp: CAIRO -1. MAR. 22. 22. PP",
+    "Handwritten Arabic: صادر",
+    "Stamp: EGYI GOVER",
+    "Handwritten Arabic: مصلحة",
+    "Stamp: EGYPTIAN GOVERNMENT HEAD OFFICE MAILS"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SURVEY OF EGYPT\nGIZA (Mudiria)\n18th. February, 1922.\n\n[Handwritten Arabic: دهان]\n[Handwritten Arabic: من]\n[Handwritten Arabic: نمرة]\n\n(Modèle N° 25 — [Handwritten Arabic: اورنيك نمرة ٢٥])\n(Modèle N° 25 — [Handwritten Arabic: اورنيك نمرة ٢٥])\n\nSERVICE DES ANTIQUITÉS.\nINSPECTORAT\nDE LA\nMOYENNE EGYPTE. 1/3/1922.\nObjet- envoi connaissement relatif à des poutrel-\nles , fers & tôle .\n\nN° 5-2/5\nPièces jointes [Handwritten Arabic: ان] connaissement\net [Handwritten Arabic: ان] formule N° 194\n\nR.P. Monsieur le Directeur,\n\nEn réponse à votre lettre du 9/2/1922 N°155,\nj'ai l'honneur de vous transmettre ci -joint un con-\nnaissement de chemin de fer relatif à l'expédition\npar petite vitesse des poutrelles , fers & tôle avec\npriére de vouloir bien nous en accuser réception &\nnous retourner la formule N°194 ci -jointe dûment\nsignée .\nVeuillez agréer , Monsieur le Directeur ,l'assu-\nrance de ma considération très distinguée .\n\n[Handwritten signature: M. Chaban]\nLE DIRECTEUR GENERAL\n\n[Stamp: 32 D)]\n[Stamp: EGYI GOVER]\n[Handwritten Arabic: مصلحة]\n\nMonsieur Emile Baraize\nDirecteur des travaux\ndu Service des Antiquités\nà Kena.\n\n[Stamp: CAIRO -1. MAR. 22. 22. PP]\n[Handwritten Arabic: صادر]\n\n[Stamp: EGYI GOVER]\n[Handwritten Arabic: مصلحة]\n\n[Stamp: EGYPTIAN GOVERNMENT HEAD OFFICE MAILS]"
+}

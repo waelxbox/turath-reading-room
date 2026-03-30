@@ -1,0 +1,28 @@
+{
+  "Reference_Number": "I.4/2",
+  "Document_Date": "1922-06-10",
+  "Sender": "Director General, Egyptian Antiquities Service",
+  "Recipient": "Monsieur le Directeur, Special Section Public Security Department, Ministère des Travaux Publics, Le Caire",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Alexandre Emile Baraize",
+    "M.C.F. Rider",
+    "Ministère des Travaux Publics",
+    "Public Security Department"
+  ],
+  "Thematic_Tags": [
+    "Passport Visa",
+    "Administrative Correspondence",
+    "Personnel Management",
+    "Egyptian Antiquities Service"
+  ],
+  "Brief_Summary": "The Director General of the Egyptian Antiquities Service transmits the passport of M. Alexandre Emile Baraize, Director of Works, to the Director of the Public Security Department, requesting a visa as per a circular from M.C.F. Rider, a copy of which was sent by the Ministry of Public Works.",
+  "English_Translation": "[Handwritten Arabic: M. W. 12]\n\nJune 10, 1922\n\nI.4/2\n\nPassport Visa.\n\nR.D.\n\nSir,\n\nI have the honor to transmit herewith the passport of Mr. Alexandre Emile Baraize, Director of Works in our Service, and to ask you to kindly affix the visa which is the subject of the circular from Mr. C.F. Rider, a copy of which the Ministry of Public Works sent us on March 18th last.\n\nPlease accept, Sir, the expression of my most distinguished sentiments.\n\nTHE DIRECTOR GENERAL,\n\nThe Director\nSpecial Section Public Security Department\nMinistry of Public Works, Cairo",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: م. و. 12",
+    "R.D."
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: م. و. 12]\n\n10 Juin 1922\n\nI.4/2\n\nVisa de passeports.\n\nR.D.\n\nMonsieur le Directeur,\n\nJ'ai l'honneur de vous transmettre ci-\njoint le passeport de M. Alexandre Emile Baraize,\ndirecteur de travaux en notre Service, et de vous\nprier de vouloir bien y apposer le visa faisant l'ob-\njet de la circulaire de M.C.F. Rider, dont le Minis-\ntère des Travaux Publics nous a envoyé copie le 18\nMars dernier.\nVeuillez agréer, Monsieur le Directeur,\nl'expression de mes sentiments très distingués.\n\nLE DIRECTEUR GENERAL,\n\nMonsieur le Directeur\nSpecial Section Public Security Department\nMinistère des Travaux Publics, Le Caire\n---------"
+}

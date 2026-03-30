@@ -1,0 +1,21 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": null,
+  "Recipient": null,
+  "Excavation_Site": null,
+  "Entities_Mentioned": [],
+  "Thematic_Tags": [
+    "Archival Record",
+    "Correspondence",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "This document is an archival record or label indicating correspondence from the Egyptian Antiquities Service, covering the period of February-March between 1924 and 1927.",
+  "English_Translation": "Correspondence\nAntiquities Service Record\nCorrespondence\nFebruary March\n1924-1927",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: مراسلات (Correspondence)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: مراسلات]\n\nAnt Serv Record\nCorres\nFeb mar\n1924-27"
+}

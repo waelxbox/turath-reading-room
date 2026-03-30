@@ -1,0 +1,36 @@
+{
+  "Reference_Number": "Nº 22.20/17",
+  "Document_Date": "1923-01-09",
+  "Sender": "G. Daressy, Acting Director General of the Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux du Service des Antiquités, à Abydos, par Baliana",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "G. Daressy",
+    "Service des Antiquités",
+    "Ministère des Travaux Publics",
+    "Egyptian Government"
+  ],
+  "Thematic_Tags": [
+    "Abydos excavation",
+    "Funding request",
+    "Antiquities administration",
+    "Official correspondence"
+  ],
+  "Brief_Summary": "This letter from the Antiquities Service requests Mr. E. Baraize to specify the additional sum he requires for his work at Abydos, in response to his previous letter regarding the project.",
+  "English_Translation": "ANTIQUITIES SERVICE,\nGENERAL DIRECTORATE.\nNº 22.20/17\nAttached documents\nR.D.\n\n(MODEL Nº 37 — ٣٧ أورنيك نمرة)\n\nCairo, January 9, 1923\n\nSUBJECT.- Abydos Works.\n\nSir,\nIn response to your letter of January 3rd instant,\nNº239, I have the honor to ask you to kindly\nlet me know what additional sum you\nwish to obtain for your work at Abydos.\n\nPlease accept, Sir, the assurance of my distinguished\nconsideration.\n\nFOR THE DIRECTOR GENERAL,\n[Signature: G. Daressy]\n\n[Stamp: CAIRO -9 JA 233452 (upside down)]\n[Stamp: EGYPTIAN GOVERNMENT. الحكومة المصرية]\n[Stamp: MINISTRY OF PUBLIC WORKS وزارة الأشغال العمومية]\n[Stamp: EGYPT GOVERNMENT الحكومة المصرية]\n\nMr. E. Baraize,\nDirector of Works of the\nAntiquities Service,\nat Abydos, via Baliana\n\n[Pencil note: 2]\n[Pencil note: B]\n[Pencil note: 211]",
+  "Stamps_and_Annotations": [
+    "Pencil note: 191 (part of date, corrected to 1923)",
+    "Stamp: CAIRO -9 JA 233452 (upside down)",
+    "Stamp: EGYPTIAN GOVERNMENT. الحكومة المصرية",
+    "Pencil note: ١٢٢",
+    "Stamp: MINISTERE DES TRAVAUX PUBLICS وزارة الأشغال العمومية",
+    "Stamp: EGYPT GOVERNMENT الحكومة المصرية",
+    "Pencil note: 2",
+    "Pencil note: B",
+    "Pencil note: 211"
+  ],
+  "Confidence_Notes": "The signature 'G. Daray' is interpreted as G. Daressy, a known figure in the Egyptian Antiquities Service. The pencil note '191' next to the year '1923' is assumed to be an incomplete or initial thought for the year, with '1923' being the final correct year.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS,\nDIRECTION GÉNÉRALE.\nNº 22.20/17\nPièces jointes\nR.D.\n\n(MODÈLE Nº 37 — ٣٧ أورنيك نمرة)\n\nLe Caire, le 9 Janv. [Pencil note: 191] 1923\n\nOBJET.- Travaux d'Abydos.\n\nMonsieur,\nEn réponse à votre lettre du 3 Janvier courant,\nNº239, j'ai l'honneur de vous prier de vouloir bien\nme faire savoir quelle somme supplémentaire vous\ndésirez obtenir pour vos travaux d' Abydos.\n\nVeuillez agréer, Monsieur, l'assurance de ma con-\nsidération distinguée.\n\nP. LE DIRECTEUR GENERAL,\n[Signature: G. Daray]\n\n[Stamp: CAIRO -9 JA 233452 (upside down)]\n[Stamp: EGYPTIAN GOVERNMENT. الحكومة المصرية] [Pencil note: ١٢٢]\n[Stamp: MINISTERE DES TRAVAUX PUBLICS وزارة الأشغال العمومية]\n[Stamp: EGYPT GOVERNMENT الحكومة المصرية]\n\nMonsieur E. Baraize,\nDirecteur de Travaux du\nSce des Antiquités,\nà Abydos, par Baliana\n\n[Pencil note: 2]\n[Pencil note: B]\n[Pencil note: 211]"
+}

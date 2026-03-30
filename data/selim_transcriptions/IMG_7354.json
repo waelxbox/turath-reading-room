@@ -1,0 +1,36 @@
+{
+  "Reference_Number": "16.23/17",
+  "Document_Date": "1922-12-07",
+  "Sender": "G. Daressy, Directeur Général",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Abydos",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "Ali Qoléi Haroun",
+    "Aly Qoléi Haroun",
+    "Nahiet Béni-Mansour",
+    "Service des Antiquités de l'Égypte",
+    "G. Daressy",
+    "E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Complaint",
+    "Materials Supply",
+    "Abydos Excavation",
+    "Administration"
+  ],
+  "Brief_Summary": "The Director General transmits a complaint from Aly Qoléi Haroun regarding the supply of stone and lime for the Abydos worksite, requesting the Director's examination and opinion.",
+  "English_Translation": "[Handwritten Arabic: A]\n(MODEL N° 37 – [Handwritten Arabic: Form No. 37])\nANTIQUITIES\nGENERAL\n16.23/17\n[Pencil note: 2]\n[Pencil note: R.D.]\n\nCairo, [Pencil note: X] December [Pencil note: 19]22\n\nSUBJECT.- Materials. Complaint from the named Ali Qoléi Haroun.\n\nMonsieur le Directeur,\nI have the honor to transmit to you herewith, for examination and opinion, a complaint dated December 2nd instant, which we have just received from a certain Aly Qoléi Haroun, from Nahiet Béni-Mansour, concerning the supply of stone and lime for your Abydos worksite.\n\nPlease accept, Monsieur le Directeur, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n[Signature: G. Darassy]\n\n[Stamp: EGYPTIAN ANTIQUITIES SERVICE\n1922 DEC 7\nGENERAL DIRECTION]\n[Handwritten Arabic: 5,1]\n[Handwritten Arabic: 5,1]\n[Faint Stamp: EGYPTIAN ANTIQUITIES SERVICE]",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic character 'أ'",
+    "Pencil note '2'",
+    "Pencil note 'R.D.'",
+    "Pencil note 'X' for day of month",
+    "Pencil note '19' for year",
+    "Stamp: 'SERVICE DES ANTIQUITÉS DE L'ÉGYPTE 1922 DEC 7 DIRECTION GÉNÉRALE'",
+    "Handwritten Arabic '٥,١' (twice)",
+    "Faint Stamp: 'SERVICE DES ANTIQUITÉS DE L'ÉGYPTE'"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: أ]\n(MODÈLE N° 37 – [Handwritten Arabic: أورنيك نمرة ٣٧])\nS ANTIQUITÉS\nGÉNÉRALE\n16.23/17\n[Pencil note: 2]\n[Pencil note: R.D.]\n\nLe Caire, le [Pencil note: X] Décembre [Pencil note: 19]22\n\nOBJET.- Matériaux. Plainte du nommé\nAli Qoléi Haroun.\n\nMonsieur le Directeur,\nJ'ai l'honneur de vous transmettre ci-\njoint, pour examen et avis, une plainte en date\ndu 2 Décembre courant, que nous venons de rece-\nvoir d'un certain Aly Qoléi Haroun, de Nahiet Béni-\nMansour, au sujet de la fourniture de pierre et de\nchaux pour votre chantier d' Abydos.\n\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GENERAL,\n[Signature: G. Darassy]\n\n[Stamp: SERVICE DES ANTIQUITÉS DE L'ÉGYPTE\n1922 DEC 7\nDIRECTION GÉNÉRALE]\n[Handwritten Arabic: ٥,١]\n[Handwritten Arabic: ٥,١]\n[Faint Stamp: SERVICE DES ANTIQUITÉS DE L'ÉGYPTE]"
+}
