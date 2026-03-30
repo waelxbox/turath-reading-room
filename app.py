@@ -4,9 +4,6 @@ app.py — TURATH Reading Room Streamlit Application
 A split-screen digital archive viewer for the Selim Hassan archaeological
 records. Connects to a local SQLite database (built by build_db.py) and
 serves a clean, academic research interface.
-
-Launch with:
-    streamlit run app.py
 """
 
 # --- STREAMLIT CLOUD SQLITE FIX ---
@@ -15,11 +12,11 @@ __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # ----------------------------------
 
+import io
 import sqlite3
 from pathlib import Path
 import streamlit as st
-import chromadb
-from PIL import Image
+from PIL import Image, ImageOps
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 DB_FILE = Path("data/archive_database.db")
@@ -105,7 +102,6 @@ def get_connection() -> sqlite3.Connection:
     return conn
 
 
-# ── Image helper: respect EXIF orientation ───────────────────────────────────
 # ── Image helper: respect EXIF orientation & ignore case-sensitivity ──────────
 @st.cache_data(show_spinner=False)
 def load_portrait_image(image_path: str) -> bytes | None:
@@ -266,42 +262,36 @@ def main() -> None:
             st.session_state.doc_index = max(
                 0, min(st.session_state.doc_index, len(options) - 1)
             )
-        # -----------------------------------------------------
 
-        img_path = doc["image_path"]
-        # -----------------------------------------------------
+            # ── Prev / Next arrows ────────────────────────────────────────────
+            arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
+            with arrow_l:
+                if st.button("◀", key="prev_btn", disabled=(st.session_state.doc_index == 0)):
+                    st.session_state.doc_index -= 1
+                    st.rerun()
+            with arrow_mid:
+                st.caption(
+                    f"Document {st.session_state.doc_index + 1} of {len(options)}"
+                )
+            with arrow_r:
+                if st.button("▶", key="next_btn", disabled=(st.session_state.doc_index == len(options) - 1)):
+                    st.session_state.doc_index += 1
+                    st.rerun()
 
-        img_path = doc["image_path"]
-
-        # ── Prev / Next arrows ────────────────────────────────────────────
-        arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
-        with arrow_l:
-            if st.button("◀", key="prev_btn", disabled=(st.session_state.doc_index == 0)):
-                st.session_state.doc_index -= 1
-                st.rerun()
-        with arrow_mid:
-            st.caption(
-                f"Document {st.session_state.doc_index + 1} of {len(options)}"
+            # ── Dropdown selector (synced with arrow index) ───────────────────
+            chosen_idx = st.selectbox(
+                "Jump to document",
+                range(len(options)),
+                index=st.session_state.doc_index,
+                format_func=lambda i: options[i][1],
+                key="doc_selector",
             )
-        with arrow_r:
-            if st.button("▶", key="next_btn", disabled=(st.session_state.doc_index == len(options) - 1)):
-                st.session_state.doc_index += 1
+            # If user changed the dropdown, update the index
+            if chosen_idx != st.session_state.doc_index:
+                st.session_state.doc_index = chosen_idx
                 st.rerun()
 
-        # ── Dropdown selector (synced with arrow index) ───────────────────
-        chosen_idx = st.selectbox(
-            "Jump to document",
-            range(len(options)),
-            index=st.session_state.doc_index,
-            format_func=lambda i: options[i][1],
-            key="doc_selector",
-        )
-        # If user changed the dropdown, update the index
-        if chosen_idx != st.session_state.doc_index:
-            st.session_state.doc_index = chosen_idx
-            st.rerun()
-
-        selected_id = options[st.session_state.doc_index][0]
+            selected_id = options[st.session_state.doc_index][0]
 
     # ── Main Stage (Split-Screen Viewer) ──────────────────────────────────────
     if not results or selected_id is None:
@@ -321,6 +311,7 @@ def main() -> None:
     # ── Left: The Artifact ────────────────────────────────────────────────────
     with left:
         st.markdown("### 📜 The Artifact")
+        
         # --- DEBUG TOOL: What does Streamlit actually see? ---
         if Path("data").exists():
             st.info(f"Folders inside 'data/': {[f.name for f in Path('data').iterdir() if f.is_dir()]}")
