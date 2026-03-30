@@ -26,7 +26,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install chromadb "numpy<2.0.0" pysqlite3-binary Pillow openai
+          # We force numpy < 2.0.0 here to keep ChromaDB happy in 2026
+          pip install "chromadb>=0.4.0" "numpy<2.0.0" pysqlite3-binary Pillow openai
 
       - name: Run Database Ingestion
         run: python build_db.py
@@ -35,7 +36,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the SQLite file and the entire Chroma folder
           git add data/archive_database.db
           git add data/chroma_db/ || true
+          
+          # Commit only if there are changes; push to the repo
           git commit -m "Auto-update databases" || echo "No changes to commit"
           git push
