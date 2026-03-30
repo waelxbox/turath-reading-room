@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# Virtual Environment
+venv/
+ENV/
+
+# Data and Databases
+data/archive_database.db
+data/selim_transcriptions/
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
