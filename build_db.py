@@ -1,18 +1,36 @@
 import json
 import sqlite3
+import os
 from pathlib import Path
 import chromadb
 
-# ── Paths ────────────────────────────────────────────────────────────────────
-JSON_FOLDER = Path("data/selim_transcriptions")
-DB_FILE = Path("data/archive_database.db")
-CHROMA_DIR = Path("data/chroma_db")
+# ── 1. PATH CONFIGURATION ───────────────────────────────────────────────────
+DATA_DIR = Path("data")
+JSON_FOLDER = DATA_DIR / "selim_transcriptions"
+DB_FILE = DATA_DIR / "archive_database.db"
+CHROMA_DIR = DATA_DIR / "chroma_db"
 
-def create_schema(conn):
+# Ensure the data directory exists
+DATA_DIR.mkdir(exist_ok=True)
+
+def sanitize_metadata(data_dict, filename):
+    """
+    Prevents 'MetadataValue' errors by forcing all values to strings.
+    ChromaDB cannot handle None/null or complex Python objects.
+    """
+    return {
+        "sender": str(data_dict.get("Sender") or "Unknown"),
+        "date": str(data_dict.get("Document_Date") or "Unknown"),
+        "site": str(data_dict.get("Excavation_Site") or "Unknown"),
+        "source": str(filename)
+    }
+
+def create_database_schema(conn):
+    """Sets up the SQLite tables for the Reading Room viewer."""
     cur = conn.cursor()
-    # Your original high-detail schema
+    cur.execute("DROP TABLE IF EXISTS documents")
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS documents (
+        CREATE TABLE documents (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             Reference_Number TEXT,
             Document_Date TEXT,
@@ -21,43 +39,76 @@ def create_schema(conn):
             Excavation_Site TEXT,
             English_Translation TEXT,
             Full_Transcription TEXT,
-            image_path TEXT
+            image_path TEXT,
+            Thematic_Tags TEXT,
+            Entities_Mentioned TEXT,
+            Stamps_and_Annotations TEXT,
+            Confidence_Notes TEXT
         )
     """)
-    # FTS5 search index
+    # FTS5 enables high-speed keyword search in the sidebar
     cur.execute("CREATE VIRTUAL TABLE IF NOT EXISTS documents_fts USING fts5(English_Translation, content='documents', content_rowid='id')")
 
-def build():
-    # 1. Clean start
-    if DB_FILE.exists(): DB_FILE.unlink()
-    conn = sqlite3.connect(DB_FILE)
-    create_schema(conn)
+def build_archive():
+    print("🏗️ Initializing TURATH Build Process...")
     
-    # 2. Setup AI Vector DB
+    # Connect to SQLite
+    conn = sqlite3.connect(DB_FILE)
+    create_database_schema(conn)
+    cur = conn.cursor()
+    
+    # Connect to ChromaDB
     chroma_client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     collection = chroma_client.get_or_create_collection(name="turath_archive")
 
-    # 3. Ingest
-    for json_file in JSON_FOLDER.glob("*.json"):
-        with open(json_file, "r") as f:
-            data = json.load(f)
+    # Find all JSON files
+    files = list(JSON_FOLDER.glob("*.json"))
+    if not files:
+        print(f"⚠️ Warning: No JSON files found in {JSON_FOLDER}")
+        return
+
+    print(f"📄 Processing {len(files)} records...")
+
+    for json_file in files:
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
             
-        # SQL Insert
-        cur = conn.cursor()
-        cur.execute("INSERT INTO documents (Reference_Number, Document_Date, Sender, English_Translation) VALUES (?, ?, ?, ?)",
-                    (data.get("Reference_Number"), data.get("Document_Date"), data.get("Sender"), data.get("English_Translation")))
-        row_id = cur.lastrowid
-        
-        # AI Vector Insert
-        collection.add(
-            documents=[data.get("English_Translation", "")],
-            ids=[str(row_id)],
-            metadatas=[{"sender": data.get("Sender", "Unknown")}]
-        )
-        print(f"✓ Indexed: {json_file.name}")
+            translation_text = data.get("English_Translation") or ""
+            
+            # 1. Update SQLite (For the Viewer)
+            cur.execute("""
+                INSERT INTO documents (
+                    Reference_Number, Document_Date, Sender, Recipient, 
+                    Excavation_Site, English_Translation, Full_Transcription, 
+                    image_path, Thematic_Tags, Entities_Mentioned, 
+                    Stamps_and_Annotations, Confidence_Notes
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                data.get("Reference_Number"), data.get("Document_Date"),
+                data.get("Sender"), data.get("Recipient"),
+                data.get("Excavation_Site"), translation_text,
+                data.get("Full_Transcription"), data.get("image_path"),
+                data.get("Thematic_Tags"), data.get("Entities_Mentioned"),
+                data.get("Stamps_and_Annotations"), data.get("Confidence_Notes")
+            ))
+            row_id = cur.lastrowid
+            
+            # 2. Update ChromaDB (For the AI Chatbot)
+            sanitized_meta = sanitize_metadata(data, json_file.name)
+            collection.add(
+                documents=[translation_text],
+                ids=[str(row_id)],
+                metadatas=[sanitized_meta]
+            )
+            print(f"  ✅ {json_file.name} indexed.")
+            
+        except Exception as e:
+            print(f"  ❌ Error processing {json_file.name}: {e}")
 
     conn.commit()
     conn.close()
+    print("\n✨ Archive build successful! SQLite and ChromaDB are ready.")
 
 if __name__ == "__main__":
-    build()
+    build_archive()
