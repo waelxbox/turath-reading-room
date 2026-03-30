@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "Register entry No. 55, item No. 468, date 4/4/29",
+  "Document_Date": "1938-12-21",
+  "Sender": "Ibrahim Ahmed El-Diwani (Supplier)",
+  "Recipient": "Egyptian Antiquities Service (Buyer)",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Ibrahim Ahmed El-Diwani",
+    "Egyptian Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Purchase",
+    "Lumber",
+    "Supplies",
+    "Antiquities Service Administration"
+  ],
+  "Brief_Summary": "This document records a purchase of various types of wood by the Egyptian Antiquities Service from supplier Ibrahim Ahmed El-Diwani on December 21, 1938, detailing the quantities, dimensions, and prices of the received lumber.",
+  "English_Translation": "Egypt, 21 December 1938\nRegarding what is required from the esteemed Egyptian Antiquities Service for a purchase operation.\nIBRAHIM AHMED EL-DIWANI\nRue Yacoub, Nasrieh, Le Caire — Téléph. No. 42910\nAnd this is for the value of the price of wood that was received after sorting, inspection, and acceptance.\n\n| Item/Type | Price | Inch | Foot | Quantity | M |\n|---|---|---|---|---|---|\n| Width 4/4 inch | 160 | 4 | 4 | 50 | 400 |\n| \" 4/4 \" | 140 | 4 | 4 | 50 | 400 |\n| \" 4/4 \" | 74 | 4 | 4 | 50 | 185 |\n| Bush wood | 73 | 4 | 4 | 5 |  |",
+  "Stamps_and_Annotations": [
+    "Handwritten: To",
+    "Handwritten: Register entry No. 55, item No. 468, date 4/4/29",
+    "Stamp: Egyptian Antiquities Service",
+    "Handwritten: Ibrahim Ahmed El-Diwani",
+    "Handwritten: No. 42910",
+    "Handwritten: بشارع يعقوب بالناصريه بمصر - تليفون (on Yacoub Street, Nasrieh, Cairo - Telephone)"
+  ],
+  "Confidence_Notes": "The exact unit for the 'M' column in the table is unclear; it is likely a total quantity in meters (e.g., linear meters or cubic meters) but does not directly correlate with simple calculations from the 'Inch', 'Foot', and 'Quantity' columns. 'Width 4/4 inch' likely refers to a nominal thickness or type of lumber, while the 'Inch' column specifies the actual width.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "مصر في ٢١ ديسمبر سنة ١٩٣٨\nعن المطلوب من حضرة مصلحة الآثار المصرية لزوم عمل شراء\n[Handwritten Arabic: الى]\n[Handwritten Arabic: قيد السجل رقم ٥٥ نمرة]\n[Handwritten Arabic: ٤٦٨ تاريخ ٤/٤/٢٩]\n[Stamp: مصلحة الآثار المصرية]\n\n[Handwritten Arabic: ابراهيم احمد الديواني]\n[Handwritten Arabic: رقم ٤٢٩١٠]\nIBRAHIM AHMED EL-DIWANI\n[Handwritten Arabic: بشارع يعقوب بالناصريه بمصر - تليفون]\nRue Yacoub, Nasrieh, Le Caire — Téléph. No. 42910\n\nوذلك عن قيمة ثمن أخشاب صار استلامها بعد الفرز والمعاينة والقبول\n\n| صنف | سعر | بوصة | قدم | عدد | م |\n|---|---|---|---|---|---|\n| عرض ٤/٤ بوصة | ١٦٠ | ٤ | ٤ | ٥٠ | ٤٠٠ |\n| \" ٤/٤ \" | ١٤٠ | ٤ | ٤ | ٥٠ | ٤٠٠ |\n| \" ٤/٤ \" | ٧٤ | ٤ | ٤ | ٥٠ | ١٨٥ |\n| [Handwritten Arabic: خشب بوش] | ٧٣ | ٤ | ٤ | ٥"
+}

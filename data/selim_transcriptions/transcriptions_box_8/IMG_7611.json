@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "N° 27-2/14",
+  "Document_Date": "1922-05-09",
+  "Sender": "P. Lacau, Directeur Général",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux du Service des Antiquités, à Dendérah",
+  "Excavation_Site": "Luxor",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "E. Baraize",
+    "Musée de New-York",
+    "Service des Antiquités d'Egypte"
+  ],
+  "Thematic_Tags": [
+    "Statues",
+    "Museum shipment",
+    "Luxor",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "The Director General confirms a telegram instructing the Director of Works to pack statues from Luxor for shipment to the Museum of New York, emphasizing the urgency of the matter.",
+  "English_Translation": "ANTIQUITIES SERVICE,\nOF EGYPT.\nN° 27-2/14\n\n(MODEL N° 39 — [Handwritten Arabic: اورنيك نمرة ٣٩])\nCairo, May 9, 1922\n\nSUBJECT.- Statues destined for the Museum\nof New York.\n\nMr. Director of Works,\n\nI have the honor to confirm my\ntelegram dated yesterday, the text of which is as follows:\n\n\"You may pack Luxor statues.\"\n\nI would therefore be obliged if you would take the\nnecessary steps.\n\nPlease accept, Mr. Director,\nthe assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n\n[Handwritten signature: Placa]\n\n[Handwritten: I received this dispatch on May 10 for 2000 pounds]\n[Handwritten: Luxor]\n[Handwritten: It's urgent]\n[Handwritten signature: Placa]\n\nMr. E. Baraize,\nDirector of Works of the Antiquities Service,\nat Dendera",
+  "Stamps_and_Annotations": [
+    "MODÈLE Nº 39",
+    "اورنيك نمرة ٣٩",
+    "Handwritten signature: Placa",
+    "Je reçois cette dépêche le 10 mai pour 2000 livres",
+    "Louxor",
+    "C'est urgent",
+    "Handwritten signature: Placa"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS,\nD'EGYPTE.\nNº 27-2/14\n\n(MODÈLE Nº 39 — [Handwritten Arabic: اورنيك نمرة ٣٩])\nLe Caire, le 9 Mai 1922\n\nOBJET.- Statues destinées au Musée\nde New-York.\n\nMonsieur le Directeur de Travaux,\n\nJ'ai l'honneur de vous confirmer mon\ntélégramme en date d'hier et dont voici le texte :\n\n\" Pouvez emballer statues de Louxor.\"\n\nJe vous serai donc obligé de faire le\nnécessaire.\n\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GENERAL,\n\n[Handwritten signature: Placa]\n\n[Handwritten: Je reçois cette dépêche le 10 mai pour 2000 livres]\n[Handwritten: Louxor]\n[Handwritten: C'est urgent]\n[Handwritten signature: Placa]\n\nMonsieur E. Baraize,\nDirecteur de Travaux du Sce\ndes Antiquités, à Dendérah"
+}

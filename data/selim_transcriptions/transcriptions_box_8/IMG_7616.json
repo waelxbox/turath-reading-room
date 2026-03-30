@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "N° 25-H/17",
+  "Document_Date": "1922-02-25",
+  "Sender": "P. Lacau, Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur des Travaux du Service des Antiquités, Qéna",
+  "Excavation_Site": "Louxor, Dendérah",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "E. Baraize",
+    "Service des Antiquités",
+    "Egyptian Government"
+  ],
+  "Thematic_Tags": [
+    "Administrative Correspondence",
+    "Excavation Reports",
+    "Leave Request",
+    "Site Visits"
+  ],
+  "Brief_Summary": "The Director General thanks Monsieur Baraize for his reports on work at Luxor and Dendera, informs him of an upcoming visit to Dendera in early March, and confirms his leave period from July 15th to November 1st.",
+  "English_Translation": "GENERAL DIRECTION\nOF THE\nANTIQUITIES SERVICE.\n\n[Handwritten: N° 25-H/17]\nAttached documents—\n\n(MODEL N° 37. – FORM N° 37)\n\nCairo, February 25, 1922.\n\nMr. Director of Works,\n\nI thank you for the information you\ngive me about your work in Luxor and\nDendera. I hope to join you in Dendera\nin the 1st week of March.\nRegarding your leave, I would like, as I\ntold you, for you to take it from\nJuly 15th until November 1st.\nPlease accept, Mr. Director of\nWorks, the assurance of my distinguished\nconsideration.\n\nTHE DIRECTOR GENERAL,\n[Handwritten signature: Placan]\n\n[Handwritten Arabic: Qena]\n[Stamp: EGYPTIAN GOVERNMENT. / 1922 / Egyptian Government]\n\nMr. Baraize,\nDirector of Works of the Antiquities Service,\n[Pencil note: X]\n[Stamp: (Circular stamp) ANTIQUITIES SERVICE / DEPARTMENTAL OFFICE / 25 FE. 22 3.15 P.M.] at [Handwritten: Qena].\n[Stamp: (Partially visible) EGYPT GOVER / 1922 / Egyptian Government]",
+  "Stamps_and_Annotations": [
+    "Handwritten reference number: N° 25-H/17",
+    "Handwritten signature: Placan",
+    "Handwritten Arabic annotation: قنا (Qena)",
+    "Stamp: EGYPTIAN GOVERNMENT. / ١٩٢٢ / حكومة مصرية",
+    "Pencil note: X",
+    "Circular stamp: SERVICE DES ANTIQUITÉS / OFFICE DEPARTEMENTAL / 25 FE. 22 3.15 P.M.",
+    "Partially visible stamp: EGYPT GOVER / ١٩٢٢ / حكومة مصرية"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "DIRECTION GÉNÉRALE\nDU\nSERVICE DES ANTIQUITÉS.\n\n[Handwritten: N° 25-H/17]\nPièces jointes—\n\n(MODÈLE N° 37. – اورنيك نمرة ٣٧)\n\nCaire, le 25 Février 1922.\n\nMonsieur le Directeur de Travaux,\n\nJe vous remercie des renseignements que\nvous me donnez sur vos travaux de Louxor et de\nDendérah. J'espère vous rejoindre à Dendérah\ndans la 1ère semaine de Mars.\nPour votre congé, je voudrais comme je\nvous l'ai dit, que vous le preniez à partir du\n15 Juillet jusqu'au 1er Novembre.\nVeuillez agréer, Monsieur le Directeur de\nTravaux, l'assurance de ma considération distin-\nguée.\n\nLE DIRECTEUR GENERAL,\n[Handwritten signature: Placan]\n\n[Handwritten Arabic: قنا]\n[Stamp: EGYPTIAN GOVERNMENT. / ١٩٢٢ / حكومة مصرية]\n\nMonsieur Baraize,\nDirecteur des Travaux du Service des Antiquités,\n[Pencil note: X]\n[Stamp: (Circular stamp) SERVICE DES ANTIQUITÉS / OFFICE DEPARTEMENTAL / 25 FE. 22 3.15 P.M.] à [Handwritten: Qéna].\n[Stamp: (Partially visible) EGYPT GOVER / ١٩٢٢ / حكومة مصرية]"
+}

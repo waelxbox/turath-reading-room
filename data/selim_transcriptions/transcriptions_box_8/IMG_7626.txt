@@ -1,0 +1,45 @@
+Reference Number: Register entry No. 55, item No. 468, date 4/4/29
+Document Date: 1938-12-21
+Sender: Ibrahim Ahmed El-Diwani (Supplier)
+Recipient: Egyptian Antiquities Service (Buyer)
+Entities Mentioned: Ibrahim Ahmed El-Diwani, Egyptian Antiquities Service
+Thematic Tags: Purchase, Lumber, Supplies, Antiquities Service Administration
+Brief Summary: This document records a purchase of various types of wood by the Egyptian Antiquities Service from supplier Ibrahim Ahmed El-Diwani on December 21, 1938, detailing the quantities, dimensions, and prices of the received lumber.
+English Translation: Egypt, 21 December 1938
+Regarding what is required from the esteemed Egyptian Antiquities Service for a purchase operation.
+IBRAHIM AHMED EL-DIWANI
+Rue Yacoub, Nasrieh, Le Caire — Téléph. No. 42910
+And this is for the value of the price of wood that was received after sorting, inspection, and acceptance.
+
+| Item/Type | Price | Inch | Foot | Quantity | M |
+|---|---|---|---|---|---|
+| Width 4/4 inch | 160 | 4 | 4 | 50 | 400 |
+| " 4/4 " | 140 | 4 | 4 | 50 | 400 |
+| " 4/4 " | 74 | 4 | 4 | 50 | 185 |
+| Bush wood | 73 | 4 | 4 | 5 |  |
+Stamps and Annotations: Handwritten: To, Handwritten: Register entry No. 55, item No. 468, date 4/4/29, Stamp: Egyptian Antiquities Service, Handwritten: Ibrahim Ahmed El-Diwani, Handwritten: No. 42910, Handwritten: بشارع يعقوب بالناصريه بمصر - تليفون (on Yacoub Street, Nasrieh, Cairo - Telephone)
+Confidence Notes: The exact unit for the 'M' column in the table is unclear; it is likely a total quantity in meters (e.g., linear meters or cubic meters) but does not directly correlate with simple calculations from the 'Inch', 'Foot', and 'Quantity' columns. 'Width 4/4 inch' likely refers to a nominal thickness or type of lumber, while the 'Inch' column specifies the actual width.
+
+Full Transcription:
+------------------------------------------------------------
+مصر في ٢١ ديسمبر سنة ١٩٣٨
+عن المطلوب من حضرة مصلحة الآثار المصرية لزوم عمل شراء
+[Handwritten Arabic: الى]
+[Handwritten Arabic: قيد السجل رقم ٥٥ نمرة]
+[Handwritten Arabic: ٤٦٨ تاريخ ٤/٤/٢٩]
+[Stamp: مصلحة الآثار المصرية]
+
+[Handwritten Arabic: ابراهيم احمد الديواني]
+[Handwritten Arabic: رقم ٤٢٩١٠]
+IBRAHIM AHMED EL-DIWANI
+[Handwritten Arabic: بشارع يعقوب بالناصريه بمصر - تليفون]
+Rue Yacoub, Nasrieh, Le Caire — Téléph. No. 42910
+
+وذلك عن قيمة ثمن أخشاب صار استلامها بعد الفرز والمعاينة والقبول
+
+| صنف | سعر | بوصة | قدم | عدد | م |
+|---|---|---|---|---|---|
+| عرض ٤/٤ بوصة | ١٦٠ | ٤ | ٤ | ٥٠ | ٤٠٠ |
+| " ٤/٤ " | ١٤٠ | ٤ | ٤ | ٥٠ | ٤٠٠ |
+| " ٤/٤ " | ٧٤ | ٤ | ٤ | ٥٠ | ١٨٥ |
+| [Handwritten Arabic: خشب بوش] | ٧٣ | ٤ | ٤ | ٥

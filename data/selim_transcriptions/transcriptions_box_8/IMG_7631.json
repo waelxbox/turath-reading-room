@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "462",
+  "Document_Date": "1938-10-15",
+  "Sender": "Egyptian Antiquities Service (Ministry of Public Education)",
+  "Recipient": "Ibrahim Morsi Establishment",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Ministry of Public Education",
+    "Egyptian Antiquities Service",
+    "Ibrahim Morsi",
+    "E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Purchase Order",
+    "Supplies",
+    "Antiquities Service",
+    "Procurement"
+  ],
+  "Brief_Summary": "This document is a purchase order (No. 462) issued by the Egyptian Antiquities Service to Ibrahim Morsi Establishment for the supply of transparent paper, based on a tender submitted on October 15, 1938. It also contains annotations regarding items from Baraize and sent invoices.",
+  "English_Translation": "Ministry of Public Education\nEgyptian Antiquities Service\n\n(Handwritten: Items supplied)\n(Handwritten: From Baraize)\n(Handwritten: According to invoices sent)\n(Handwritten: For presentation to)\n(Handwritten: Remarks)\n(Handwritten: REMARKS)\n\nNotice – This offer will not be accepted unless it is written.\n\nPurchase Order No. (462)\nIssued to Ibrahim Morsi Establishment for supplying the following items at an agreed price\nat the price stated in the tender submitted by your establishment on 1938-10-15 (68)\n\nItem Name | Unit | Quantity | Price | Remarks\n| Pound | Milliemes |\n(Handwritten: Transparent paper 4 x 4, length 5 m) | (Handwritten: number) | (Handwritten: 50) | (Handwritten: 40.) | (Pencil note: ✓)\n(Handwritten: \" 4 x 4) | (Handwritten: \") | (Handwritten: 50) | (Handwritten: 40.) |\n(Handwritten: \" 7 x 4) | (Handwritten: \") |",
+  "Stamps_and_Annotations": [
+    "Handwritten: أصناف موردة (Items supplied)",
+    "Handwritten: من براهي (From Baraize)",
+    "Handwritten: بموجب فواتير مرسلة (According to invoices sent)",
+    "Handwritten: لأجل عرضها على (For presentation to)",
+    "Handwritten: ملاحظات (Remarks)",
+    "Handwritten: REMARKS",
+    "Pencil note: ✓"
+  ],
+  "Confidence_Notes": "The 'Document_Date' refers to the date of the tender submission, as no explicit issue date for the purchase order itself is present on the document.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "وزارة المعارف العمومية\nمصلحة الآثار المصرية\n\n[Handwritten Arabic: أصناف موردة]\n[Handwritten Arabic: من براهي]\n[Handwritten Arabic: بموجب فواتير مرسلة]\n[Handwritten Arabic: لأجل عرضها على]\n[Handwritten Arabic: ملاحظات]\n[Handwritten Arabic: REMARKS]\n\nتنبيه – لا يقبل هذا العطاء الا اذا كان مكتوبا\n\nاذن مشترى رقم ( [Handwritten Arabic: ٤٦٢] )\nصادر الى محل [Handwritten Arabic: ابراهيم مرسى] لتوريد الاصناف الآتية بسعر موافق\nبالسعر الوارد بالمناقصة المقدمة من محلاتكم بتاريخ [Handwritten Arabic: ١٩٣٨/١٠/١٥] ( [Handwritten Arabic: ٦٨] )\n\nالاسم الصنف | وحدة | عدد | السعر | ملاحظات\n| جنيه | مليم |\n[Handwritten Arabic: ورقة شفافة ٤ × ٤ طول ٥ م] | [Handwritten Arabic: عدد] | [Handwritten Arabic: ٥٠] | [Handwritten Arabic: ٤٠.] | [Pencil note: ✓]\n[Handwritten Arabic: \" ٤ × ٤] | [Handwritten Arabic: \"] | [Handwritten Arabic: ٥٠] | [Handwritten Arabic: ٤٠.] |\n[Handwritten Arabic: \" ٧ × ٤] | [Handwritten Arabic: \"] |"
+}

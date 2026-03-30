@@ -1,0 +1,41 @@
+{
+  "Reference_Number": "Administrative Order No. 517",
+  "Document_Date": "1938-01-07",
+  "Sender": "P. Lacau, Directeur Général",
+  "Recipient": "Monsieur Emile Baraize, Directeur de Travaux",
+  "Excavation_Site": "Abydos Temple",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "Monsieur Emile Baraize",
+    "H. Gauthier",
+    "Egyptian Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Abydos Temple Restoration",
+    "Budget Allocation",
+    "Administrative Order",
+    "Financial Management"
+  ],
+  "Brief_Summary": "An administrative order from the Egyptian Antiquities Service, signed by P. Lacau, approves an additional 100 Egyptian Pounds for the 1937-1938 restoration budget of the Abydos Temple, bringing the total to 440 pounds, and instructs the Accounts Department to inform Monsieur Emile Baraize.",
+  "English_Translation": "Ramose'\ndecision on 1/1/38\n200\n(368-4)\n340. Leg + 100/440\n\n50.--\n110.--\n150.--\n800.--\n30.--\n1840.--\n\nEgyptian Antiquities Service\nAdministrative Order No. (517)\n\nAfter reviewing the credit opened in the year 1937-1938 for the necessary restoration works for the Temple of Abydos, and based on what was presented to us by His Excellency the Head of the Administration Department, we have decided the following: -\nFirstly - An amount of 100 (one hundred) pounds is to be added to this credit, bringing it to 440 pounds.\nSecondly - The Accounts Department must observe this addition and record it in the relevant register, with informing His Excellency Monsieur Emile Baraize, Director of Works, of this.\nWritten on 1938/1/7\n\nThe Director General\nSigned: P. Lacau\n\n==================================================\n\nSent to His Excellency Monsieur Emile Baraize\nFor information.\nCairo on 1938/1/8\n\nThe Director General\nH. Gauthier",
+  "Stamps_and_Annotations": [
+    "Handwritten French: Ramose'",
+    "Handwritten French: décision au 1/1/38",
+    "Pencil note: 200",
+    "Pencil note: (368-4)",
+    "Pencil note: 340. Leg + 100/440",
+    "Financial figures: 50.--, 110.--, 150.--, 800.--, 30.--, 1840.--",
+    "Handwritten Arabic: مصلحة الاثار المصرية (Egyptian Antiquities Service)",
+    "Handwritten Arabic: امر اداري رقم (٥١٧) (Administrative Order No. 517)",
+    "Handwritten Arabic: المدير العام (The Director General)",
+    "Handwritten French: Signé : P. Lacau",
+    "Handwritten Arabic: مرسل الي جناب المسيو ايميل باريز (Sent to His Excellency Monsieur Emile Baraize)",
+    "Handwritten Arabic: للعلم (For information)",
+    "Handwritten Arabic: القاهره في ١٩٣٨/١/٨ (Cairo on 1938/1/8)",
+    "Handwritten Arabic: المدير العام (The Director General)",
+    "Handwritten French: H. Gauthier"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten French: Ramose']\n[Handwritten French: décision au 1/1/38]\n[Pencil note: 200]\n[Pencil note: (368-4)]\n[Pencil note: 340. Leg + 100/440]\n\n50.--\n110.--\n150.--\n800.--\n30.--\n1840.--\n\n[Handwritten Arabic: مصلحة الاثار المصرية]\n[Handwritten Arabic: امر اداري رقم (٥١٧)]\n\n[Handwritten Arabic: بعد الاطلاع على الاعتماد المفتوح في سنة ١٩٣٧-١٩٣٨ لاعمال الترميمات]\n[Handwritten Arabic: اللازمه لمعبد ابي دوس وبناء على ما عرضه علينا حضرة رئيس قسم الاداره]\n[Handwritten Arabic: قد قررنا ما يأتي :-]\n[Handwritten Arabic: اولا- يضاف الى هذا الاعتماد مبلغ ١٠٠ مائة جنيه لابلاغه الى ٤٤٠ جنيه]\n[Handwritten Arabic: ثانيا- على قلم الحسابات مراعاة هذه الاضافه وقيدها في السجل المختص]\n[Handwritten Arabic: مع اخطار جناب المسيو ايميل بقاع باريز مدير الاعمال بذلك ،]\n[Handwritten Arabic: تحريرا في ١٩٣٨/١/٧]\n\n[Handwritten Arabic: المدير العام]\n[Handwritten French: Signé : P. Lacau]\n\n==================================================\n\n[Handwritten Arabic: مرسل الي جناب المسيو ايميل باريز]\n[Handwritten Arabic: للعلم]\n[Handwritten Arabic: القاهره في ١٩٣٨/١/٨]\n\n[Handwritten Arabic: المدير العام]\n[Handwritten French: H. Gauthier]"
+}

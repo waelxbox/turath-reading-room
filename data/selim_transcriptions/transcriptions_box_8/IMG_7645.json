@@ -1,0 +1,38 @@
+{
+  "Reference_Number": "No:16.20/36.",
+  "Document_Date": "1933-06-17",
+  "Sender": null,
+  "Recipient": "Mr. Director General of the Antiquities Service, Cairo",
+  "Excavation_Site": "Pyramides",
+  "Entities_Mentioned": [
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Construction Materials",
+    "Supplies Request",
+    "Excavation Logistics",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "A request from the Pyramids site for various construction materials and supplies, including planks, joists, oils, paints, and wire mesh, addressed to the Director General of the Antiquities Service.",
+  "English_Translation": "Timber\n200.\nSteam tablet\n100 Latazana planks, thickness 1\", width: 10\"\n50 kg boiled oil\n50 kg machine oil\n50 kg Turpentine\n100 kg yellow grease\n200 kg red lead\n\nthickness 2\", 12\" long\n- 5/6 length: 6.75\n7.00\nPyramids, 17 June 1933.\n\n[Mr. Direct]or General,\n\n[Following y]our Arabic letter No:16.20/36. of [date],\n[we ask] you to kindly [send us] the following articles:\n\n[Anchoring/Tooling]:\n[Dimension] x 0.27 cm. ....length: 8 meters.\n[Dimension] x 0.33 cm. ....length: 8 meters.\n\nSERVICE P[ARTIAL STAMP]\n\n200 \"Ponti\" planks. Width: 12 inches. Thickness 2 inches. ....Length: 4 meters.\n200 fir joists 5/6 inches. ....Length: 7 meters.\n100 \"Latazana\" planks. Width: 10 inches. Thickness 1 inch. ....length: 4 meters.\n\n50 Okas boiled oil ..\n50 Okas machine oil..\n50 Okas Turpentine,.\n100 Okas yellow grease..\n200 Okas red lead.. 1st quality..\n100 Okas zinc white ..\n300 meters galvanized wire mesh width: 0.80 or 1.00 [meters]\n\nPlease accept, Mr. Director General,\nthe assurance of my profound respect.\n\nMr. Director General\nof the Antiquities Service. Cairo.\n\n16-8-33\n36 ac-16 June 33.",
+  "Stamps_and_Annotations": [
+    "Handwritten note: 'madrier' (timber/beam)",
+    "Handwritten note: '200.'",
+    "Handwritten note: 'pastille à vapeur' (steam tablet/lozenge)",
+    "Handwritten note: '100 planche latagane ép. 1\" lg: 10\"' (100 Latazana planks, thickness 1\", width: 10\")",
+    "Handwritten note: '50 k huile cuite' (50 kg boiled oil)",
+    "Handwritten note: '50 k huile à machine' (50 kg machine oil)",
+    "Handwritten note: '50 k Térébenthine' (50 kg Turpentine)",
+    "Handwritten note: '100 k graisse jaune' (100 kg yellow grease)",
+    "Handwritten note: '200 k minium' (200 kg red lead)",
+    "Handwritten note: 'ép. 2\" 12\" long' (thickness 2\", 12\" long)",
+    "Handwritten note: '- 5/6 lg: 6.75' (- 5/6 length: 6.75)",
+    "Handwritten note: '7.00'",
+    "Partial stamp: 'SERVICE P'",
+    "Handwritten date: '16-8-33'",
+    "Handwritten reference/date: '36 ac-16 Juin 33.'"
+  ],
+  "Confidence_Notes": "The beginning of the letter is heavily truncated, making the exact phrasing of the opening salutation and the first few item descriptions (e.g., 'age :', 'x 0.27 cm.') uncertain. The item 'pastille à vapeur' is an unusual request in this context. The sender is not identified in the document.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten French: madrier]\n[Handwritten French: 200.]\n[Handwritten French: pastille à vapeur]\n[Handwritten French: 100 planche latagane ép. 1\" lg: 10\"]\n[Handwritten French: 50 k huile cuite]\n[Handwritten French: 50 k huile à machine]\n[Handwritten French: 50 k Térébenthine]\n[Handwritten French: 100 k graisse jaune]\n[Handwritten French: 200 k minium]\n\n                                                                [Handwritten French: ép. 2\" 12\" long]\n                                                                [Handwritten French: - 5/6 lg: 6.75]\n                                                                [Handwritten French: 7.00]\nPyramides 17 Juin. 33.\n\n                                                                ur Général,\n\n                                                                otre lettre arabe No:16.20/36. du\n                                                                vous prier de vouloir bien -pour\n                                                                les articles suivant :\n\n                                                                age :\n\n                                                                x 0.27 cm. ....long: 8 mètres.\n                                                                x 0.33 cm. ....long: 8 mètres.\n\nSERVICE\nP\n\n200 . planches \"Ponti \". Larg:12 pouces.\n épais 2 pouces. ....Long: 4 mètres.\n200 .poutrelles de sapin 5/6 pouces. ....Long: 7 mètres.\n100 .planches \"Latazana\" Larg:10 pouces.\n épais I pouce. ....long: 4 mètres.\n\n50 Okas huile cuite ..\n50 Okas huile à machine..\n50 Okas Térébenthine,.\n100 Okas graisse jaune..\n200 Okas minium..I ère qualité..\n100 Okas blanc de zinc ..\n300 mètres toile métallique galvanisée larg: 0.80 ou I:00\n\nVeuillez agréer,Monsieur le Directeur Général,\nl'assurance de mon profond respect.\n\nMonsieur le Directeur Général\n du Service des Antiquités. Le Caire.\n\n[Handwritten French: 16-8-33]\n[Handwritten French: 36 ac-16 Juin 33.]"
+}

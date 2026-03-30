@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "N° 22-20/17",
+  "Document_Date": "1928-02-01",
+  "Sender": "H. Gauthier (signing for the Director General)",
+  "Recipient": "E. Baraize, Directeur de Travaux, Service des Antiquités, Baliah",
+  "Excavation_Site": "Abydos, Deir el-Bahari, Tombe de Ramosé",
+  "Entities_Mentioned": [
+    "H. Gauthier",
+    "M. le Directeur Général",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Budget allocation",
+    "Excavation funding",
+    "Financial administration",
+    "Archaeological sites"
+  ],
+  "Brief_Summary": "The letter, signed by H. Gauthier on behalf of the Director General, clarifies financial procedures for E. Baraize's excavation sites, stating that purchases made in Cairo should no longer be charged to excavation credits and requesting clarification on a requested fund transfer for Deir el-Bahari, Abydos, or the tomb of Ramose.",
+  "English_Translation": "SERVICE OF ANTIQUITIES.\nGENERAL DIRECTORATE.\nNo. 22-20/17\nAttached documents\n\n(FORM No. 1533, F.C.)\nCairo, February 1st, 1928.\n\nSubject. [Handwritten Arabic: Very urgent / before sale / materials and wages]\n[Pencil note: Urgent]\n\nMr. Director of Works,\n\nFollowing the verbal discussion you had on January 28th last with Mr. the Director General in Luxor regarding the credits opened for the Abydos site, I have the honor to inform you that we note that purchases made in Cairo for your various sites should no longer be drawn from the credits allocated to your works. We are taking the necessary steps concerning the credits that have been granted to you for the Abydos site.\n\nBy your letter of January 24th last, No. 270, you requested to draw a sum of L.E.100 from the credit of L.E.200 allocated to the works at Deir el-Bahari. We kindly ask you to specify whether this latter sum should be added to the Abydos credits, or to those of the tomb of Ramose, as understood by Mr. the Director General during your last discussion in Luxor. Your aforementioned letter not being precise, I would be obliged if you would clarify this point for us.\n\nPlease accept, Mr. Director of Works, the assurance of my distinguished consideration.\n\nFOR THE DIRECTOR GENERAL,\n[Signature: H. Gauthier]\n[Handwritten: E.Baraize,]\n[Handwritten: Director of Works,]\n[Handwritten: Service of Antiquities,]\n[Handwritten: Baliah]",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533, F.C.",
+    "Handwritten Arabic: عاجل جداً / امام بيع / مواد و اجور (Very urgent / before sale / materials and wages)",
+    "Pencil note: Urgent",
+    "Handwritten: E.Baraize,",
+    "Handwritten: ur de Travaux (Director of Works),",
+    "Handwritten: e des Antiquités (Service of Antiquities),",
+    "Handwritten: Baliah"
+  ],
+  "Confidence_Notes": "The handwritten recipient details 'ur de Travaux' and 'e des Antiquités' are interpreted as 'Directeur de Travaux' and 'Service des Antiquités' based on context and common abbreviations. 'Baliah' is assumed to be a location or department name.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\nNo. 22-20/17\nPièces jointes\n\n(FORM No. 1533, F.C.)\nLe Caire, le 1er Février 1928.\n\nObjet. [Handwritten Arabic: عاجل جداً / امام بيع / مواد و اجور]\n[Pencil note: Urgent]\n\nMonsieur le Directeur de Travaux,\n\nComme suite à l'entretien verbal que vous\navez eu le 28 Janvier dernier avec M. le Directeur\nGénéral à Louxor au sujet des crédits ouverts\npour le chantier d'Abydos, j'ai l'honneur de vous\nfaire savoir que nous prenons note que les achats\nfaits au Caire pour vos différents chantiers ne\ndoivent plus être prélevés sur les crédits affectés\nà vos travaux. Nous faisons le nécessaire en ce\nqui concerne les crédits qui vous ont été accordés\npour le chantier d'Abydos.\n\nPar votre lettre du 24 Janvier dernier, N°270,\nvous avez demandé de prélever sur le crédit de\nL.E.200 consacré aux travaux de Deir el-Bahari,\nune somme de L.E.100. Nous vous prions de bien\nvouloir nous préciser si cette dernière somme\ndoit être ajoutée aux crédits d'Abydos, ou bien\nà ceux de la tombe de Ramosé, ainsi que l'a compris\nM. le Directeur Général au cours de votre dernier\nentretien à Louxor. Votre lettre précitée n'étant\npas précise, je vous serais obligé de nous fixer\nsur ce point.\n\nVeuillez agréer, Monsieur le Directeur de\nTravaux, l'assurance de ma considération dis-\ntinguée.\n\nPr. LE DIRECTEUR GÉNÉRAL,\n[Signature: H. Gauthier]\n[Handwritten: E.Baraize,]\n[Handwritten: ur de Travaux,]\n[Handwritten: e des Antiquités,] [Handwritten: Baliah]"
+}

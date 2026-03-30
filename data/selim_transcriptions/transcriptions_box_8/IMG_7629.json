@@ -1,0 +1,27 @@
+{
+  "Reference_Number": "55 بشهر 4/1/4",
+  "Document_Date": "1938-05-04",
+  "Sender": "Youssef Rustom Attar, Egyptian Antiquities Inspector at Giza Pyramids",
+  "Recipient": null,
+  "Excavation_Site": "Giza Pyramids",
+  "Entities_Mentioned": [
+    "Youssef Rustom Attar",
+    "Ibrahim Ahmed El-Diwani"
+  ],
+  "Thematic_Tags": [
+    "Antiquities Service",
+    "Supply Record",
+    "Wood Procurement",
+    "Financial Transaction"
+  ],
+  "Brief_Summary": "This document is a record from May 4, 1938, initiated by Youssef Rustom Attar, the Egyptian Antiquities Inspector at Giza, detailing the receipt and payment for wood supplied by Ibrahim Ahmed El-Diwani, registered under ledger number 55.",
+  "English_Translation": "Egypt, May 4, 1938\nFrom what is requested from His Excellency, the Egyptian Antiquities Inspector Youssef Rustom Attar of the Pyramids.\nRegistered in ledger number 55, month 4/1/4.\nOn May 4, 1938.\n\nIbrahim Ahmed El-Diwani\nRue Yacoub Nasrieh, Le Caire — Téléph. No. 42910\n\nThis is for the value of wood that was received after sorting, inspection, and acceptance.\n\nItem | Quantity | Inches | Feet | Price\n--- | --- | --- | --- | ---\nWood 400 x 400 | 40 | 400 | 400 | 160\nWood 400 x 400 | 40",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic date: مصر في ٤ مايو سنة ١٩٣٨ (Egypt, May 4, 1938)",
+    "Handwritten Arabic annotation: قيد في السجل رقم ٥٥ بشهر ٤/١/٤ (Registered in ledger number 55, month 4/1/4)",
+    "Handwritten Arabic date: في ٤ مايو ١٩٣٨ (On May 4, 1938)"
+  ],
+  "Confidence_Notes": "The exact interpretation of the 'بوصة' (inches) and 'قدم' (feet) columns in the table, which both show '400' for 40 pieces of wood, is unclear and might represent a specific internal unit or a total dimension rather than individual piece dimensions. The second line of the table is incomplete.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: مصر في ٤ مايو سنة ١٩٣٨]\n[Handwritten Arabic: من المطلوب من حضرة معلم الآثار المصرى يوسف رستم عطار الأهرام]\n[Handwritten Arabic: قيد في السجل رقم ٥٥ بشهر ٤/١/٤]\n[Handwritten Arabic: في ٤ مايو ١٩٣٨]\n\n[Handwritten Arabic: إبراهيم أحمد الديواني]\nIBRAHIM AHMED EL-DIWANI\n[Handwritten Arabic: شارع يعقوب بالناصرية بمصر - تليفون رقم ٤٢٩١٠]\nRue Yacoub Nasrieh, Le Caire — Téléph. No. 42910\n\n[Handwritten Arabic: وذلك عن قيمة من أخشاب صار استلامها بعد الفرز والمعاينة والقبول]\n\n[Handwritten Arabic: صنف] | [Handwritten Arabic: عدد] | [Handwritten Arabic: بوصة] | [Handwritten Arabic: قدم] | [Handwritten Arabic: سعر]\n--- | --- | --- | --- | ---\n[Handwritten Arabic: خشب ٤٠٠ × ٤٠٠] | [Handwritten Arabic: ٤٠] | [Handwritten Arabic: ٤٠٠] | [Handwritten Arabic: ٤٠٠] | [Handwritten Arabic: ١٦٠]\n[Handwritten Arabic: خشب ٤٠٠ × ٤٠٠] | [Handwritten Arabic: ٤٠"
+}

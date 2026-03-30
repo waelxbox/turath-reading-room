@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "No. 4-7/65",
+  "Document_Date": "1927-10-01",
+  "Sender": "A. Gauthier (for the Director General, Service des Antiquités)",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Service des Antiquités, Le Caire",
+  "Excavation_Site": "Pyramides de Guizeh",
+  "Entities_Mentioned": [
+    "Kha-Our",
+    "Musée du Caire",
+    "Service des Antiquités",
+    "E. Baraize",
+    "A. Gauthier"
+  ],
+  "Thematic_Tags": [
+    "Funding allocation",
+    "Archaeological transport",
+    "Sarcophagus discovery",
+    "Giza excavations"
+  ],
+  "Brief_Summary": "The Antiquities Service informs E. Baraize that L.E. 350 has been allocated for the transport of the Kha-Our sarcophagus, discovered in 1926 at the Giza Pyramids, to the Cairo Museum.",
+  "English_Translation": "Granted                                Amount spent from                                Credit balance\n                                       May 1, 1928 to date                               as of June 14, 1928.\n\nL.E.m/m                                L.E.m/m                                          L.E.m/m\n89.390                                 89.390                                           -----\n                                                                                        200.---\n273.730                                73.730                                           -----\n                                                                                        -----\n                                                                                        -----\n                                                                                        350.---\n                                                                                        110.---\n                                                                                        150.---\n                                                                                        800.---\n                                                                                        30.---\n                                                                                        1840.---\n                                                                                        -----\n\n(Form No. 1533. F.C.)\n\nANTIQUITIES SERVICE.                                   Cairo, October 1, 1927.\n\nGENERAL DIRECTORATE.\n\nNo. 4-7/65                                              Subject:\n-----\n\nAttachments\n-----\n\nSir, Director of Works,\n\nIn response to your letter dated September 27th last, No. 113, I have the honor to inform you that we are placing at your disposal a sum of L.E. 350 for the work required for the transport to the Cairo Museum of the sarcophagus of Kha-Our discovered in 1926 at the Giza Pyramids.\n\nPlease accept, Sir, Director of Works, the assurance of my distinguished consideration.\n[Handwritten mark: stylized initial/flourish]\n\n                                                        For THE DIRECTOR GENERAL,\n                                                        [Signature: A. Gauthier]\n\nMr. E. Baraize,\nDirector of Works,\nAntiquities Service,\nCairo.",
+  "Stamps_and_Annotations": [
+    "Financial ledger/summary table (dated May 1, 1928 - June 14, 1928)",
+    "Form No. 1533. F.C.",
+    "Handwritten stylized initial/flourish"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "accordé                                Somme dépensée du                                Solde du crédit\n                                       1er Mai 1928 jusqu'à ce jour                     au 14 Juin 1928.\n\n.L.E.m/m                               L.E.m/m                                          L.E.m/m\n89.390                                 89.390                                           -----\n                                                                                        200.---\n273.730                                73.730                                           -----\n                                                                                        -----\n                                                                                        -----\n                                                                                        350.---\n                                                                                        110.---\n                                                                                        150.---\n                                                                                        800.---\n                                                                                        30.---\n                                                                                        1840.---\n                                                                                        -----\n\n(Form No. 1533. F.C.)\n\nSERVICE DES ANTIQUITÉS.                                Le Caire, le 1er Octobre 1927.\n\nDIRECTION GÉNÉRALE.\n\nNo. 4-7/65                                              Objet :\n-----\n\nPièces jointes\n-----\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre en date du 27\nSeptembre dernier, N°113, j'ai l'honneur de\nvous faire savoir que nous mettons à votre\ndisposition une somme de L.E.350 pour les\ntravaux que nécessitera le transport au Musée\ndu Caire du sarcophage de Kha-Our découvert\nen 1926 aux Pyramides de Guizeh.\n\nVeuillez agréer, Monsieur le Directeur\nde Travaux, l'assurance de ma considération\ndistinguée.\n[Handwritten mark: stylized initial/flourish]\n\n                                                        Pr. LE DIRECTEUR GENERAL,\n                                                        [Signature: A. Gauthier]\n\nMonsieur E. Baraize,\nDirecteur de Travaux,\nService des Antiquités,\nLe Caire."
+}

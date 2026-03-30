@@ -1,0 +1,28 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1920-05-20",
+  "Sender": "Director of Stores",
+  "Recipient": "Head of the Deposits Section",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Ibrahim Rashid",
+    "National Bank"
+  ],
+  "Thematic_Tags": [
+    "Financial Administration",
+    "Payment Processing",
+    "Inter-departmental Communication",
+    "Treasury Operations"
+  ],
+  "Brief_Summary": "A memo from the Director of Stores to the Head of the Deposits Section, dated May 20, 1920, concerning the processing of a 250-pound payment via a National Bank check for fees, and requesting the amount be sent directly to the applicant. It also notes that employee Ibrahim Rashid received an item and requested further documents.",
+  "English_Translation": "I handed the check to the bank employee.\nOh, a bill for the amount of 250 pounds.\nOn 20/5/1920.\nAnd returned it on the same day.\n\nStores Department\nReference\nNumber of attachments\n\nIn the name of God\nTo His Excellency, the Head of the Deposits Section,\nWe send to your esteemed self, attached herewith, a bill for the amount of 250 pounds,\nTo the bank employee for payment of fees and its return to the treasury.\nEmployee Ibrahim Rashid received it with the item and requested the rest of the documents.\nOh, the check, send the mentioned amount directly to the applicant,\nBy virtue of a check on the National Bank in Al-Sheikh.\nPlease accept our highest regards.\n(Oh, Director of Stores)\n\nIn his custody, in his custody | 74 | 25 | 78 | 749 | 48 | 150 | 8\nSales paper | 52 | 25 | 75 | 0.55 | 48 | 150 | 8\nSome fees | 55 | 25 | 75 | 450 | 48 | 150 | 8\nFees and ribbons | 998 | 25 | 75 | 0.55 | 48 | 150 | 8\nAmount paid | 20 | 25 | 75 | 450 | 48 | 150 | 8\n40 | 25 | 75 | 0.55 | 48 | 150 | 8\n22894325 | 25 | 75 | 450 | 48 | 150 | 8\n20 | 25 | 75 | 0.55 | 48 | 150 | 8",
+  "Stamps_and_Annotations": [
+    "Marginal notes (check delivery, invoice details)",
+    "Departmental headers (Stores Department, Reference, Number of Attachments)",
+    "Religious invocation (Bismillah)",
+    "Financial ledger entries table"
+  ],
+  "Confidence_Notes": "The term 'رايبن' (raiben) in 'رسوم ورايبن' is literally 'ribbons' but might be an archaic or specific financial/administrative term in this context.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: سلمت الشيك الى موظف البنك]\n[Handwritten Arabic: يا مال فاتورة مبلغ ٢٥٠ جنيه]\n[Handwritten Arabic: يوم ٢٠/ ٥ / ١٩٢٠]\n[Handwritten Arabic: وردها في اليوم]\n\n[Handwritten Arabic: قسم المخازن]\n[Handwritten Arabic: مرجع]\n[Handwritten Arabic: عدد المرفقات]\n\n[Handwritten Arabic: بسم الله]\n[Handwritten Arabic: حضرة رئيس قسم الودائع]\n[Handwritten Arabic: رسل لحضرتكم مرفقا هذا فاتورة مبلغ ٢٥٠ جنيه]\n[Handwritten Arabic: الى موظف البنك لسداد قيمة رسوم ووردها للخزينة]\n[Handwritten Arabic: الموظف ابراهيم رشيد استلمها بالصنف وطلب بقية الاوراق]\n[Handwritten Arabic: يا مال الشيك ارسال به المبلغ المذكور للطالب مباشرة]\n[Handwritten Arabic: بموجب شيك على البنك الاهلي بالشيخ]\n[Handwritten Arabic: وتفضلوا بقبول فائق الاحترام]\n[Handwritten Arabic: (يا حضرة مدير المخازن)]\n\n[Handwritten Arabic: بعهده بعهده] | [Handwritten Arabic: ٧٤] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٨] | [Handwritten Arabic: ٧٤٩] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: ورق بيع] | [Handwritten Arabic: ٥٢] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٠,٥٥] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: بعض الرسوم] | [Handwritten Arabic: ٥٥] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٤٥٠] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: رسوم ورايبن] | [Handwritten Arabic: ٩٩٨] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٠,٥٥] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: المبلغ سدد] | [Handwritten Arabic: ٢٠] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٤٥٠] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: ٤٠] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٠,٥٥] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: ٢٢٨٩٤٣٢٥] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٤٥٠] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]\n[Handwritten Arabic: ٢٠] | [Handwritten Arabic: ٢٥] | [Handwritten Arabic: ٧٥] | [Handwritten Arabic: ٠,٥٥] | [Handwritten Arabic: ٤٨] | [Handwritten Arabic: ١٥٠] | [Handwritten Arabic: ٨]"
+}

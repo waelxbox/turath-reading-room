@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "N°5.3/4",
+  "Document_Date": "1922-03-29",
+  "Sender": "P. Lacau, Directeur Général (Director General)",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux (Director of Works)",
+  "Excavation_Site": "Sakkara (Saqqara)",
+  "Entities_Mentioned": [
+    "M.C. Firth",
+    "P. Lacau",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Excavation Planning",
+    "Saqqara",
+    "Budget Estimates",
+    "Official Correspondence"
+  ],
+  "Brief_Summary": "P. Lacau, Director General of the Antiquities Service, transmits two letters from M.C. Firth concerning works to be carried out at Saqqara and requests the Director of Works, E. Baraize, to examine these works and prepare estimates upon his return from leave.",
+  "English_Translation": "(MODEL N° 37 — [Handwritten Arabic: Form No. 37])\n\nANTIQUITIES SERVICE.\nGENERAL DIRECTION.\n\nN°5.3/4\n\nAttached documents 2\n\nR.D.\n\nCairo, March 29, 1922\n\nSUBJECT.- Works to be carried out at Saqqara.\n\nMr. Director of Works,\n\nI have the honor to transmit herewith, in original, two letters N°384 and 404, from Mr. C. Firth, dated respectively the 15th and 24th of this month, concerning various works to be carried out at Saqqara.\nI would be obliged if you would examine the works in question and prepare the estimates for them, either in May or next November, upon your return from leave.\n\nPlease accept, Mr. Director, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n\n[Handwritten: Lacau]",
+  "Stamps_and_Annotations": [
+    "MODÈLE N° 37",
+    "Handwritten Arabic: أورنيك نمرة ٣٧ (Form No. 37)",
+    "R.D.",
+    "Handwritten signature: Lacau"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(MODÈLE N° 37 — [Handwritten Arabic: أورنيك نمرة ٣٧])\n\nSERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\n\nN°5.3/4\n\nPièces jointes 2\n\nR.D.\n\nLe Caire, le 29 Mars 1922\n\nOBJET.- Travaux à exécuter à Sakkara.\n\nMonsieur le Directeur de Travaux,\n\nJ'ai l'honneur de vous transmettre ci-joint,\nen original, deux lettres N°384 et 404, de M.C. Firth,\ndatées respectivement des 15 et 24 de ce mois, concer-\nnant divers travaux à exécuter à Sakkara.\nJe vous serai obligé d'examiner les travaux\ndont il s'agit et d'en faire les devis, soit en Mai\nsoit en Novembre prochain, à votre retour de congé.\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GENERAL,\n\n[Handwritten: Lacau]"
+}

@@ -1,0 +1,23 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1928-07-14",
+  "Sender": null,
+  "Recipient": null,
+  "Excavation_Site": null,
+  "Entities_Mentioned": [],
+  "Thematic_Tags": [
+    "Administrative Note",
+    "Construction",
+    "Date",
+    "Action Item"
+  ],
+  "Brief_Summary": "An administrative note instructing action on a construction-related task on July 14, 1928.",
+  "English_Translation": "To work on construction on 1928-07-14.",
+  "Stamps_and_Annotations": [
+    "Annotation: Closed",
+    "Handwritten Arabic: إلى العمل لناء ٩٢٨/٧/١٤"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "Closed\n_______\n[Handwritten Arabic: إلى العمل لناء ٩٢٨/٧/١٤]\n_______"
+}

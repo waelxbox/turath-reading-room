@@ -1,0 +1,49 @@
+{
+  "Reference_Number": "No. 4-7/65",
+  "Document_Date": "1927-11-01",
+  "Sender": "Egyptian Antiquities Service, General Directorate (Illegible signature)",
+  "Recipient": null,
+  "Excavation_Site": [
+    "Abydos",
+    "Deir el-Bahari",
+    "Ramose (project/tomb)"
+  ],
+  "Entities_Mentioned": [
+    "Ramose",
+    "Egyptian Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Financial records",
+    "Excavation expenses",
+    "Antiquities administration",
+    "1920s Egypt"
+  ],
+  "Brief_Summary": "This document from the Egyptian Antiquities Service's General Directorate details financial expenditures and remaining balances for projects related to Ramose, Abydos, and Deir el-Bahari as of November 1, 1927.",
+  "English_Translation": "Egyptian Antiquities Service\nTofia Office\nNo. 1623\n1-11-27\n\nANTIQUITIES SERVICE\nGENERAL DIRECTORATE\nNo. 4-7/65\n(Fragmented printed text: ointes, Monsie, Sept, vous, dis, tra, du, en, de, di)\n(Illegible signature)\n\n200 L.Eg :\n(Short underline)\n\nRamose:\nexpenses as of 1/11/27 (368.24)\nAbydos remaining 340 L.Eg [Pencil note: x 100/440]\nDeir el-Bahari remaining 30.- : [Pencil note: x]\nRamose remaining 328,100 [Pencil note: x]\n------------------------------------------------------------------------------------\n224\nRamose 400\ndepen 248.60\n1-XI-27 Ramose: 151.555",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: مصلحة الآثار المصرية",
+    "Handwritten Arabic: مكتب توفيا",
+    "Handwritten Arabic: رقم ١٦٢٣",
+    "Illegible stamp",
+    "Handwritten Arabic: ١-١١-٢٧",
+    "Fragmented printed text: ointes",
+    "Fragmented printed text: Monsie",
+    "Fragmented printed text: Sept",
+    "Fragmented printed text: vous",
+    "Fragmented printed text: dis",
+    "Fragmented printed text: tra",
+    "Fragmented printed text: du",
+    "Fragmented printed text: en",
+    "Fragmented printed text: de",
+    "Fragmented printed text: di",
+    "Illegible signature",
+    "Handwritten red ink: 200 L.Eg :",
+    "Handwritten red ink: short underline",
+    "Pencil note: x 100/440",
+    "Pencil note: x",
+    "Pencil note: x"
+  ],
+  "Confidence_Notes": "The stamp and signature are illegible. Several lines of printed text are fragmented and incomplete. 'Tofia Office' is a direct transliteration of 'مكتب توفيا'.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: مصلحة الآثار المصرية]\n[Handwritten Arabic: مكتب توفيا]\n[Handwritten Arabic: رقم ١٦٢٣]\n[Stamp: illegible]\n[Handwritten Arabic: ١-١١-٢٧]\n\n                                                                SERVICE DES ANTIQUITES\n                                                                DIRECTION GENERALE\n                                                                No. 4-7/65\n                                                                [Printed text: ointes]\n\n                                                                [Printed text: Monsie]\n                                                                [Printed text: Sept]\n                                                                [Printed text: vous]\n                                                                [Printed text: dis]\n                                                                [Printed text: tra]\n                                                                [Printed text: du]\n                                                                [Printed text: en]\n\n                                                                [Printed text: de]\n                                                                [Printed text: di]\n                                                                [Signature: illegible scribble]\n\n        [Handwritten red ink: 200 L.Eg :]\n        [Handwritten red ink: short underline]\nRamose:\ndepenses au 1/11/27 (368.24)\nAbydos reste 340. L.Eg [Pencil note: x 100/440]\nDeir el-Bahari reste 30.- : [Pencil note: x]\nRamose reste 328,100 [Pencil note: x]\n------------------------------------------------------------------------------------\n224\n    Ramose 400\n    depen 248.60\n1-XI-27 Ramose: 151.555"
+}

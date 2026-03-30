@@ -1,0 +1,29 @@
+{
+  "Reference_Number": "17/8022",
+  "Document_Date": "1927-05-18",
+  "Sender": "Saqqara Antiquities Inspection Office, General Administration of Egyptian Antiquities",
+  "Recipient": "Director/Controller of Antiquities",
+  "Excavation_Site": "Saqqara",
+  "Entities_Mentioned": [
+    "Egyptian Antiquities Service",
+    "Excavations and Personnel Department",
+    "General Administration of Egyptian Antiquities",
+    "Saqqara Antiquities Inspection Office",
+    "Director/Controller of Antiquities"
+  ],
+  "Thematic_Tags": [
+    "Archaeological Survey",
+    "Site Inspection",
+    "Antiquities Management",
+    "Inaccessible Sites"
+  ],
+  "Brief_Summary": "An internal memo from the Saqqara Antiquities Inspection Office requesting the Director/Controller of Antiquities to review observations concerning antiquities in the Valley, particularly those that are currently inaccessible.",
+  "English_Translation": "Egyptian Antiquities Service\nExcavations and Personnel Department\nSerial Number 17/8022\nRegarding observations and\n\nGeneral Administration of Egyptian Antiquities\nSaqqara Antiquities Inspection Office\n\n[Stamp: ANTIQUITIES SERVICE\nAntiquities Service\nAntiquities Inspection\nSaqqara\n18 May 1927\n991]\n\n[Handwritten Arabic:\nWhile\ntext\nI request what is necessary from the Director/Controller of Antiquities regarding this letter,\nand that is after reviewing the observations contained therein regarding the antiquities in the Valley,\nespecially concerning the existence of antiquities that could not be reached.\n]",
+  "Stamps_and_Annotations": [
+    "Circular stamp 'SERVICE DES ANTIQUITES / مصلحة الآثار / تفتيش الآثار / سقارة / ١٨ ماي ١٩٢٧ / ٩٩١'",
+    "Handwritten note in Arabic requesting action from the Director/Controller of Antiquities"
+  ],
+  "Confidence_Notes": "The phrases 'بشأن ملاحظات و' (Regarding observations and) and 'بينما نص' (While text) appear to be incomplete or fragmented sentences within the original document.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "مصلحة الآثار المصرية\nقسم الحفليات والمستخدمين\nالرقم المسلسل ١٧/٨٠٢٢\nبشأن ملاحظات و\n\nادارة عموم الآثار المصرية\nمكتب تفتيش آثار سقارة\n\n[Stamp: SERVICE DES ANTIQUITES\nمصلحة الآثار\nتفتيش الآثار\nسقارة\n١٨ ماي ١٩٢٧\n٩٩١]\n\n[Handwritten Arabic:\nبينما\nنص\nارجو على ما يلزمني مدير مراقب\nالآثار بخصوص هذا الخطاب\nوذلك بعد الاطلاع على ما جاء\nبه من ملاحظات بخصوص\nالآثار بالوادي\nوخاصة ما يتعلق بوجود آثار\nالتي لم يتمكن من\nالوصول اليها\n]"
+}

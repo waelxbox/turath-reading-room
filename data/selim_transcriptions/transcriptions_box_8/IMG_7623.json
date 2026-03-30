@@ -1,0 +1,29 @@
+{
+  "Reference_Number": "N°A/903",
+  "Document_Date": "1938-06-09",
+  "Sender": "GRUN BROTHERS (J. GREEN & Co. Successors), Manufacturer's Agents, Government Contractors, General Importers and Exporters",
+  "Recipient": "Antiquities Service, Pyramids Excavations, Pyramids",
+  "Excavation_Site": "Pyramids",
+  "Entities_Mentioned": [
+    "GRUN BROTHERS",
+    "J. GREEN & Co. Successors",
+    "Antiquities Service",
+    "Doktor Effendi"
+  ],
+  "Thematic_Tags": [
+    "Invoice",
+    "Supplies",
+    "Government Contract",
+    "Payment Request"
+  ],
+  "Brief_Summary": "GRUN BROTHERS sent an invoice for P.33.6 to the Antiquities Service for goods delivered to their Doktor Effendi, requesting prompt remittance.",
+  "English_Translation": "GRUN BROTHERS\n(J. GREEN & Co. Successors)\n\nMANUFACTURER'S AGENTS\nGOVERNMENT CONTRACTORS\nGENERAL IMPORTERS\nAND EXPORTERS\n\nHEAD OFFICE:\n147, SHARIA EMAD EL DINE, CAIRO\nP. O. Box 600 - Telephone 59948\nTelegrams \"NURG\"\nReg. Comm. No. 25998 Cairo\n\nALEXANDRIA\nP. O. Box 1722\nTel. 28666\nTelegrams \"NURG\"\nReg. Comm. No. 1722 Alex.\n\nSUDAN\nP. O. Box 193\nTelegrams \"NURG\"\nKHARTOUM\n\nCairo, 9th June 1938\nRef. N°A/903\n\nAntiquities Service,\nPyramids Excavations,\nPyramids.\n-----\n\nDear Sirs,\n\nWe beg to enclose herewith our invoice N°1769,\nin triplicate, amounting to P.33.6 for goods delivered\nto your Doktor Effendi. Your remittance at your earliest\nconvenience will oblige.\n\nAlways at your service, we beg to remain, dear\nSir,\n\nYours faithfully;\nGRUN BROTHERS\nJ. GREEN & Co. Succs.\n\nEncl.\n\nLI/VR",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: قسم مخازن (Stores Department)",
+    "Handwritten signature, illegible",
+    "Partially visible circular company stamp, likely GRUN BROTHERS"
+  ],
+  "Confidence_Notes": "Handwritten signature is illegible.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: قسم مخازن]\n\nGRUN BROTHERS\n(J. GREEN & Co. Successors)\n\nMANUFACTURER'S AGENTS\nGOVERNMENT CONTRACTORS\nGENERAL IMPORTERS\nAND EXPORTERS\n\nHEAD OFFICE:\n147, SHARIA EMAD EL DINE, CAIRO\nP. O. Box 600 - Telephone 59948\nTelegrams \"NURG\"\nReg. Comm. No. 25998 Cairo\n\nALEXANDRIA\nP. O. Box 1722\nTel. 28666\nTelegrams \"NURG\"\nReg. Comm. No. 1722 Alex.\n\nSUDAN\nP. O. Box 193\nTelegrams \"NURG\"\nKHARTOUM\n\nCairo, 9th June 1938\nRef. N°A/903\n\nAntiquities Service,\nPyramids Excavations,\nPyramids.\n-----\n\nDear Sirs,\n\nWe beg to enclose herewith our invoice N°1769,\nin triplicate, amounting to P.33.6 for goods delivered\nto your Doktor Effendi. Your remittance at your earliest\nconvenience will oblige.\n\nAlways at your service, we beg to remain, dear\nSir,\n\nYours faithfully;\nGRUN BROTHERS\n[Handwritten signature, illegible]\nJ. GREEN & Co. Succs.\n[Stamp: partially visible circular company stamp, likely GRUN BROTHERS]\n\nEncl.\n\nLI/VR"
+}

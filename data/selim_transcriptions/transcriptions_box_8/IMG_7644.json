@@ -1,0 +1,29 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1933-06-17",
+  "Sender": "Unknown (from Pyramides site office)",
+  "Recipient": "Monsieur le Directeur Général du Service des Antiquités, Le Caire",
+  "Excavation_Site": "Pyramides",
+  "Entities_Mentioned": [
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Excavation Logistics",
+    "Material Request",
+    "Construction Supplies",
+    "Maintenance Supplies"
+  ],
+  "Brief_Summary": "A request from the Pyramides site office to the Director General of the Antiquities Service for various construction and maintenance materials, including timber, oils, turpentine, grease, paints, and galvanized wire mesh, for the year 1934.",
+  "English_Translation": "30,205\n8,221\n328,726\n\nDepartment of Antiquities\n\nPyramids, June 17, 1933.\n\nMr. Director General,\n\nFollowing your Arabic letter No: 16.20/36. of June 13th inst., I have the honor to request that you kindly deliver the following items for the year 1934:\n\nWood for scaffolding:\n££££\n. 16 . \"Bino\" beams. 0.27 x 0.27 cm. ....length: 8 meters.\n. 16 . \"Bino\" beams. 0.33 x 0.33 cm. ....length: 8 meters.\n. 200 . \"Pontí\" planks. Width: 12 inches.\nthickness 2 inches. ....length: 4 meters.\n. 200 . fir joists 5/6 inches. ....length: 7 meters.\n. 100 . \"Latasana\" planks. Width: 10 inches.\nthickness 1 inch. ....length: 4 meters.\n\n___________\n\n50 Okas cooked oil..\n50 Okas machine oil..\n50 Okas Turpentine..\n100 Okas yellow grease..\n200 Okas red lead. 1st quality..\n100 Okas zinc white ..\n300 meters galvanized wire mesh width: 0.80 or 1.00\n\n___________\n\nPlease accept, Mr. Director General, the assurance of my profound respect.\n\nMr. Director General\nof the Antiquities Service. Cairo.\n\nSERVICE\nP",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: 30,205",
+    "Handwritten Arabic: 8.221",
+    "Handwritten Arabic: 328,726",
+    "Handwritten Arabic: مصلحة الآثار (Department of Antiquities)",
+    "Pencil note: ££££",
+    "SERVICE P"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: 30,205]\n[Handwritten Arabic: 8.221]\n[Handwritten Arabic: 328,726]\n\n[Handwritten Arabic: مصلحة الآثار]\n\nPyramides 17 Juin. 33.\n\nMonsieur le Directeur Général,\n\nFaisant suite à votre lettre arabe No:16.20/36. du\n13 Juin ct, j'ai l'honneur de vous prier de vouloir bien -pour\nl'année 1934- me faire livrer les articles suivant :\n\nBois pour échafaudage :\n[Pencil note: ££££]\n. 16 . poutres \" Bino \". 0.27 x 0.27 cm. ....long: 8 mètres.\n. 16 . poutres \" Bino \". 0.33 x 0.33 cm. ....long: 8 mètres.\n. 200 . planches \"Pontí\". Larg:12 pouces.\népais 2 pouces. ....long: 4 mètres.\n. 200 .poutrelles de sapin 5/6 pouces. ....long: 7 mètres.\n. 100 .planches \"Latasana\" Larg:10 pouces.\népais 1 pouce.. ....long: 4 mètres.\n\n___________\n\n50 Okas huile cuite ..\n50 Okas huile à machine..\n50 Okas Térébenthine..\n100 Okas graisse jaune..\n200 Okas minium.1 ère qualité..\n100 Okas blanc de zinc ..\n300 mètres toile métallique galvanisée larg: 0.80 ou 1.00\n\n___________\n\nVeuillez agréer, Monsieur le Directeur Général,\nl'assurance de mon profond respect.\n\nMonsieur le Directeur Général\ndu Service des Antiquités. Le Caire.\n\nSERVICE\nP"
+}

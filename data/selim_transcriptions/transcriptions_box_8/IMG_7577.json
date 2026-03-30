@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "No. 5-2/7",
+  "Document_Date": "1928-03-07",
+  "Sender": "P. Lacau, Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Service des Antiquités, à Louxor",
+  "Excavation_Site": "Temple de Louxor",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "P. Lacau",
+    "Service des Antiquités",
+    "Egyptian Government"
+  ],
+  "Thematic_Tags": [
+    "Temple Conservation",
+    "Budget Approval",
+    "Urgent Works",
+    "Luxor Temple"
+  ],
+  "Brief_Summary": "The Director General approves an estimate of L.E. 20 for urgent provisional consolidation work on the east side of the Luxor Temple enclosure, as proposed by Monsieur E. Baraize.",
+  "English_Translation": "ANTIQUITIES SERVICE.\nGENERAL DIRECTORATE.\n\n(FORM No. 1533, F.C.)\n\nCairo, March 7, 1928.\n\nNo. 5-2/7\nSubject: [Handwritten Arabic: Administrative order regarding land filling]\n\nAttachments ______\n\nMr. Director of Works,\n\nIn response to your letter dated the 5th of this current March, N°323, I have the honor to inform you that I approve the estimate you have prepared for the provisional consolidation of the East part of the enclosure of the Temple of Luxor. We are placing at your disposal the sum of L.E.20 for this work, which must be executed urgently.\n\nPlease accept, Mr. Director of Works, the assurance of my distinguished consideration.\n\n[Handwritten signature: H]\nTHE DIRECTOR GENERAL,\n\n[Pencil note: Placa]\n[Stamp: EGYPTIAN GOVERNMENT (١٣٢ ق) الحكومة المصرية]\n[Stamp: CAIRO MR 28.3.30P.]\n[Stamp: (132 Q.) EGYP GOVERN المصرية]\n\nMr. E. Baraize,\nDirector of Works,\nAntiquities Service,\nat Luxor.",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic text for 'Objet: امر ادارى بخصوص سد الارض'",
+    "Handwritten signature 'H'",
+    "Pencil note 'Placa'",
+    "Stamp: 'EGYPTIAN GOVERNMENT (١٣٢ ق) الحكومة المصرية'",
+    "Stamp: 'CAIRO MR 28.3.30P.'",
+    "Stamp: '(132 Q.) EGYP GOVERN المصرية'"
+  ],
+  "Confidence_Notes": "The handwritten Arabic text for the subject has been translated. The handwritten signature 'H' is illegible, but the sender is identified as P. Lacau based on the title 'LE DIRECTEUR GÉNÉRAL' and the pencil note 'Placa'.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\n\n(FORM No. 1533, F.C.)\n\nLe Caire, le 7 Mars 1928.\n\nNo. 5-2/7\nObjet: [Handwritten Arabic: امر ادارى بخصوص سد الارض]\n\nPièces jointes ______\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre en date du 5\nMars courant, N°323, j'ai l'honneur de vous\nfaire savoir que j'approuve le devis que vous\navez établi pour la consolidation provisoire\nde la partie Est de la clôture du Temple de\nLouxor. Nous mettons à votre disposition la\nsomme de L.E.20 pour ce travail qui doit être\nexécuté d'urgence.\n\nVeuillez agréer, Monsieur le Directeur de\nTravaux, l'assurance de ma considération dis-\ntinguée.\n\n[Handwritten signature: H]\nLE DIRECTEUR GÉNÉRAL,\n\n[Pencil note: Placa]\n[Stamp: EGYPTIAN GOVERNMENT (١٣٢ ق) الحكومة المصرية]\n[Stamp: CAIRO MR 28.3.30P.]\n[Stamp: (132 Q.) EGYP GOVERN المصرية]\n\nsieur E. Baraize,\necteur de Travaux,\nService des Antiquités,\nà Louxor."
+}

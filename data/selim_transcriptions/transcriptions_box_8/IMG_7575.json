@@ -1,0 +1,35 @@
+{
+  "Reference_Number": "No 5-3/I.",
+  "Document_Date": "1928-03-12",
+  "Sender": "H. Gauthier (for the Director General of the Antiquities Service)",
+  "Recipient": "Monsieur E. Baraize, Director of Works for the Antiquities Service, Medinet Habu, Luxor",
+  "Excavation_Site": "Tomb of Nakht (TT52), Medinet Habu, Luxor, Ramesseum",
+  "Entities_Mentioned": [
+    "H. Gauthier",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Expenditure Approval",
+    "Tomb Maintenance",
+    "Antiquities Service Administration",
+    "Theban Necropolis"
+  ],
+  "Brief_Summary": "The Antiquities Service approves an expenditure of L.E. 7 for an iron barrier to replace a termite-damaged wooden one in the Tomb of Nakht, with a handwritten note also mentioning work on the Ramesseum temple gate foundations.",
+  "English_Translation": "ANTIQUITIES SERVICE.\nGENERAL DIRECTORATE.\n\nFORM No. 1533, E.C.93 [Handwritten Arabic: approval of amount]\n[Handwritten Arabic: under]\nCairo, March 12, 1928.\nNo 5-3/I.\nSubject: ______\nAttachments ______\n[Handwritten Arabic: order]\n[Handwritten Arabic: on]\n[Handwritten Arabic: 1928.]\n\nSir, the Director of Works.\n\nI have the honor to inform you that we approve the expenditure of L.E. 7 for the iron barrier to be installed in the tomb of Nakht, replacing the wooden barrier which was eaten by white ants (termites).\n\nPlease accept, Sir, the Director of Works, the assurance of my distinguished consideration.\n\nFor THE DIRECTOR GENERAL.\n[Signature: H. Gauthier]\n\nMonsieur E. Baraize,\nDirector of Works\nof the Antiquities Service,\nMedinet Habu. LUXOR.\n\n[Stamp: EGYPTIAN ANTIQUITIES SERVICE DEPARTMENT OF WORKS 12 MARCH 1928]\n[Handwritten Arabic: ... next to start the foundations of the Ramesseum temple gate, however, it is authorized for His Excellency]\n[Pencil note: (1)]",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533, E.C.93",
+    "Handwritten Arabic: اعتماد مبلغ (approval of amount)",
+    "Handwritten Arabic: تحت (under)",
+    "Handwritten Arabic: امر (order)",
+    "Handwritten Arabic: على (on)",
+    "Handwritten Arabic: 1928.",
+    "Signature: H. Gauthier",
+    "Stamp: SERVICE DES ANTIQUITÉS DE L'ÉGYPTE DÉPARTEMENT DES TRAVAUX 12 MARS 1928 (EGYPTIAN ANTIQUITIES SERVICE DEPARTMENT OF WORKS 12 MARCH 1928)",
+    "Handwritten Arabic: ٠٠ جنبا للبدء في اساسات بوابة معبد الرمسيوم غير انه مرخص للجنابه (... next to start the foundations of the Ramesseum temple gate, however, it is authorized for His Excellency)",
+    "Pencil note: (1)"
+  ],
+  "Confidence_Notes": "The full context of the handwritten Arabic note at the bottom is somewhat unclear, but the translation provided captures the main elements regarding the Ramesseum.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\n\nFORM No. 1533, E.C.93 [Handwritten Arabic: اعتماد مبلغ]\n[Handwritten Arabic: تحت]\nLe Caire, le 12 Mars, 1928.\nNo 5-3/I.\nObjet: ______\nPièces jointes ______\n[Handwritten Arabic: امر]\n[Handwritten Arabic: على]\n[Handwritten Arabic: 1928.]\n\nMonsieur le Directeur des Travaux.\n\nJ'ai l'honneur de vous informer que nous\napprouvons la dépense de L.E.7 pour la barrière en\nfer à établir dans la tombe de Nakt en remplacement\nde la barrière en bois qui a été rongée par les\nfourmis blanches.\n\nVeuillez agréer, Monsieur le Directeur des\nTravaux, l'assurance de ma considération distinguée.\n\nPr.LE DIRECTEUR GENERAL.\n[Signature: H. Gauthier]\n\nMonsieur E. Baraize,\nDirecteur des Travaux\ndu Service des Antiquités,\nMédinet-Habou. LOUXOR.\n\n[Stamp: SERVICE DES ANTIQUITÉS DE L'ÉGYPTE DÉPARTEMENT DES TRAVAUX 12 MARS 1928]\n[Handwritten Arabic: ٠٠ جنبا للبدء في اساسات بوابة معبد الرمسيوم غير انه مرخص للجنابه]\n[Pencil note: (1)]"
+}

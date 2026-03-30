@@ -1,0 +1,34 @@
+{
+  "Reference_Number": "22.20/17",
+  "Document_Date": "1927-09-29",
+  "Sender": "H. Gauthier for the Director General, Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Service des Antiquités, Le Caire",
+  "Excavation_Site": "Tomb of Ramose at Gournah",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "H. Gauthier",
+    "Ramosé",
+    "Egyptian Antiquities Service",
+    "Gournah",
+    "Giza",
+    "Mo'alla",
+    "Edfu"
+  ],
+  "Thematic_Tags": [
+    "Financial Administration",
+    "Excavation Credits",
+    "Antiquities Service",
+    "Archaeological Sites"
+  ],
+  "Brief_Summary": "This letter from H. Gauthier, on behalf of the Director General of the Antiquities Service, informs Monsieur E. Baraize about the details of credits allocated for the work on the tomb of Ramose at Gournah, in response to Baraize's letter of September 27, 1927.",
+  "English_Translation": "Tomb of Ramose\nSPHINX of Giza\nTomb of Mo'alla\nEdfu Temple\nA\n\n16.275\n555.807\n110.--\n150.--\n900.--\n\n16.275\n5.807\n----\n----\n----\n\n550.--\n110.--\n150.--\n800.--\n200.--\n110.--\n150.--\n\nB.m/m\nthe\n4016\n14.10/27\n\n(FORM No. 1533, F.C.)\n\nANTIQUITIES SERVICE.\n\nGENERAL DIRECTORATE.\n\nNo. 22.20/17 Subject:\n\nCairo, [Handwritten: September 29] 1927.\n[Handwritten: October 1]\n\nEnclosures 1\n\nSir, Director of Works,\n\nIn response to your letter dated September 27th instant, No. 114, I have the honor to enclose herewith a statement providing details of the credits granted for the works on the tomb of Ramose at Gournah.\n\nPlease accept, Sir, Director of Works, the assurance of my distinguished consideration.\n\n[Pencil note: RM]\n\nFor THE DIRECTOR GENERAL,\n[Signature: H. Gauthier]\n\n[Stamp: EGYPTIAN GOVERNMENT. [Handwritten Arabic: 10/12/1927]]\n\nMonsieur E. Baraize,\nDirector of Works,\nAntiquities Service,\nCairo.",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533, F.C.",
+    "Handwritten date: 1 Octobre",
+    "Pencil note: RM",
+    "Stamp: EGYPTIAN GOVERNMENT. Handwritten Arabic date: 10/12/1927"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "ombe de Ramosé\nSPHINX de Guizeh\nombe Méalla\nTemple Edfou\nA\n\n16.275\n555.807\n110.--\n150.--\n900.--\n\n16.275\n5.807\n----\n----\n----\n\n550.--\n110.--\n150.--\n800.--\n200.--\n110.--\n150.--\n\nB.m/m\nle\n4016\n14.10/27\n\n(FORM No. 1533, F.C.)\n\nSERVICE DES ANTIQUITÉS.\n\nDIRECTION GÉNÉRALE.\n\nNo. 22.20/17 Objet :\n\nLe Caire, le [Handwritten: 29 Septembre] 1927.\n[Handwritten: 1 Octobre]\n\nPièces jointes 1\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre en date du\n27 Septembre courant, N°114, j'ai l'honneur de\nvous remettre ci-joint un état donnant les\ndétails des crédits accordés pour les travaux\nde la tombe de Ramosé à Gournah.\n\nVeuillez agréer, Monsieur le Directeur\nde Travaux, l'assurance de ma considération dis-\ntinguée.\n\n[Pencil note: RM]\n\nPr. LE DIRECTEUR GENERAL,\n[Signature: H. Gauthier]\n\n[Stamp: EGYPTIAN GOVERNMENT. [Handwritten Arabic: ١٠/١٢/٢٧]]\n\nMonsieur E. Baraize,\nDirecteur de Travaux,\nService des Antiquités,\nLe Caire."
+}

@@ -1,0 +1,29 @@
+{
+  "Reference_Number": "N° 5.7/1",
+  "Document_Date": "1925-03-21",
+  "Sender": "J. Messawer, Administrative Director",
+  "Recipient": "Monsieur E. Baraize, Director of Works of the Antiquities Service, in Luxor",
+  "Excavation_Site": "Tomb of Tutankhamun",
+  "Entities_Mentioned": [
+    "J. Messawer",
+    "E. Baraize",
+    "Châaban Eff.",
+    "Service des Antiquités",
+    "National Bank"
+  ],
+  "Thematic_Tags": [
+    "Antiquities Transport",
+    "Financial Administration",
+    "Tutankhamun",
+    "Logistics"
+  ],
+  "Brief_Summary": "This letter from the Administrative Director J. Messawer to E. Baraize authorizes the transport of Tutankhamun's tomb antiquities to the Nile at the Service's expense, allocating L.E. 50 for the task and enclosing a cheque.",
+  "English_Translation": "ANTIQUITIES SERVICE\nSERVICE ORDER N°387.\nCREDIT\n\n(MODEL N° 37 – Form No. 37)\n\nANTIQUITIES SERVICE\nGENERAL DIRECTION.\n\nN° 5.7/1\n\nAttachments_ 1 cheque\n\nRegistered Mail\nRegistered Mail\n\nCairo, March 21, 1925.\n\nSir, Director of Works,\n\nIn response to the unofficial letter that you addressed to our Director General, I am instructed to inform you that the transport of the crates of antiquities from the tomb of Tutankhamun to the Nile will be carried out by you at the expense of our Service.\nA sum of L.E. 50 is placed at your disposal for the transport.\nThe boat will arrive in Luxor around the 29th of this month. Châaban Eff. will accompany these crates to Cairo, as in previous years.\nPlease accept, Sir, Director, the assurance of my distinguished consideration.\n\nTHE ADMINISTRATIVE DIRECTOR,\n[Signature: J. Messawer]\n\nP.S.\nEnclosed you will find cheque N°684064 for the sum of L.E. 50 on the \"National Bank\" of Luxor. I would be obliged if you would acknowledge receipt.\n[Signature: J. Messawer]\n\nMr. E. Baraize,\nDirector of Works\nof the Antiquities Service,\nin Luxor.",
+  "Stamps_and_Annotations": [
+    "Stamp: ANTIQUITIES SERVICE GENERAL DIRECTION CAIRO",
+    "Handwritten Arabic: س"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "--SERVICE des antiquités --\n--ORDRE de SERVICE N°387.\n--CREDIT--\n\n(MODÈLE N° 37 – أورنيك نمرة ٣٧)\n\nSERVICE DES ANTIQUITÉS\nDIRECTION GÉNÉRALE.\n\nN° 5.7/1\n\nPièces jointes_ 1 chèque\n\nR.D.\nRecommandée\n\nLe Caire, le 21 Mars 1925.\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à la lettre officieuse que\nvous avez adressée à notre Directeur Général,\nJe suis chargé de vous faire savoir que le\ntransport des caisses d'antiquités provenant\nde la tombe de Tout-Ankh-Amon jusqu'au Nil sera\nfait par vos soins aux frais de notre Service.\nUne somme de L.E.50 est mise à votre disposition\npour le transport.\nLe bateau arrivera à Louxor vers le\n29 de ce mois. Châaban Eff. accompagnera ces\ncaisses jusqu'au Caire, comme l'an passé.\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR ADMINISTRATIF,\n[Signature: J. Messawer]\n\nP.S.\nCi-joint vous voudrez bien\ntrouver un chèque N°684064 pour\nla somme de L.E.50 sur la \"National\nBank\" de Louxor. Je vous serais\nobligé de nous en accuser réception.\n[Signature: J. Messawer]\n\nMonsieur E.Baraize,\nDirecteur de Travaux\ndu Service des Antiquités,\nà Louxor.\n\n[Stamp: SERVICE DES ANTIQUITÉS DIRECTION GÉNÉRALE LE CAIRE]\n[Handwritten Arabic: س]"
+}

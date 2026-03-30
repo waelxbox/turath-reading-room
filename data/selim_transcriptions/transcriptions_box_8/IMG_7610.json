@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "27.2/14",
+  "Document_Date": "1922-05-25",
+  "Sender": "The Director General (Musan)",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Musée de New York"
+  ],
+  "Thematic_Tags": [
+    "Statue transport",
+    "Museum logistics",
+    "Antiquities Service administration",
+    "International museum loans"
+  ],
+  "Brief_Summary": "The Director General of the Egyptian Antiquities Service transmits a blue bulletin for the railway transport of two statues destined for the New York Museum, as requested by Monsieur E. Baraize, Directeur de Travaux.",
+  "English_Translation": "(MODEL N° 39 — 39 Form Number)\n(MODEL N° 37 — 37 Form Number)\n\nANTIQUITIES SERVICE.\nCairo, May 25, 1922\nGENERAL DIRECTION.\n\nN° 27.2/14\nSubject: Statues destined for the New York Museum.\nAttached documents: I\n\nMr. Director of Works,\n\nI have the honor to transmit to you herewith\nthe blue bulletin requested by your letter\nof May 24th instant, (Registration N° 413) for\nthe railway transport of the two statues\ndestined for the New York Museum.\n\nPlease accept, Mr. Director,\nthe assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n[Handwritten signature: Musan]\n\n[Stamp: EGYF GOVER]\n[Pencil note: 132 D.]\n[Handwritten Arabic: مصر]\n[Handwritten Arabic: 22]\n[Stamp: CAIRO M 25 IV 22]",
+  "Stamps_and_Annotations": [
+    "Printed header: MODÈLE N° 39 — ٣٩ نمرة أورنيك",
+    "Printed header: MODÈLE N° 37 — ٣٧ نمرة أورنيك",
+    "Circular stamp: EGYF GOVER",
+    "Pencil annotation: 132 D.",
+    "Handwritten Arabic annotation: مصر (Egypt)",
+    "Handwritten Arabic annotation: 22",
+    "Date stamp: CAIRO M 25 IV 22"
+  ],
+  "Confidence_Notes": "The year in the document date '192219' appears to be a typo and has been corrected to '1922' based on contextual evidence from stamps and handwritten notes. There is also a discrepancy between the month 'Mai' (May) in the letter and 'IV' (April) in the date stamp, with 'Mai' being prioritized for the Document_Date.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(MODÈLE N° 39 — ٣٩ نمرة أورنيك)\n(MODÈLE N° 37 — ٣٧ نمرة أورنيك)\n\nSERVICE DES ANTIQUITÉS.\nLe Caire, le 25 Mai 192219\nDIRECTION GÉNÉRALE.\n\nN° 27.2/14\nObjet : Statues destinées au Musée\nPièces jointes I de New-York.\n\nMonsieur le Directeur de Travaux,\n\nJ'ai l'honneur de vous transmettre ci-\njoint le bulletin bleu demandé par votre lettre\ndu 24 Mai courant, (N° 413 d'enregistrement )pour\nle transport par chemin de fer des deux statues\ndestinées au Musée de New York.\n\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GÉNÉRAL,\n[Handwritten signature: Musan]\n\n[Stamp: EGYF GOVER]\n[Pencil note: 132 D.]\n[Handwritten Arabic: مصر]\n[Handwritten Arabic: 22]\n[Stamp: CAIRO M 25 IV 22]"
+}

@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "N° 5.3/29",
+  "Document_Date": "1927-04-18",
+  "Sender": "P. Lacau, Director General",
+  "Recipient": "Monsieur Emile Baraize, Director of Works, Service des Antiquités, Abydos, BALIANAH",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "Emile Baraize",
+    "Ramosé"
+  ],
+  "Thematic_Tags": [
+    "Financial Administration",
+    "Excavation Funding",
+    "Abydos",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "The Director General, P. Lacau, informs Monsieur Emile Baraize that the Antiquities Service approves the transfer of 20 Egyptian Pounds to the Abydos account, previously allocated for the works of Ramosé.",
+  "English_Translation": "FORM No. 1533. F.C.\nANTIQUITIES SERVICE.\nCairo, April 18, 1927.\n\nGENERAL DIRECTORATE.\n\nN° 5.3/29\nSubject: [Handwritten Arabic: Transfer of funds]\n\nAttachments: [Handwritten Arabic: None]\n\n[Pencil note: 1927.]\n[Pencil note: 3]\n[Pencil note: 1]\n[Pencil note: -]\n\nMr. Director of Works,\n\nIn response to your letter dated April 11th current, N°13, I have the honor to inform you that we approve the transfer to the credit of Abydos of the L.E.20 previously granted for the works of Ramosé.\n\nPlease accept, Mr. Director of Works, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n[Signature: Lacau]\n\nMr. Emile Baraize,\nDirector of Works,\nAntiquities Service,\nat Abydos, BALIANAH",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533. F.C.",
+    "Pencil note: 1927.",
+    "Pencil note: 3",
+    "Pencil note: 1",
+    "Pencil note: -",
+    "Handwritten Arabic: تحويل مبلغ (Transfer of funds)",
+    "Handwritten Arabic: لا يوجد (None)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(FORM No. 1533. F.C.)\nSERVICE DES ANTIQUITÉS.\nLe Caire, le 18 Avril 1927.\n\nDIRECTION GÉNÉRALE.\n\nN° 5.3/29\nObjet : [Handwritten Arabic: تحويل مبلغ]\n\nPièces jointes [Handwritten Arabic: لا يوجد]\n\n[Pencil note: 1927.]\n[Pencil note: 3]\n[Pencil note: 1]\n[Pencil note: -]\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre en date du 11\nAvril courant, N°13, j'ai l'honneur de vous\nfaire savoir que nous approuvons le transfert\nau crédit d'Abydos des L.E.20 précédemment\naccordées pour les travaux de Ramosé.\n\nVeuillez agréer, Monsieur le Directeur\nde Travaux, l'assurance de ma considération\ndistinguée.\n\nLE DIRECTEUR GENERAL,\n[Signature: Lacau]\n\nMonsieur Emile Baraize,\nDirecteur de Travaux,\nService des Antiquités,\nà Abydos, BALIANAH"
+}

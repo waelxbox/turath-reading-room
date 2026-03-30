@@ -1,0 +1,45 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1924-12-16",
+  "Sender": "H. Davies",
+  "Recipient": "Monsieur Pierre Lacau, Directeur-General, Service des Antiquities, Cairo",
+  "Excavation_Site": "Kurneh, Luxor (Tomb 23)",
+  "Entities_Mentioned": [
+    "Mons. Pierre Lacau",
+    "Service des Antiquities",
+    "Mons. Baraize",
+    "Mr. Robert Mond",
+    "H. Davies",
+    "m Munir",
+    "Omar Saliba"
+  ],
+  "Thematic_Tags": [
+    "Tomb Conservation",
+    "Archaeological Funding",
+    "Site Management",
+    "Rain Damage"
+  ],
+  "Brief_Summary": "H. Davies writes to Pierre Lacau expressing concern over the lack of repair work on Tomb 23 at Kurneh, Luxor, despite a grant from Mr. Robert Mond, and urges prompt action by Monsieur Baraize before the rainy season to prevent further damage.",
+  "English_Translation": "KURNEH LUXOR\nDEC.16/24\n\nMons. Pierre Lacau, of the Service des Antiquities, Cairo\nDirector-General\n\nSir, I have this week visited Tomb 23, and notice that nothing has been done to repair it except to collect a few bricks for the proposed roofing there. I understand that Mons. Baraize is coming here shortly to do work in the necropolis, and I hope that this work on Tomb 23 is to be one of his first tasks. I would remind you that the rainy season is due, and indeed threatened to begin to-day, and that the grant from the fund of Mr. Robert Mond was given expressly on the condition that the work was done at once, since the tomb has suffered so much of late years that another rain-storm would leave too little to be worth the expense of sheltering it.\n\nI have the honour to be,\nYours very respectfully.\n\n[Handwritten signature: H. Davies]\n\n[Pencil note: m Munir]\n[Pencil note: What is Tomb 23?]\n[Pencil note: Very clear]\n\n[Handwritten Arabic: Refer to the discovery plaque/board]\n[Handwritten Arabic: Visit of Omar Saliba]\n[Handwritten Arabic: It is 21/11/24]\n[Handwritten Arabic: 112]\n[Handwritten Arabic: 577]\n\n[Handwritten Arabic: (Hieroglyphs: G1, X1, A1) Shoy, also called (Hieroglyphs: A1, X1, G1)]\n[Handwritten Arabic: (Hieroglyphs: A1, X1, G1) Co.]\n[Handwritten Arabic: I don't think any restorations were done]\n[Handwritten Arabic: And the walls of the tomb]\n[Handwritten Arabic: Needs 4149]\n[Handwritten Arabic: Of that necessary brick]\n[Handwritten Arabic: 1924]",
+  "Stamps_and_Annotations": [
+    "Handwritten signature: H. Davies",
+    "Pencil note: m Munir",
+    "Pencil note: Quelle est la tombe 23? (What is Tomb 23?)",
+    "Pencil note: Très claire (Very clear)",
+    "Handwritten Arabic: تحول لوحة الكشف (Refer to the discovery plaque/board)",
+    "Handwritten Arabic: زيارة عمر صليبا (Visit of Omar Saliba)",
+    "Handwritten Arabic: هو 21/11/24 (It is 21/11/24)",
+    "Handwritten Arabic: 112",
+    "Handwritten Arabic: 577",
+    "Handwritten Arabic: (Hieroglyphs: G1, X1, A1) Shoy, appelé également (Hieroglyphs: A1, X1, G1) ((Hieroglyphs: G1, X1, A1) Shoy, also called (Hieroglyphs: A1, X1, G1))",
+    "Handwritten Arabic: (Hieroglyphs: A1, X1, G1) Co.",
+    "Handwritten Arabic: ما أظن عمل ترميمات (I don't think any restorations were done)",
+    "Handwritten Arabic: و حوائط المقبرة (And the walls of the tomb)",
+    "Handwritten Arabic: تحتاج إلى 4149 (Needs 4149)",
+    "Handwritten Arabic: من ذلك الطوب اللازم (Of that necessary brick)",
+    "Handwritten Arabic: 1924"
+  ],
+  "Confidence_Notes": "The hieroglyph descriptions are literal transcriptions of the accompanying text, not an interpretation of the hieroglyphs themselves. The Arabic phrase 'تحول لوحة الكشف' is translated as 'Refer to the discovery plaque/board', which could also imply 'transfer the discovery log' depending on context. 'Co.' after hieroglyphs is an abbreviation and its full meaning is unclear without further context.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "KURNEH LUXOR\nDEC.16/24\n\nMons. Pierre Lacau, du Service des Antiquities, Cairo\nDirecteur-General\n\nSir, I have this week visited Tomb 23, and notice that nothing that\nhas been done to repair it except to collect a few bricks for the proposed\nproposed roofing there. I understand that Mons. Baraize is coming here\nshortly to do work in the necropolis, and I hope that this work on Tomb\n23 is to be one of his first tasks. I would remind you that the rainy\nseason is due, and indeed threatened to begin to-day, and that the grant\nfrom the fund of Mr. Robert Mond was given expressly on the condition\nthat the work was done at once, since the tomb has suffered so much a\nof late years that another rain-storm would leave too little to be worth\nworth the expense of sheltering it.\n\nI have the honour to be,\nYours very respectfully.\n\n[Handwritten signature: H. Davies]\n\n[Pencil note: m Munir]\n[Pencil note: Quelle est la tombe 23 ?]\n[Pencil note: Très claire]\n\n[Handwritten Arabic: تحول لوحة الكشف]\n[Handwritten Arabic: زيارة عمر صليبا]\n[Handwritten Arabic: هو 21/11/24]\n[Handwritten Arabic: 112]\n[Handwritten Arabic: 577]\n\n[Handwritten Arabic: (Hieroglyphs: G1, X1, A1) Shoy, appelé également (Hieroglyphs: A1, X1, G1)]\n[Handwritten Arabic: (Hieroglyphs: A1, X1, G1) Co.]\n[Handwritten Arabic: ما أظن عمل ترميمات]\n[Handwritten Arabic: و حوائط المقبرة]\n[Handwritten Arabic: تحتاج إلى 4149]\n[Handwritten Arabic: من ذلك الطوب اللازم]\n[Handwritten Arabic: 1924]"
+}

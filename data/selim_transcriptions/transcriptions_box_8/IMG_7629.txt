@@ -1,0 +1,42 @@
+Reference Number: 55 بشهر 4/1/4
+Document Date: 1938-05-04
+Sender: Youssef Rustom Attar, Egyptian Antiquities Inspector at Giza Pyramids
+Excavation Site: Giza Pyramids
+Entities Mentioned: Youssef Rustom Attar, Ibrahim Ahmed El-Diwani
+Thematic Tags: Antiquities Service, Supply Record, Wood Procurement, Financial Transaction
+Brief Summary: This document is a record from May 4, 1938, initiated by Youssef Rustom Attar, the Egyptian Antiquities Inspector at Giza, detailing the receipt and payment for wood supplied by Ibrahim Ahmed El-Diwani, registered under ledger number 55.
+English Translation: Egypt, May 4, 1938
+From what is requested from His Excellency, the Egyptian Antiquities Inspector Youssef Rustom Attar of the Pyramids.
+Registered in ledger number 55, month 4/1/4.
+On May 4, 1938.
+
+Ibrahim Ahmed El-Diwani
+Rue Yacoub Nasrieh, Le Caire — Téléph. No. 42910
+
+This is for the value of wood that was received after sorting, inspection, and acceptance.
+
+Item | Quantity | Inches | Feet | Price
+--- | --- | --- | --- | ---
+Wood 400 x 400 | 40 | 400 | 400 | 160
+Wood 400 x 400 | 40
+Stamps and Annotations: Handwritten Arabic date: مصر في ٤ مايو سنة ١٩٣٨ (Egypt, May 4, 1938), Handwritten Arabic annotation: قيد في السجل رقم ٥٥ بشهر ٤/١/٤ (Registered in ledger number 55, month 4/1/4), Handwritten Arabic date: في ٤ مايو ١٩٣٨ (On May 4, 1938)
+Confidence Notes: The exact interpretation of the 'بوصة' (inches) and 'قدم' (feet) columns in the table, which both show '400' for 40 pieces of wood, is unclear and might represent a specific internal unit or a total dimension rather than individual piece dimensions. The second line of the table is incomplete.
+
+Full Transcription:
+------------------------------------------------------------
+[Handwritten Arabic: مصر في ٤ مايو سنة ١٩٣٨]
+[Handwritten Arabic: من المطلوب من حضرة معلم الآثار المصرى يوسف رستم عطار الأهرام]
+[Handwritten Arabic: قيد في السجل رقم ٥٥ بشهر ٤/١/٤]
+[Handwritten Arabic: في ٤ مايو ١٩٣٨]
+
+[Handwritten Arabic: إبراهيم أحمد الديواني]
+IBRAHIM AHMED EL-DIWANI
+[Handwritten Arabic: شارع يعقوب بالناصرية بمصر - تليفون رقم ٤٢٩١٠]
+Rue Yacoub Nasrieh, Le Caire — Téléph. No. 42910
+
+[Handwritten Arabic: وذلك عن قيمة من أخشاب صار استلامها بعد الفرز والمعاينة والقبول]
+
+[Handwritten Arabic: صنف] | [Handwritten Arabic: عدد] | [Handwritten Arabic: بوصة] | [Handwritten Arabic: قدم] | [Handwritten Arabic: سعر]
+--- | --- | --- | --- | ---
+[Handwritten Arabic: خشب ٤٠٠ × ٤٠٠] | [Handwritten Arabic: ٤٠] | [Handwritten Arabic: ٤٠٠] | [Handwritten Arabic: ٤٠٠] | [Handwritten Arabic: ١٦٠]
+[Handwritten Arabic: خشب ٤٠٠ × ٤٠٠] | [Handwritten Arabic: ٤٠

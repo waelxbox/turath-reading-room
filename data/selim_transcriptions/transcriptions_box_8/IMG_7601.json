@@ -1,0 +1,31 @@
+{
+  "Reference_Number": "22.20/17",
+  "Document_Date": "1926-04-07",
+  "Sender": "P. Lacau, Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux du Service des Antiquités, Poste des Pyramides",
+  "Excavation_Site": "Giza (Sphinx, Mastabas)",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "P. Lacau",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Funding",
+    "Conservation",
+    "Giza",
+    "Sphinx"
+  ],
+  "Brief_Summary": "The Director General informs E. Baraize that a sum of L.E.100 has been allocated to complete the repair of mastabas and consolidate the retaining wall around the Sphinx.",
+  "English_Translation": "(FORM No. 1533, F.C.)\nCairo, April 7, 1926.\n[Handwritten Arabic: Archived/Preserved]\n\nANTIQUITIES SERVICE.\n_\nGENERAL DIRECTORATE.\n_\nN° 22.20/17\n_\nEnclosures _._\n\nSubject :\n\nSir, Director of Works,\n\nFollowing my letter of yesterday, N°22.20/17, I have the honor to inform you that we are placing at your disposal a sum of L.E.100 to enable you to complete the repair of the mastabas and to consolidate the retaining wall around the Sphinx.\n\nPlease accept, Sir, Director of Works, the assurance of my distinguished consideration.\n\n[Handwritten initial: H]\n\nTHE DIRECTOR GENERAL,\n\n[Handwritten signature: Placer]\n\nMonsieur E. Baraize,\nDirector of Works\nof the Antiquities Service,\nPyramids Post.",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic annotation: 'حُفِظَ' (Archived/Preserved)",
+    "Handwritten initial: 'H'",
+    "Handwritten signature: 'Placer' (P. Lacau)",
+    "Stamp: (132 D.) EGY GOVE.",
+    "Stamp: CAIRE 7 AP.26 3DR.",
+    "Stamp: SERVICE DES ANTIQUITÉS CAIRE 7 AVRIL 1926"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(FORM No. 1533, F.C.)\nLe Caire, le _7 Avril_ 1926.\n[Handwritten Arabic: حُفِظَ]\n\nSERVICE DES ANTIQUITÉS.\n_\nDIRECTION GÉNÉRALE.\n_\nN° _22.20/17_\n_\nPièces jointes _._\n\nObjet : _\n\nMonsieur le Directeur de Travaux,\n\nFaisant suite à ma lettre d'hier,\nN°22.20/17, j'ai l'honneur de vous faire savoir\nque nous mettons à votre disposition une somme\nde L.E.100 pour vous permettre de compléter\nla réparation des mastabas et de consolider\nle mur de soutènement autour du Sphinx.\n\nVeuillez agréer, Monsieur le Directeur\nde Travaux, l'assurance de ma considération\ndistinguée.\n\n[Handwritten initial: H]\n\nLE DIRECTEUR GENERAL,\n\n[Handwritten signature: Placer]\n\nMonsieur E.Baraize,\nDirecteur de Travaux\ndu Service des Antiquités,\nPoste des Pyramides.\n\n[Stamp: (132 D.) EGY GOVE.]\n[Stamp: CAIRE 7 AP.26 3DR.]\n[Stamp: SERVICE DES ANTIQUITÉS CAIRE 7 AVRIL 1926]"
+}

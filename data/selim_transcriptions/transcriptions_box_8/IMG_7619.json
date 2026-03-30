@@ -1,0 +1,27 @@
+{
+  "Reference_Number": "N° 5.2/7",
+  "Document_Date": "1921-11-15",
+  "Sender": "P. Lacau, Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux du Service des Antiquités, Assouan Shellal",
+  "Excavation_Site": "Temple de Louxor, Cour de Ramsès II",
+  "Entities_Mentioned": [
+    "E. Baraize",
+    "P. Lacau",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Excavation",
+    "Conservation",
+    "Temple of Luxor",
+    "Ramses II"
+  ],
+  "Brief_Summary": "The Director General approves the proposed expenditure for work to be carried out in the Court of Ramses II at the Temple of Luxor, giving the recipient flexibility on when to commence the work.",
+  "English_Translation": "SERVICE OF ANTIQUITIES.\nGENERAL DIRECTORATE.\nNº 5.2/7\nAttached documents____\n\n(MODEL Nº 37 — [Handwritten Arabic: Form number 37])\nCairo, November 15, 1921\n\nSUBJECT.- Work to be carried out at the Temple of Luxor.\n\nMr. Director of Works,\n\nIn response to your letter of November 9th current, Nº73, I have the honor to inform you that I approve the expenditure foreseen therein for the work to be carried out in the Court of Ramses II.\nYou may undertake this work as soon as you return from Philae or after Dendera, at your choice.\nPlease accept, Mr. Director, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n[Signature: Placar]\n\nMr. E. Baraize,\nDirector of Works of the Antiquities Service,\nat Assouan Shellal.",
+  "Stamps_and_Annotations": [
+    "MODÈLE Nº 37",
+    "Handwritten Arabic: أورنيك نمرة ٣٧ (Form number 37)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nDIRECTION GÉNÉRALE.\nNº 5.2/7\nPièces jointes____\n\n(MODÈLE Nº 37 — [Handwritten Arabic: أورنيك نمرة ٣٧])\nLe Caire, le 15 Nov. 1921\n\nOBJET.- Travaux à exécuter au Temple de\nLouxor.\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre du 9 Novembre\ncourant, Nº73, j'ai l'honneur de vous faire savoir\nque j'approuve la dépense qui y est prévue pour les\ntravaux à exécuter dans la Cour de Ramsès II.\nVous pourrez entreprendre ce travail dès\nque vous reviendrez de Philae ou après Dendérah, à\nvotre choix.\nVeuillez agréer, Monsieur le Directeur,\nl'assurance de ma considération distinguée.\n\nLE DIRECTEUR GÉNÉRAL,\n[Signature: Placar]\n\nMonsieur E. Baraize,\nDirecteur de Travaux du Sce\nAntiquités, à Assouan shellal."
+}

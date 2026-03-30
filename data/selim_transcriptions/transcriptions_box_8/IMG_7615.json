@@ -1,0 +1,34 @@
+{
+  "Reference_Number": "25-4/1",
+  "Document_Date": "1922-02-25",
+  "Sender": "Cecil M Firth",
+  "Recipient": null,
+  "Excavation_Site": "Chapel of Ptahhotep",
+  "Entities_Mentioned": [
+    "Cecil M Firth"
+  ],
+  "Thematic_Tags": [
+    "Lighting design",
+    "Conservation",
+    "Architectural recommendations",
+    "Chapel of Ptahhotep"
+  ],
+  "Brief_Summary": "Cecil M Firth provides architectural recommendations for lighting the Chapel of Ptahhotep, suggesting the use of narrow horizontal skylights or a central skylight to achieve appropriate illumination for the reliefs while ensuring ventilation and protection from elements.",
+  "English_Translation": "GENERAL\nOF THE\nANTIQUITIES\n(MODEL N° 37. — [Handwritten Arabic: Form number 37])\n\nCairo, February 25, 1922.\n\n[Handwritten: 25-4/1]\nANTIQUITIES SERVICE.\nOF EGYPT.\n(MODEL N° 39 — [Handwritten Arabic: Form number 39])\n\nThis would ensure a lighting as in antiquity of Chapel\nof Ptahhotep\nWhere however an external wall is not available\na good lighting could be obtained by means of long\nnarrow horizontal skylights of ribbed or obscured\nglass (protected outside with wire netting) placed in the\nroof above the reliefs it was desired to light. These\nskylights could have one section hinged to open for\nventilation and the frames would be raised 5 centimetres\nabove surface of roof to prevent rain or sand accumulating\nagainst them.\nA central skylight could be used when preferable.\n\n[Pencil note: glass]\n[Pencil note: Curved joint]\n[Pencil note: Roof]\n[Pencil note: Wall relief]\n\nYours faithfully\nCecil M Firth",
+  "Stamps_and_Annotations": [
+    "GÉNÉRALE DU ES ANTIQU (partial header/stamp)",
+    "MODÈLE N° 37",
+    "Handwritten Arabic: أورنيك نمرة ٣٧ (Form number 37)",
+    "Handwritten: 25-4/1",
+    "SERVICE DES ANTIQUITÉS. D'EGYPTE. (header/stamp)",
+    "MODÈLE N° 39",
+    "Handwritten Arabic: أورنيك نمرة ٣٩ (Form number 39)",
+    "Pencil note: glass",
+    "Pencil note: Curved joint",
+    "Pencil note: Roof",
+    "Pencil note: Wall relief"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "GÉNÉRALE\nDU\nES ANTIQU\n(MODÈLE N° 37. — [Handwritten Arabic: أورنيك نمرة ٣٧])\n\nCaire, le 25 Février 1922.\n\n[Handwritten: 25-4/1]\nSERVICE DES ANTIQUITÉS.\nD'EGYPTE.\n(MODÈLE N° 39 — [Handwritten Arabic: أورنيك نمرة ٣٩])\n\nThis would ensure a lighting as in antiquity of Chapel\nof Ptahhotep\nWhere however an external wall is not available\na good lighting could be obtained by means of long\nnarrow horizontal skylights of ribbed or obscured\nglass (protected outside with wire netting) placed in the\nroof above the reliefs it was desired to light. These\nskylights could have one section hinged to open for\nventilation and the frames would be raised 5 centimetres\nabove surface of roof to prevent rain or sand accumulating\nagainst them.\nA central skylight could be used when preferable.\n\n[Pencil note: glass]\n[Pencil note: Curved joint]\n[Pencil note: Roof]\n[Pencil note: Wall relief]\n\nYours faithfully\nCecil M Firth"
+}

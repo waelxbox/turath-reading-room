@@ -1,0 +1,30 @@
+{
+  "Reference_Number": "N° 5-2/8",
+  "Document_Date": "1928-12-24",
+  "Sender": "P. Lacau, Directeur Général (Director General)",
+  "Recipient": "Monsieur E. Baraize, Directeur des Travaux du Service des Antiquités, Abydos, BALIANA (Director of Works of the Antiquities Service, Abydos, BALIANA)",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Column repair",
+    "Hypostyle Hall",
+    "Abydos",
+    "Budget approval"
+  ],
+  "Brief_Summary": "The Director General approves the proposed method and budget of L.E. 80 for the repair of a column in the Hypostyle Hall at Abydos and requests the work to commence immediately, stating he will visit Abydos soon.",
+  "English_Translation": "(FORM No. 1533, F.C.)\n\nANTIQUITIES SERVICE.\n                                                                Cairo, December 24, 1928.\n\nGENERAL DIRECTION.\n                                                                [Handwritten Arabic: Pillars, [unclear term], repair, column, director of air/wind]\nN° 5-2/8. [Handwritten Arabic: Submitted]\nAttached documents\n                                                                Monsieur the Director of Works.\n\n                                                                In response to your letter N°156 of the 21st of this current December, I have the honor to inform you that I approve the method you recommend for the repair of the column in the Hypostyle Hall, and I approve the expenditure which you estimate should amount to L.E. 80.\n\n                                                                I ask you to please begin the work immediately. I myself will soon pass through Abydos.\n\n                                                                Please accept, Monsieur the Director of Works, the assurance of my distinguished consideration.\n\n                                                                                THE DIRECTOR GENERAL.\n\n                                                                                [Handwritten signature: Placa]\n\nMonsieur E. Baraize,\nDirector of Works\nof the Antiquities Service,\nAbydos, BALIANA.",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533, F.C.",
+    "Handwritten date '24' for December 24, 1928",
+    "Handwritten Arabic annotation: 'اعماد فليش اصلاح عامود عميد الهوا' (Pillars, [unclear term], repair, column, director of air/wind)",
+    "Handwritten Arabic annotation: 'المرفوع' (Submitted/Filed)",
+    "Handwritten signature: 'Placa' (P. Lacau)"
+  ],
+  "Confidence_Notes": "The handwritten Arabic annotation 'اعماد فليش اصلاح عامود عميد الهوا' is difficult to translate precisely due to the ambiguity of 'فليش' and the overall context, but it clearly relates to column repair. The rest of the document is clear.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(FORM No. 1533, F.C.)\n\nSERVICE DES ANTIQUITÉS.\n                                                                Le Caire, [Handwritten: 24] Décembre, 1928.\n\nDIRECTION GÉNÉRALE.\n                                                                [Handwritten Arabic: اعماد فليش اصلاح عامود عميد الهوا]\nN° 5-2/8. [Handwritten Arabic: المرفوع]                       Objet :\nPièces jointes\n                                                                Monsieur le Directeur des Travaux.\n\n                                                                En réponse à votre lettre N°156 du 21 Dé-\n                                                                cembre courant, j'ai l'honneur de vous informer que\n                                                                j'approuve le procédé que vous préconisez pour la\n                                                                réparation de la colonne de la Salle Hypostyle, et\n                                                                j'approuve la dépense que vous estimez devoir s'élever\n                                                                à L.E.80.\n\n                                                                Je vous prie de vouloir bien commencer\n                                                                le travail de suite. Je passerai moi-même bientôt à\n                                                                Abydos.\n\n                                                                Veuillez agréer, Monsieur le Directeur\n                                                                des Travaux, l'assurance de ma considération distinguée.\n\n                                                                                LE DIRECTEUR GENERAL.\n\n                                                                                [Handwritten signature: Placa]\n\nMonsieur E.Baraize,\nDirecteur des Travaux\ndu Service des Antiquités,\nAbydos, BALIANA."
+}

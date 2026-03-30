@@ -1,0 +1,34 @@
+{
+  "Reference_Number": "N° 25.4/17",
+  "Document_Date": "1928-05-18",
+  "Sender": "P. Lacau, Directeur Général",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Service des Antiquités, Abydos, par Balianah",
+  "Excavation_Site": "Giza (Sphinx, Plateau)",
+  "Entities_Mentioned": [
+    "Kha-our",
+    "M. Junker",
+    "Parlement",
+    "P. Lacau",
+    "E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Excavation planning",
+    "Conservation",
+    "Budget",
+    "Infrastructure"
+  ],
+  "Brief_Summary": "P. Lacau informs E. Baraize of several upcoming projects for October, including the removal of Kha-our's sarcophagus, clearing in front of the Sphinx, and tomb consolidation, requesting a cost estimate. He also notes that the new Pyramids road construction awaits parliamentary budget approval.",
+  "English_Translation": "N 25.4/17\n\nattached\n\nSubject: [Handwritten Arabic: ادارى] 1928.\n[Handwritten Arabic: د]\n[Handwritten Arabic: ليز]\n\nMr. Director of Works,\n\nIn response to your letter dated May 13th current, N°65, I have the honor to inform you that we would like to entrust you with the following works next October:\n1) removal of the sarcophagus of Kha-our;\n2) clearing in front of the Sphinx;\n3) covering, consolidation and closing of different tombs on the plateau, among others in the concession of Mr. Junker.\n\nI ask you to please review all of this when you pass through on your return, so that a cost estimate for the execution of these works can be established.\n\nFor the construction of the new Pyramids road, we must wait for the budget to be voted by Parliament.\n\nPlease accept, Mr. Director of Works, the assurance of my distinguished consideration.\n\nTHE DIRECTOR GENERAL,\n\n[Handwritten signature: P. Lacau]\n\nE. Baraize,\nDirector of Works,\nService of Antiquities,\nAbydos, via Balianah.\n\n[Pencil note: (13)]\n[Handwritten Arabic: ١٨]\n\nLuxor",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: ادارى",
+    "Handwritten Arabic: د",
+    "Handwritten Arabic: ليز",
+    "Handwritten signature: P. Lacau",
+    "Pencil note: (13)",
+    "Handwritten Arabic: ١٨",
+    "Louxor"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "N 25.4/17\n\nes jointes\n\nObjet : [Handwritten Arabic: ادارى] 192 8.\n[Handwritten Arabic: د]\n[Handwritten Arabic: ليز]\n\nMonsieur le Directeur de Travaux,\n\nEn réponse à votre lettre en date du\n13 Mai courant, N°65, j'ai l'honneur de vous\nfaire savoir que nous voudrions vous confier\nles travaux suivants en octobre prochain :\n1) sortie du sarcophage de Kha-our;\n2) déblaiement en avant du Sphinx;\n3) couverture, consolidation et fermeture de\ndifférentes tombes sur le plateau, entre\nautres dans la concession de M.Junker.\n\nJe vous prie de vouloir bien voir tout\ncela en passant à votre retour pour pouvoir\nétablir un devis de ce que coûterait l'exécution\nde ces travaux.\n\nPour la construction de la nouvelle\nroute des Pyramides, il faut attendre que le\nbudget soit voté par le Parlement.\n\nVeuillez agréer, Monsieur le Directeur\nde Travaux, l'assurance de ma considération dis-\ntinguée.\n\nLE DIRECTEUR GENERAL,\n\n[Handwritten signature: P. Lacau]\n\nE.Baraize,\nur de Travaux,\ne des Antiquités,\nbydos, par Balianah.\n\n[Pencil note: (13)]\n[Handwritten Arabic: ١٨]\n\nLouxor"
+}

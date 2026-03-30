@@ -1,0 +1,26 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": null,
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Abydos",
+  "Entities_Mentioned": [
+    "M. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Excavation Plan",
+    "Temple Maintenance",
+    "Abydos Archaeology",
+    "Conservation"
+  ],
+  "Brief_Summary": "This document outlines a detailed work plan for M. Baraize at Abydos for the 1922-1923 season, including tasks such as covering chapels, clearing specific rooms, and carefully sorting archaeological fragments and stone blocks.",
+  "English_Translation": "NOTE TO M. BARAIZE ON THE WORKS TO BE CARRIED OUT AT ABYDOS IN 1922-1923.-\n-----------\n1°.- Covering of the three chapels to the right of the Great Pillared Hall which forms the back (west) of the temple. Study of the lighting of the bas-reliefs through this covering.\n\n2°.- Emptying the doorless room (two stories) which forms the North-West corner of the temple. Exploring the floor which has never been examined.\n\n3°.- Clearing the debris from the columned hall (overturned columns) which is next to the abattoir. Do not move the collapsed column drums until my arrival. Carefully sort all scattered stone blocks; there must be some that come from the cornice of the Hall.\n\n4°.- Clearing the debris from the Hall of Barques. Pay attention to all fragments; a stone table surrounds the hall, the inscription on the edge is broken in places: the pieces must be in the debris. Collect them with",
+  "Stamps_and_Annotations": [
+    "Pencil note: EGY GOVER 1320",
+    "Handwritten Arabic: 1320",
+    "Handwritten Arabic: 1320"
+  ],
+  "Confidence_Notes": "The last sentence of point 4 is incomplete in the original transcription.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Pencil note: EGY\nGOVER\n1320]\n[Handwritten Arabic: 1320]\n[Handwritten Arabic: 1320]\n\nNOTE A M. BARAIZE SUR LES TRAVAUX A EXECUTER\n\nA ABYDOS EN 1922-1923.-\n-----------\n\n1°.- Couverture des trois chapelles à droite de la Grande Salle\n    à piliers qui forme le fond (ouest) du temple. Etude de\n    l'éclairage des bas-reliefs à travers cette couverture.\n\n2°.- Vider la salle sans porte (à deux étages) qui forme l'angle\n    Nord-Ouest du temple. Explorer le sol qui n'a jamais été\n    examiné.\n\n3°.- Débarrasser de ses déblais la salle à colonnes (renversées)\n    qui se trouve à côté de l'abattoir. Ne pas bouger les tambours\n    de colonne écroulées jusqu'à mon arrivée. Trier avec soin\n    tous les blocs de pierre épars, il doit y en avoir qui pro-\n    viennent de la corniche de la Salle.\n\n4°.- Débarrasser de ses déblais la Salle des barques. Faire\n    attention à tous les fragments; une table de pierre entoure\n    la salle, l'inscription du bord est brisée par places: les\n    morceaux doivent être dans les déblais. Les recueillir avec"
+}

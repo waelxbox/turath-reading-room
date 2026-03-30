@@ -1,0 +1,39 @@
+{
+  "Reference_Number": "N° 537",
+  "Document_Date": "1928-06-14",
+  "Sender": "P. Lacau, Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": [
+    "Luxor Temple",
+    "Deir el-Bahari",
+    "Monastery of St. Simeon (Aswan)",
+    "Tomb of Ramose",
+    "Sphinx (Giza)",
+    "Tomb of Djebel Mealla",
+    "Edfu Temple",
+    "Abydos",
+    "Medinet Habu"
+  ],
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "E. Baraize",
+    "Service des Antiquités",
+    "Seti I"
+  ],
+  "Thematic_Tags": [
+    "Financial Report",
+    "Archaeological Excavation",
+    "Conservation Projects",
+    "Budget Allocation"
+  ],
+  "Brief_Summary": "This document is a financial statement detailing the credits allocated and spent for the works of Mr. E. Baraize during the 1928-29 financial year, followed by a service order outlining the remaining credits and specific tasks for various archaeological sites.",
+  "English_Translation": "STATEMENT\nof credits opened for the works of Mr. Baraize\nduring the financial year 1928-29.\n\n[Handwritten Arabic: Total credit in full]\n\nItem. Works Credit granted Sum spent from Balance of credit\nL.E.m/m May 1st, 1928 until today on June 14th, 1928.\nL.E.m/m L.E.m/m\n\n5 Luxor Temple 89.390 89.390 -----\n5 Deir el-Bahari 73.780 73.780 200.--\n5 Monastery of St. Simeon 1.465 1.465 -----\nat Aswan\n5 Tomb of Ramose 16.275 16.275 -----\n4 SPHINX of Giza 555.807 5.807 550.--\n5 Tomb of Mealla 110.--- ----- 110.--- \n5 Edfu Temple 150.--- ----- 150.--- \nABYDOS 800.--- ----- 800.--- \n5 MEDINET-HABOU (service house 30.--- ----- 30.--- \nand Aswan Museum)\n\nL.E.2026.667m/m L.E.186.667m/m L.E.1840.---\n========== ========== ==========\n\nSERVICE ORDER N° 537\n\nAs of today, the remaining credits at the disposal of\nMr. E. Baraize until the end of the current financial year are as\nfollows: Credit\nL.E.m/m\n\nSPHINX - Continue the clearing of the East facade\nof this monument .......... 550.--\n\nDEIR EL-BAHARI - Reconstruction of the Portico, statues,\npillars; photos. of. blocks. of. the. peristyle..... 200.--\n\nTOMB OF DJEBEL MEALLA - Wooden roof .......... 110.--\n\nEDFU TEMPLE - Reconstruction of the sanctuary roof 150.--\n\nABYDOS - Continue the construction of the roof of the Temple\nof Seti I; iron construction of the roof\nof the Osireion corridor .......... 800.--\n\nSERVICE HOUSE AT MEDINET HABOU AND ASWAN MUSEUM : 30.--\n----------\nL.E.1840.--\n==========\n\nCairo, June 14, 1928.\n\nTHE DIRECTOR GENERAL\nOF THE ANTIQUITIES SERVICE.\nsigned: P. Lacau",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: مجموع الاعتماد بالكامل (Total credit in full)",
+    "Handwritten: 537",
+    "Handwritten signature: P. Lacau"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "ETAT\ndes crédits ouverts pour les travaux de M. Baraize\ndurant l'exercice financier 1928-29.\n\n[Handwritten Arabic: مجموع الاعتماد بالكامل]\n\nArt. Travaux Crédit accordé Somme dépensée du Solde du crédit\nL.E.m/m 1er Mai 1928 jusqu'à ce jour au 14 Juin 1928.\nL.E.m/m L.E.m/m\n\n5 Temple de Louxor 89.390 89.390 -----\n5 Deir el-Bahari 73.780 73.780 200.--\n5 Couvent St. Siméon 1.465 1.465 -----\nà Assouan\n5 Tombe de Ramosé 16.275 16.275 -----\n4 SPHINX de Guizeh 555.807 5.807 550.--\n5 Tombe Méalla 110.--- ----- 110.---\n5 Temple Edfou 150.--- ----- 150.---\nABYDOS 800.--- ----- 800.---\n5 MEDINET-HABOU (maison du 30.--- ----- 30.---\net Musée d'Assouan service)\n\nL.E.2026.667m/m L.E.186.667m/m L.E.1840.---\n========== ========== ==========\n\nORDRE DE SERVICE N° [Handwritten: 537]\n\nA partir de ce jour, les crédits restant à la disposition de\nM. E. Baraize jusqu'à la fin de l'exercice en cours sont les\nsuivants : Crédit\nL.E.m/m\n\nSPHINX - Continuer le déblaiement de la façade\nEst de ce monument .......... 550.--\n\nDEIR EL-BAHARI - Reconstruction du Portique, statues,\npiliers; photos. des. blocs. du. perystyle..... 200.--\n\nTOMBE DJEBEL MEALLA - Toiture en bois .......... 110.--\n\nTEMPLE EDFOU - Reconstruction de la toiture du sanctuaire 150.--\n\nABYDOS - Continuer la construction de la toiture du Temple\nde Seti 1er; construction en fer de la toiture\ndu couloir de l'Osiréion .......... 800.--\n\nMAISON DU SERVICE A MEDINET HABOU ET MUSEE D'ASSOUAN : 30.--\n----------\nL.E.1840.--\n==========\n\nLe Caire, le 14 Juin 1928.\n\nLE DIRECTEUR GENERAL\nDU SERVICE DES ANTIQUITES.\nsigne : [Handwritten: P. Lacau]"
+}

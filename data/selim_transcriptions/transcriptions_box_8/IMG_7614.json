@@ -1,0 +1,26 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": "Cecil M. Firth",
+  "Recipient": null,
+  "Excavation_Site": "Mastaba chapel",
+  "Entities_Mentioned": [
+    "Cecil M. Firth"
+  ],
+  "Thematic_Tags": [
+    "Archaeological Description",
+    "Architectural Features",
+    "Mastaba",
+    "Chapel Design"
+  ],
+  "Brief_Summary": "A fragmented note from Cecil M. Firth discussing architectural features of a mastaba chapel, including its outer walls, corridors, and window sizes, with a focus on daylight.",
+  "English_Translation": "Pencil note: Pra\nstorda\nchapel of\nthe mastaba without\ng up the outer walls. For\ncorridors leading to the\nand a larger amount of daylight\nthe size of the windows (which\n\nYours faithfully\nCecil M. Firth\n\nHandwritten Arabic: سيرى ترى و تواجه (He will see, you will see, and you will face/encounter)\nHandwritten Arabic: سأل عن هذا و لا (He asked about this and not...)",
+  "Stamps_and_Annotations": [
+    "Pencil note: Pra",
+    "Handwritten Arabic: سيرى ترى و تواجه",
+    "Handwritten Arabic: سأل عن هذا و لا"
+  ],
+  "Confidence_Notes": "The document is highly fragmented and incomplete, making full contextual understanding difficult. Several words appear to be partial or misspelled (e.g., 'storda', 'g up').",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Pencil note: Pra]\nstorda\nchapel of\nthe mastaba without\ng up the outer walls. For\ncorridors leading to the\nand a larger amount of daylight\nthe size of the windows (which\n\nYours faithfully\nCecil M. Firth\n\n[Handwritten Arabic: سيرى ترى و تواجه]\n[Handwritten Arabic: سأل عن هذا و لا]"
+}

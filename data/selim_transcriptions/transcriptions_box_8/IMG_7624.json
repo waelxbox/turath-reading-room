@@ -1,0 +1,42 @@
+{
+  "Reference_Number": "260",
+  "Document_Date": "1939-XX-XX",
+  "Sender": "Mohamed Ali El Nemr, Iron, Paints, and Building Materials Merchant and Government Contractor, 117 Rue Fouad Ier, Cairo",
+  "Recipient": "Egyptian Antiquities Service, Cairo",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Mohamed Ali El Nemr",
+    "Egyptian Antiquities Service",
+    "Suwaili El Nemr",
+    "Ibrahim Rafiq"
+  ],
+  "Thematic_Tags": [
+    "Invoice",
+    "Building Materials",
+    "Government Procurement",
+    "Antiquities Service"
+  ],
+  "Brief_Summary": "This document is an invoice or request for payment from Mohamed Ali El Nemr, a building materials supplier in Cairo, to the Egyptian Antiquities Service for goods supplied in 1939, pending inspection, acceptance, and payment.",
+  "English_Translation": "MOHAMED ALI EL NEMR\nIron, Paints, and Building Materials Merchant and Contractor for Government Agencies, Local and Municipal Councils, etc.\nFouad I Street No. 117, Cairo, Telephone\n\nBank 4 - 6 year 1939\nRequested from His Excellency the Antiquities Service\nThe value of the goods detailed below, after inspection, acceptance, and receipt.\n\nCommercial Register 28138\n260\n\nFrom department\nSent, yes\nTo Suwaili El Nemr\nIbrahim Rafiq\nThe similar section/department\nFlood on the...\n\nItem / Quantity / In it\nNumber / 11 / 20 / 20\nIron mast/pole base / 1/2/3/4/5/6/7/8 / 20 / 20\n\nSent (diagonal)\n\nRecipient's signature\nSignature\n\n20\nCheck\n10",
+  "Stamps_and_Annotations": [
+    "Paper clip: V shape",
+    "Handwritten Arabic: الآثار (Antiquities)",
+    "Handwritten Arabic: سجل تجاري ٢٨١٣٨ (Commercial Register 28138)",
+    "Handwritten Arabic: ٢٦٠ (260)",
+    "Handwritten Arabic: من قسم (From department)",
+    "Handwritten Arabic: رسل نعم (Sent, yes)",
+    "Handwritten Arabic: ل سويلي النمر (To Suwaili El Nemr)",
+    "Handwritten Arabic: ابراهيم رفيق (Ibrahim Rafiq)",
+    "Handwritten Arabic: القسم الشبيه (The similar section/department)",
+    "Handwritten Arabic: سيل على الـ (Flood on the...)",
+    "Handwritten Arabic: عدد (Number)",
+    "Handwritten Arabic: قارية ساريه حديد (Iron mast/pole base)",
+    "Handwritten Arabic: ارسلت (Sent)",
+    "Handwritten Arabic: امضاء المستلم (Recipient's signature)",
+    "Handwritten Arabic: امضاء (Signature)",
+    "Handwritten Arabic: شيكه (Check)"
+  ],
+  "Confidence_Notes": "The exact meaning of 'مصرف ٤ - ٦ سنة ١٩٣٩' is ambiguous; it could refer to a bank account, a period (e.g., April-June), or a specific transaction reference. 'قارية ساريه حديد' is translated as 'Iron mast/pole base', interpreting 'قارية' as a base or support for a 'سارية حديد' (iron mast/pole). The phrase 'سيل على الـ' is unclear in context and translated literally as 'Flood on the...'",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Paper clip: V shape]\n\n                                                                                                محمد على النمر\n                                                                                                تاجر حديد وبويات وادوات العمارات\n                                                                                                ومتعهد توريدات مصالح الحكومه والمجالس المحليه والبلديه وخلافها\n                                                                                                شارع فؤاد الاول نمرة ١١٧ بمصر تليفون\nMOHAMED ALI EL NEMR\n117 Rue Fouad Ier Caire Tele\n\nمصرف ٤ - ٦ سنة ١٩٣٩\nالمطلوب من جناب مصالح [Handwritten Arabic: الآثار]\nقيمة البضاعة الآتى بيانها بعد المعاينة والقبول والاستلام\n\n[Handwritten Arabic: سجل تجاري ٢٨١٣٨]\n[Handwritten Arabic: ٢٦٠]\n\n                                                                                                [Handwritten Arabic: من قسم]\n                                                                                                [Handwritten Arabic: رسل نعم]\n                                                                                                [Handwritten Arabic: ل سويلي النمر]\n                                                                                                [Handwritten Arabic: ابراهيم رفيق]\n                                                                                                [Handwritten Arabic: القسم الشبيه]\n                                                                                                [Handwritten Arabic: سيل على الـ]\n\nصنف                                 عدد                                 فيه\n[Handwritten Arabic: عدد]                               [Handwritten Arabic: 11]                               [Handwritten Arabic: 20]                               [Handwritten Arabic: 20]\n[Handwritten Arabic: قارية ساريه حديد]                     [Handwritten Arabic: 1/2/3/4/5/6/7/8]                     [Handwritten Arabic: 20]                               [Handwritten Arabic: 20]\n\n[Handwritten Arabic: ارسلت] (diagonal, over table area)\n\n[Handwritten Arabic: امضاء المستلم]\n[Handwritten Arabic: امضاء]\n\n                                                                                                [Handwritten Arabic: 20]\n                                                                                                [Handwritten Arabic: شيكه]\n                                                                                                [Handwritten Arabic: 10]"
+}

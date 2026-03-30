@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "N° 469",
+  "Document_Date": "1926-04-28",
+  "Sender": "P. Lacau, Director General of the Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Osireion at Abydos",
+  "Entities_Mentioned": [
+    "P. Lacau",
+    "C.L. Edgar",
+    "M. Baraize",
+    "Mohammed Eff. Ahmed Ibrahim",
+    "Egyptian Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Excavation Funding",
+    "Personnel Assignment",
+    "Abydos",
+    "Osireion"
+  ],
+  "Brief_Summary": "This service order allocates L.E. 200 to Mr. Baraize for work at the Osireion in Abydos and assigns Mohammed Eff. Ahmed Ibrahim to the site. A copy of the order is transmitted to Mr. Baraize for his information and necessary action.",
+  "English_Translation": "Cairo, April 7, 1926.\n[Handwritten Arabic: Department of Antiquities]\n\nANTIQUITIES SERVICE\n---------\nGeneral Directorate\n\n[Pencil note: 42.80/27]\n\nSubject:\nSERVICE ORDER N° 469\n\nA sum of L.E. 200 is placed at the disposal of Mr. Baraize for the work at the Osireion in Abydos.\nHe will employ Mohammed Eff. Ahmed Ibrahim on this site.\nCairo, April 28, 1926.\nTHE DIRECTOR GENERAL,\nsigned: P. Lacau.\n--------------------\n\nCopy transmitted to Mr. E. Baraize, for information and necessary action.\n\nFor THE DIRECTOR GENERAL,\n[Handwritten signature: C.L. Edgar]",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: مصلحة (Department)",
+    "Handwritten Arabic: آثار (Antiquities)",
+    "Pencil note: 42.80/27",
+    "Handwritten number: 469",
+    "Handwritten signature: P.Lacau",
+    "Handwritten signature: C.L. Edgar"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "Le Caire, le 7 Avril 1926.\n[Handwritten Arabic: مصلحة]\n[Handwritten Arabic: آثار]\n\nSERVICE DES ANTIQUITES\n---------\nDirection Générale\n\n[Pencil note: 42.80/27]\n\nObjet :\nO R D R E D E S E R V I C E N° [Handwritten: 469]\n\nUne somme de L.E.200 est mise à la disposition\nde M.Baraize pour les travaux de l'Osiréion à\nAbydos.\nIl emploiera sur ce chantier Mohammed Eff.\nAhmed Ibrahim.\nLe Caire, le 28 Avril 1926.\nLE DIRECTEUR GENERAL,\nsigné : P.Lacau.\n--------------------\n\nCopie transmise à M.E.Baraize, pour information\net suite nécessaire.\n\nPr. LE DIRECTEUR GENERAL,\n[Handwritten signature: C.L. Edgar]"
+}

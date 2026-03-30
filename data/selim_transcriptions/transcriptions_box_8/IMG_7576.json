@@ -1,0 +1,25 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": "Directorate General, Egyptian Antiquities Service",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Tomb of Ramose, Ramesseum Temple",
+  "Entities_Mentioned": [
+    "Directorate General, Egyptian Antiquities Service",
+    "His Excellency the Director General"
+  ],
+  "Thematic_Tags": [
+    "Financial allocation",
+    "Excavation funding",
+    "Temple restoration",
+    "Tomb conservation"
+  ],
+  "Brief_Summary": "An administrative order from the Egyptian Antiquities Service allocating 50 Egyptian pounds for the completion of works at the Tomb of Ramose and the foundation works of the Ramesseum temple gate, authorizing an unnamed individual (likely the Works Director) to spend these funds this year.",
+  "English_Translation": "SERVICE DES ANTIQUITES\n-----\nDirection Générale\n-\nAdministrative order to open a credit of 50 Egyptian pounds at the disposal of His Excellency the Director General.\nAnd we also opened a credit of 50 Egyptian pounds to enable the completion of the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to spend from this year for the works of Ramose's tomb.\nAnd also the foundation works of the Ramesseum temple gate, however, he is authorized to",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic text"
+  ],
+  "Confidence_Notes": "The Arabic text is highly repetitive, with the same phrase being written multiple times. The last line of the handwritten Arabic is incomplete.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITES\n-----\nDirection Générale\n-\n\n[Handwritten Arabic: امر اداري بفتح اعتماد قدره ٥٠ جنيها مصريا تحت تصرف جناب المدير العام]\n[Handwritten Arabic: وفتحنا كذلك اعتمادا ٥٠ جنيها مصريا ليمكن من اتمام اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان يصرف من هذه السنة اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان يصرف من هذه السنة اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان يصرف من هذه السنة اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان يصرف من هذه السنة اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان يصرف من هذه السنة اعمال مقبرة راموزيه]\n[Handwritten Arabic: و كذلك اعمال اساسات بوابة معبد الرامسيوم غير انه مرخص له]\n[Handwritten Arabic: ان"
+}

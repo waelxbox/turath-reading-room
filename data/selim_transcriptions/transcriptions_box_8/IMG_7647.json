@@ -1,0 +1,33 @@
+{
+  "Reference_Number": "N° 5",
+  "Document_Date": "1924-12-29",
+  "Sender": "T. Bould, Inspector, Inspectorate of Upper Egypt",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Tomb N° 23, Luxor",
+  "Entities_Mentioned": [
+    "Mr Davies",
+    "The Dir. Gen.",
+    "T. Bould",
+    "Monsieur E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Tomb repair",
+    "Antiquities administration",
+    "Luxor",
+    "Upper Egypt"
+  ],
+  "Brief_Summary": "T. Bould relays the Director General's request to Monsieur Baraize for the prompt repair of Tomb N° 23 and asks him to investigate and discuss the matter.",
+  "English_Translation": "SERVICE OF ANTIQUITIES\nINSPECTORATE OF UPPER EGYPT.\nLuxor 29-12-1924\nN° 5\nEnclosures 1\n\nDear Monsieur Baraze,\nThe enclosed letter of Mr Davies was handed to me by The Dir. Gen. while I was in Cairo. He likes that the tomb N° 23 should be repaired as early as possible. Will you be so kind as to look into this matter & discuss it. Believe me, Dear Mon. Baraze, Yours Very Sincerely, T. Bould",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: تقديمه (Submission/Presentation)",
+    "FORM No. 1556, F.C.",
+    "Pencil note: 15",
+    "Pencil note: EC.16/2",
+    "Pencil note: ities",
+    "Pencil note: ice",
+    "Pencil note: a"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: تقديمه]\n\n(FORM No. 1556, F.C.)\n[Pencil note: 15]\n[Pencil note: EC.16/2]\nSERVICE DES ANTIQUITÉS\n[Pencil note: ities]\n[Pencil note: ice]\nSPECTORAT DE LA HAUTE EGYPTE.\nLuxor 29-12-924\n[Pencil note: a]\nN° 5\nPièces jointes 1\n\nCher Monsieur Baraze\nThe enclosed letter of Mr Davies was\nhanded to me by The Dir. Gen. while I was in\nCairo. He likes that the tomb N° 23 should be\nrepaired as early as possible.\nWill you be so kind as to look into\nthis matter & discuss it.\nBelieve me\nCher Mon. Baraze\nYours Very Sincerely\nT. Bould"
+}

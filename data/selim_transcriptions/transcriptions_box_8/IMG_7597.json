@@ -1,0 +1,32 @@
+{
+  "Reference_Number": "N° 22.20/17",
+  "Document_Date": "1926-11-21",
+  "Sender": "C.C. Edgar, for the Director General",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux, Service des Antiquités, Poste des Pyramides",
+  "Excavation_Site": "Mastaba el-Faraône",
+  "Entities_Mentioned": [
+    "C.C. Edgar",
+    "E. Baraize",
+    "Service des Antiquités"
+  ],
+  "Thematic_Tags": [
+    "Archaeological Funding",
+    "Site Conservation",
+    "Mastaba el-Faraône",
+    "Saqqarah Excavations"
+  ],
+  "Brief_Summary": "The Antiquities Service informs Monsieur E. Baraize that L.E. 150 has been allocated from the Saqqarah budget for consolidation work at Mastaba el-Faraône.",
+  "English_Translation": "FORM No. 1533, F.C.\n\nANTIQUITIES SERVICE.\n—\nGENERAL DIRECTION.\n—\nN° 22.20/17\n\nCairo, November 21, 1926.\nSubject: [Knowledge of the existence of 50 pounds for labor to find a stored roof]\n\nAttachments [Pencil note: 15.]\n\nSir,\n\nIn response to your letter dated November 18th instant, I have the honor to inform you that we are placing at your disposal a sum of L.E. 150 for the consolidation work at Mastaba el-Faraône. This sum will be drawn from the Saqqarah credit.\n\nPlease accept, Sir, the assurance of my distinguished consideration.\n\nfor THE DIRECTOR GENERAL,\n\n[Handwritten signature: C.C. Edgar]\n\nMr. E. Baraize,\nDirector of Works,\nAntiquities Service,\nPyramids Post\n\n[Stamp: ANTIQUITIES SERVICE 22 NOV 1926 (partially visible)]\n[Stamp: Illegible circular red stamp with Arabic text]\n[Stamp: (132 4 GO) and Arabic (partially visible)]",
+  "Stamps_and_Annotations": [
+    "FORM No. 1533, F.C.",
+    "Pencil note: 15.",
+    "Handwritten Arabic in 'Objet' field: علم بوجود عمالة ٥٠ جنيه لايجاد سقف مخزون",
+    "Handwritten signature: C.C. Edgar",
+    "Stamp: SERVICE DES ANTIQUITÉS 22 NOV 1926 (partially visible)",
+    "Stamp: Illegible circular red stamp with Arabic text",
+    "Stamp: (132 4 GO) and Arabic (partially visible)"
+  ],
+  "Confidence_Notes": "The Arabic text in the 'Objet' field is translated literally, but its precise contextual meaning within the French document is somewhat ambiguous. Stamps are partially illegible.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "(FORM No. 1533, F.C.)\n\nSE VICE DES ANTIQUITÉS.\n—\nDIRECTION GÉNÉRALE.\n—\nN° 22.20/17\n\nLe Caire, le 21 Novembre 1926.\nObjet: [Handwritten Arabic: علم بوجود عمالة ٥٠ جنيه لايجاد سقف مخزون]\n\nPièces jointes [Pencil note: 15.]\n\nMonsieur,\n\nEn réponse à votre lettre en date du\n18 Novembre courant, j'ai l'honneur de vous\ninformer que nous mettons à votre disposition\nune somme de L.E.150 pour les travaux de\nconsolidation au Mastaba el-Faraône. Cette\nsomme sera prélevée sur le crédit de Saqqarah.\n\nVeuillez agréer, Monsieur, l'assurance\nde ma considération distinguée.\n\np. LE DIRECTEUR GENERAL,\n\n[Handwritten signature: C.C. Edgar]\n\nMonsieur E.Baraize,\nDirecteur de Travaux,\nService des Antiquités,\nPoste des Pyramides\n\n[Stamp: SERVICE DES ANTIQUITÉS 22 NOV 1926 (partially visible)]\n[Stamp: Illegible circular red stamp with Arabic text]\n[Stamp: (132 4 GO) and Arabic (partially visible)]"
+}

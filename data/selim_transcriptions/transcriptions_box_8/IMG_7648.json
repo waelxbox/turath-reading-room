@@ -1,0 +1,29 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1924-12-18",
+  "Sender": "C.C. Edgar, Inspector of Upper Egypt",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Denderah",
+  "Entities_Mentioned": [
+    "Chief Saffi",
+    "the Inspector",
+    "the Service",
+    "P. Lacau (implied as 'the Sir')"
+  ],
+  "Thematic_Tags": [
+    "Sebakh removal",
+    "Financial irregularities",
+    "Investigation",
+    "Denderah"
+  ],
+  "Brief_Summary": "An inspector reports to Monsieur Baraize about an ongoing investigation into irregular sebakh removal at Denderah, mentioning a confession from Chief Saffi regarding unregistered money given to another inspector, and urges Baraize to verify the facts.",
+  "English_Translation": "ANTIQUITIES SERVICE.\nINSPECTORATE OF UPPER EGYPT.\nN° ______\nAttached documents ______\n\n[Handwritten Arabic: Memo regarding sebakh at Denderah, Luxor 1924 12/18 Memo regarding sebakh at Denderah, Luxor 1924 12/18]\n\nLuxor 18-12-924\n\nDear Mr. Baraize\nI would like to write to you in\nFrench, but I am afraid that I make many\nmistakes.\nWhen I came back here yesterday, I\nheard from the Service that the Sir, fr. has\ncharged you to verify the question of the\nirregular way which was used in removing\nSebakh at Denderah. Please request my report\non the case, if it is not sent to you, & compare\nit with the facts. I am sure that you would\nnever find any thing wrong in it.\nYesterday, on my way back, the Chief Saffi\nconfessed to me that he gave the Inspector some\nSebakh money which never had been registered to\nservice & that the Inspector said to him that\nsuch money were saved for the Service.\nPlease Talk to the Chief Saffi privately\nof the fact; & of what he said to me yesterday.\n& please do not forget to ask him of what I\nsaid to the Inspector in his presence while we\nwere together at Denderah.\nAll what I want is to assure to",
+  "Stamps_and_Annotations": [
+    "Printed header: 'SERVICE DES ANTIQUITÉS. INSPECTORAT DE LA HAUTE EGYPTE.'",
+    "Printed header with blanks: 'N° ______ Pièces jointes ______'",
+    "Handwritten Arabic note: 'مذكرة بخصوص السباخ بندرة الاقصر 1924 12/18 مذكرة بخصوص السباخ بندرة الاقصر 1924 12/18' (Memo regarding sebakh at Denderah, Luxor 1924 12/18 Memo regarding sebakh at Denderah, Luxor 1924 12/18)"
+  ],
+  "Confidence_Notes": "The sender is inferred as C.C. Edgar based on the document's origin (Inspectorate of Upper Egypt) and the context of the provided potential senders. The phrase 'the Sir, fr.' is ambiguous; it is translated literally, but likely refers to the Director General (P. Lacau).",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "SERVICE DES ANTIQUITÉS.\nINSPECTORAT DE LA HAUTE EGYPTE.\nN° ______\nPièces jointes ______\n\n[Handwritten Arabic: مذكرة بخصوص السباخ بندرة الاقصر 1924 12/18 مذكرة بخصوص السباخ بندرة الاقصر 1924 12/18]\n\nLuxor 18-12-924\n\nCher Mon: Baraize\nI would like to write to you in\nFrench, but I am afraid that I make many\nmistakes.\nWhen I came back here yesterday, I\nheard from the Service that the Sir, fr. has\ncharged you to verify the question of the\nirregular way which was used in removing\nSebakh at Denderah. Please request my report\non the case, if it is not sent to you, & compare\nit with the facts. I am sure that you would\nnever find any thing wrong in it.\nYesterday, on my way back, the Chief Saffi\nconfessed to me that he gave the Inspector some\nSebakh money which never had been registered to\nservice & that the Inspector said to him that\nsuch money were saved for the Service.\nPlease Talk to the Chief Saffi privately\nof the fact; & of what he said to me yesterday.\n& please do not forget to ask him of what I\nsaid to the Inspector in his presence while we\nwere together at Denderah.\nAll what I want is to assure to"
+}

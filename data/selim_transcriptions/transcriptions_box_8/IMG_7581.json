@@ -1,0 +1,28 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1928-06-14",
+  "Sender": null,
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "Ramose, Abydos, Deir el-Bahari",
+  "Entities_Mentioned": [
+    "M. Baraize",
+    "Ramose",
+    "Abydos",
+    "Deir el-Bahari"
+  ],
+  "Thematic_Tags": [
+    "Financial Report",
+    "Excavation Budget",
+    "Antiquities Service",
+    "Egyptology"
+  ],
+  "Brief_Summary": "This document is a financial statement detailing credits opened and expenses incurred for the archaeological works of M. Baraize across various sites, including Ramose, Abydos, and Deir el-Bahari, for the 1928-29 financial year, with figures updated as of June 14, 1928.",
+  "English_Translation": "STATEMENT\nCredits opened for the works of M. Baraize during the financial year 1928-29.\n\nCredit granted Amount spent from Balance of credit\nMay 1st, 1928 until today on June 14th, 1928.\nL.E.m/m\n9.\n----\n----\n----\nRamose: [Pencil note: 200 L.E.]\nexpenses as of 1/11/27 (368-4)\nAbydos remaining 340. L.E. [Pencil note: +100/440] 50.---\nDeir el-Bahari remaining 30.- :X 110.---\nRamose remaining 328,100 X 150.---\n800.---\n30.---\n1840.---\n\n22/4 Ramose 400\n248.6\nsince 151.535\n1-XII-27 Ramose: ition es",
+  "Stamps_and_Annotations": [
+    "Pencil note: 200 L.E.",
+    "Pencil note: +100/440"
+  ],
+  "Confidence_Notes": "The phrase 'ition es' at the end of the document appears incomplete or illegible.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "ETAT\nCrédits ouverts pour les travaux de M. Baraize\ndurant exercice financier 1928-29.\n\nCrédit accordé Somme dépensée du Solde du crédit\n1er Mai 1928 jusqu'à ce jour au 14 Juin 1928.\nL.E.m/m\n9.\n----\n----\n----\nRamose: [Pencil note: 200 L.E.]\ndépenses au 1/11/27 (368-4)\nAbydos reste 340. L.E. [Pencil note: +100/440] 50.---\nDai el-Bahari reste 30.- :X 110.---\nRamose reste 328,100 X 150.---\n800.---\n30.---\n1840.---\n\n22/4 Ramose 400\n248.6\ndepuis 151.535\n1-XII-27 Ramose: ition\nes"
+}

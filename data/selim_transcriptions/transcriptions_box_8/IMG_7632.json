@@ -1,0 +1,39 @@
+{
+  "Reference_Number": "محمد جارج ٤/٧٤",
+  "Document_Date": "1938-12-21",
+  "Sender": "Ibrahim Ahmed El-Diwani (Supplier)",
+  "Recipient": "Director of Egyptian Antiquities, Egyptian Antiquities Service",
+  "Excavation_Site": null,
+  "Entities_Mentioned": [
+    "Ibrahim Ahmed El-Diwani",
+    "Egyptian Antiquities Service",
+    "Director of Egyptian Antiquities",
+    "Mohamed Garg",
+    "Minar Al-Ahram"
+  ],
+  "Thematic_Tags": [
+    "Supply Chain",
+    "Procurement",
+    "Wood",
+    "Invoice"
+  ],
+  "Brief_Summary": "This document is an invoice or receipt from Ibrahim Ahmed El-Diwani to the Egyptian Antiquities Service for the value of wood supplied, which was received after sorting, inspection, and acceptance.",
+  "English_Translation": "Egypt, 21 December 1938\nRegarding what was requested from His Excellency [Director of Egyptian Antiquities by order]\n[Handwritten Arabic: Registered in register no. 55 with number]\n[Handwritten Arabic: Mohamed Garg 4/74] to\n[Handwritten Arabic: Minar Al-Ahram]\n\n[Stamp: Egyptian Antiquities Service]\n[Handwritten Arabic: Ibrahim Ahmed El-Diwani]\nYacoub Street, Nasrieh, Egypt – Telephone No. 42910\nIBRAHIM AHMED EL-DIWANI\nRue Yacoub Nasrieh, Le Caire — Téléph. No. 42910\n\nAnd that is for the value of the price of wood that was received after sorting, inspection, and acceptance.\n\n| Item/Type | Price | Quantity | Subtotal? | - |\n|---|---|---|---|---|\n| [Handwritten Arabic: Square timber 4/4] | [Handwritten Arabic: 160] | [Handwritten Arabic: 40] | [Handwritten Arabic: 400] | [Handwritten Arabic: 400] |\n| [Handwritten Arabic: Square timber 4/4] | [Handwritten Arabic: 140] | [Handwritten Arabic: 40] | [Handwritten Arabic: 185] | [Handwritten Arabic: 185] |\n| [Handwritten Arabic: Square timber 4/4]",
+  "Stamps_and_Annotations": [
+    "Handwritten Arabic: مدير الآثار المصرية بأمر (Director of Egyptian Antiquities by order)",
+    "Handwritten Arabic: قيد في السجل رقم ٥٥ بنمرة (Registered in register no. 55 with number)",
+    "Handwritten Arabic: محمد جارج ٤/٧٤ (Mohamed Garg 4/74)",
+    "Handwritten Arabic: منار الأهرام (Minar Al-Ahram)",
+    "Stamp: مصلحة الآثار المصرية (Egyptian Antiquities Service)",
+    "Handwritten Arabic: ابراهيم احمد الديواني (Ibrahim Ahmed El-Diwani)",
+    "Handwritten Arabic: مربوع ٤/٤ (Square timber 4/4)",
+    "Handwritten Arabic: ١٦٠ (160)",
+    "Handwritten Arabic: ٤٠ (40)",
+    "Handwritten Arabic: ٤٠٠ (400)",
+    "Handwritten Arabic: ١٤٠ (140)",
+    "Handwritten Arabic: ١٨٥ (185)"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "مصر في ٢١ ديسمبر سنة ١٩٣٨\nعن المطلوب من حضرة [Handwritten Arabic: مدير الآثار المصرية بأمر]\n[Handwritten Arabic: قيد في السجل رقم ٥٥ بنمرة]\n[Handwritten Arabic: محمد جارج ٤/٧٤] الى\n[Handwritten Arabic: منار الأهرام]\n\n[Stamp: مصلحة الآثار المصرية]\n[Handwritten Arabic: ابراهيم احمد الديواني]\nشارع يعقوب بالناصرية بمصر – تليفون رقم ٤٢٩١٠\nIBRAHIM AHMED EL-DIWANI\nRue Yacoub Nasrieh, Le Caire — Téléph. No. 42910\n\nوذلك عن قيمة ثمن أخشاب صار استلامها بعد الفرز والمعاينة والقبول\n\n| صنف | سعر | عدد | ص | - |\n|---|---|---|---|---|\n| [Handwritten Arabic: مربوع ٤/٤] | [Handwritten Arabic: ١٦٠] | [Handwritten Arabic: ٤٠] | [Handwritten Arabic: ٤٠٠] | [Handwritten Arabic: ٤٠٠] |\n| [Handwritten Arabic: مربوع ٤/٤] | [Handwritten Arabic: ١٤٠] | [Handwritten Arabic: ٤٠] | [Handwritten Arabic: ١٨٥] | [Handwritten Arabic: ١٨٥] |\n| [Handwritten Arabic: مربوع ٤/٤]"
+}

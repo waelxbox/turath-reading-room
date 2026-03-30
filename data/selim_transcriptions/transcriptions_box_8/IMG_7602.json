@@ -1,0 +1,27 @@
+{
+  "Reference_Number": "N° 100",
+  "Document_Date": "1926-02-22",
+  "Sender": "P. LACAU, Le Directeur Général du Service des Antiquités",
+  "Recipient": "Monsieur E. Baraize, Directeur de Travaux",
+  "Excavation_Site": "nécropole de Saqqarah, au Nord de la chaussée d'Ounas",
+  "Entities_Mentioned": [
+    "Service des Antiquités",
+    "P. LACAU",
+    "E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Excavation Concession",
+    "Saqqarah",
+    "Antiquities Service Regulations",
+    "Archaeological Permits"
+  ],
+  "Brief_Summary": "P. Lacau, Director General of the Antiquities Service, informs Monsieur E. Baraize of the approval of an excavation concession in the Saqqarah necropolis for the 1926-1927 season, outlining the general and specific conditions for the permit.",
+  "English_Translation": "SERVICE OF ANTIQUITIES\nCairo, February 22, 1926\nN° 100\n\nSubject: Excavation concession at Saqqarah.\n\nSir,\n\nI have the honor to inform you that the Administrative Council of the Service of Antiquities, in its session of February 16, 1926, has decided to grant you an excavation concession for the 1926-1927 season, in the necropolis of Saqqarah, North of the Unas causeway.\n\nThis concession is granted under the general conditions of the Service of Antiquities and under the following special conditions:\n\n1. The excavations must be directed by yourself or by a representative approved by the Service.\n2. Discovered objects will be shared between the Service and the concessionaire, in accordance with current regulations.\n3. The concessionaire undertakes to provide the Service with a detailed report of the excavations, accompanied by plans and photographs, at the end of each season.\n4. The Service reserves the right to visit the excavation sites at any time and to intervene in case of non-compliance with the conditions.\n5. The concession is valid for a period of one year, renewable upon request and after examination of the results.\n\nPlease accept, Sir, the expression of my distinguished consideration.\n\nThe Director General of the Service of Antiquities\n\nP. LACAU",
+  "Stamps_and_Annotations": [
+    "Stamp: illegible due to extreme overexposure",
+    "Signature: illegible"
+  ],
+  "Confidence_Notes": "The full name and title of the recipient (E. Baraize, Directeur de Travaux) are inferred from the provided context, as the document only addresses 'Monsieur'. The signature and stamp are illegible.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Stamp: illegible due to extreme overexposure]\n\nSERVICE DES ANTIQUITÉS\nLe Caire, le 22 Février 1926\nN° 100\n\nObjet: Concession de fouilles à Saqqarah.\n\nMonsieur,\n\nJ'ai l'honneur de vous informer que le Conseil d'Administration du Service des Antiquités, dans sa séance du 16 Février 1926, a décidé de vous accorder une concession de fouilles pour la saison 1926-1927, dans la nécropole de Saqqarah, au Nord de la chaussée d'Ounas.\n\nCette concession est accordée sous les conditions générales du Service des Antiquités et sous les conditions spéciales suivantes:\n\n1. Les fouilles devront être dirigées par vous-même ou par un représentant agréé par le Service.\n2. Les objets découverts seront partagés entre le Service et le concessionnaire, conformément aux règlements en vigueur.\n3. Le concessionnaire s'engage à fournir au Service un rapport détaillé des fouilles, accompagné de plans et photographies, à la fin de chaque saison.\n4. Le Service se réserve le droit de visiter les chantiers de fouilles à tout moment et d'intervenir en cas de non-respect des conditions.\n5. La concession est valable pour une durée d'un an, renouvelable sur demande et après examen des résultats.\n\nVeuillez agréer, Monsieur, l'expression de ma considération distinguée.\n\nLe Directeur Général du Service des Antiquités\n\n[Signature: illegible]\nP. LACAU"
+}

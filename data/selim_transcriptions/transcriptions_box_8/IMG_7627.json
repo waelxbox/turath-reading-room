@@ -1,0 +1,27 @@
+{
+  "Reference_Number": null,
+  "Document_Date": "1929-01-09",
+  "Sender": "Unknown (from Department of Antiquities Stores)",
+  "Recipient": "Director General of the Egyptian Antiquities Service, Cairo",
+  "Excavation_Site": "Saqqara, Luxor",
+  "Entities_Mentioned": [
+    "M. Sayed Abdel Rahman Ibrahim Abdel Gawad"
+  ],
+  "Thematic_Tags": [
+    "Financial",
+    "Restoration",
+    "Antiquities",
+    "Payment Request"
+  ],
+  "Brief_Summary": "A letter from an unnamed official, likely from the Department of Antiquities Stores, to the Director General of the Egyptian Antiquities Service, submitting an invoice for L.E. 350.430 m/ms from M. Sayed Abdel Rahman Ibrahim Abdel Gawad for repair and restoration work on antiquities found at Saqqara and Luxor, and requesting payment. Subsequent annotations indicate the request was not submitted and was rejected.",
+  "English_Translation": "Department of Antiquities Stores\n100\n1929/1/9\nTo His Excellency\nThe Director General of the Egyptian Antiquities Service\nIn Cairo\nAfter greetings\nAnd then\nWe request from His Excellency\nThe Director General of the Egyptian Antiquities Service\n\nMr. Director General,\n\nI have the honor to submit herewith the invoice from Mr. Sayed Abdel Rahman Ibrahim Abdel Gawad, for the sum of L.E. 350.430 m/ms, for the cost of repair and restoration work on antiquities found at Saqqara and Luxor.\n\nI would be grateful if you would kindly give the necessary orders for the payment of the aforementioned sum to Mr. Ibrahim Abdel Gawad from the works credit.\n\nPlease accept, Mr. Director General, the expression of my highest consideration.\n\n[Handwritten Arabic: This was not submitted]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]\n[Handwritten Arabic: And rejected]",
+  "Stamps_and_Annotations": [
+    "Department of Antiquities Stores",
+    "100",
+    "This was not submitted",
+    "And rejected"
+  ],
+  "Confidence_Notes": null,
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "[Handwritten Arabic: قسم مخازن الآثار\n١٠٠\n١٩٢٩/١/٩\nالى حضرة\nمدير عام مصلحة\nالآثار المصرية\nبالقاهرة\nبعد التحية\nوبعد\nنرجو من حضرة\nمدير عام\nمصلحة الآثار\nالمصرية]\n\nMonsieur le Directeur Général,\n\nJ'ai l'honneur de vous soumettre ci-joint la facture de M. Sayed Abdel\nRahman Ibrahim Abdel Gawad, pour la somme de L.E. 350,430 m/ms,\nmontant des travaux de réparation et de restauration des antiquités\ntrouvées à Saqqarah et à Louxor.\n\nJe vous serais reconnaissant de bien vouloir donner les ordres nécessaires\npour le paiement de la somme susmentionnée à M. Ibrahim Abdel Gawad\nsur le crédit des travaux.\n\nVeuillez agréer, Monsieur le Directeur Général, l'expression de ma parfaite\nconsidération.\n\n[Handwritten Arabic: هذه لم تقدم]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n[Handwritten Arabic: ورفضت]\n["
+}

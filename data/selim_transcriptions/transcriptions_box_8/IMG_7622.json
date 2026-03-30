@@ -1,0 +1,39 @@
+{
+  "Reference_Number": "003638 / 1769",
+  "Document_Date": "1938-06-08",
+  "Sender": "GRUN BROS. (J. GREEN & Co. Successors), Cairo, Alexandria, Khartoum",
+  "Recipient": "Antiquities Service, Pyramide Excavations, Pyramide",
+  "Excavation_Site": "Pyramide Excavations",
+  "Entities_Mentioned": [
+    "Agfa",
+    "GRUN BROS.",
+    "J. GREEN & Co. Successors",
+    "Antiquities Service"
+  ],
+  "Thematic_Tags": [
+    "Photography supplies",
+    "Commercial invoice",
+    "Excavation logistics",
+    "Egyptian Antiquities Service"
+  ],
+  "Brief_Summary": "A dispatch note from Grun Bros. (J. Green & Co. Successors) to the Antiquities Service at the Pyramids Excavations, dated June 8, 1938, confirming the shipment of photographic rollfilms.",
+  "English_Translation": "REPRESENTATIVES - IMPORTERS\nSUPPLIERS OF PHOTOGRAPHIC AND CINEMA EQUIPMENT TO VARIOUS PRIVATE AND GOVERNMENTAL INSTITUTIONS\n\nCAIRO: 147, EMAD EL-DINE STREET TEL. 59948\nALEXANDRIA: 37, NEBI DANIEL STREET TEL. 28666\nKHARTOUM: P.O. BOX 103\n\n[Handwritten Arabic: Green Brothers]\n[Handwritten Arabic: Y. Green & Co. Successors]\n[Handwritten Arabic: Egypt - Alexandria - Sudan]\n\nGRUN BROS.\nJ. GREEN & Co. Succ.\n\nPHOTO - CINEMA DEPT.\n\nCAIRO - C.R. 25998 - Tel. Addr. «NURG»\nALEX. - C.R. 17262 - Tel. Addr. «NURG»\n\nCairo, the [8 June 1938]\n\nMr. [Antiquities service,]\n[Pyramide Excavations,]\n[Pyramide.]\n\nNº [003638]\n1769\n\nWe have dispatched to your address, at your risk and peril from our Cairo depot, the goods detailed below, and this in [service,] in execution of your order from [Pyramide Excavations,]\n\nGRUN BROTHERS\n(J. GREEN & Co. Successors)\n\n| | 4 | Rollfilms | Iso | 8/10.5 | 14.- | P.56.- |\n|---|---|---|---|---|---|---|\n| | | | | | | 22.4 |\n| | | | | | | P. 33.6 |\n\n[Discount 40%]\n\n[Handwritten Arabic (red ink): Expenditure for photographic exposure of the artifact/monument]\n\n[Handwritten Arabic (black ink): I received the roll from the workers based on other/non-]\n[Handwritten Arabic (black ink): 11-8-38]",
+  "Stamps_and_Annotations": [
+    "Stamp: Agfa",
+    "Handwritten Arabic (pencil): اخوان جرين (Green Brothers)",
+    "Handwritten Arabic (pencil): ى. جرين وشركاه خلفاء (Y. Green & Co. Successors)",
+    "Handwritten Arabic (pencil): مصر - اسكندرية - السودان (Egypt - Alexandria - Sudan)",
+    "Pencil note: 8 Juin 1938",
+    "Pencil note: Antiquities service, Pyramide Excavations, Pyramide.",
+    "Pencil note: 003638",
+    "Pencil note: service,",
+    "Pencil note: Pyramide Excavations,",
+    "Pencil note: Dec. 40% (Discount 40%)",
+    "Handwritten Arabic (red ink): صرف ضوء الأثر (Expenditure for photographic exposure of the artifact/monument)",
+    "Handwritten Arabic (black ink): استلمت الرول من العمال بناء على غير (I received the roll from the workers based on other/non-)",
+    "Handwritten Arabic (black ink): 11-8-38"
+  ],
+  "Confidence_Notes": "The last word 'غير' (ghayr) in the black ink Arabic note 'استلمت الرول من العمال بناء على غير' is somewhat ambiguous. It literally means 'other' or 'non-', making the phrase 'based on other/non-'. It might be an incomplete thought or shorthand for 'based on other instructions/reasons'.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "REPRÉSENTANTS - IMPORTATEURS\nFOURNISSEURS D'APPAREILS PHOTOGRAPHIQUES\nET DE CINÉ AUX DIVERSES INSTITUTIONS\nPRIVÉES ET GOUVERNEMENTALES\n\n[Stamp: Agfa]\n\nCAIRE: 147, RUE EMAD EL-DINE TÉL. 59948\nALEXANDRIE: 37, RUE NEBI DANIEL TÉL. 28666\nKHARTOUM: B.P. 103\n\n[Handwritten Arabic: اخوان جرين]\n[Handwritten Arabic: ى. جرين وشركاه خلفاء]\n[Handwritten Arabic: مصر - اسكندرية - السودان]\n\nGRUN BROS.\nJ. GREEN & Co. Succ.\n\nDEPT. PHOTO - CINE\n\nCAIRE - R.C. 25998 - Adr. Télégr. «NURG»\nALEX. - R.C. 17262 - Adr. Télégr. «NURG»\n\nLe Caire, le [Pencil note: 8 Juin 1938]\n\nM [Pencil note: Antiquities service,]\n[Pencil note: Pyramide Excavations,]\n[Pencil note: Pyramide.]\n\nNº [Pencil note: 003638]\n1769\n\nNous avons expedié à votre adresse, à vos risques et périls de notre dépôt du Caire, les marchandises\ndétaillées ci-bas, et ce en [Pencil note: service,] en exécution de votre\ncommande du [Pencil note: Pyramide Excavations,]\n\nGRUN BROTHERS\n(J. GREEN & Co. Successors)\n\n| | 4 | Rollfilms | Iso | 8/10.5 | 14.- | P.56.- |\n|---|---|---|---|---|---|---|\n| | | | | | | 22.4 |\n| | | | | | | P. 33.6 |\n\n[Pencil note: Dec. 40%]\n\n[Handwritten Arabic (red ink): صرف ضوء الأثر]\n\n[Handwritten Arabic (black ink): استلمت الرول من العمال بناء على غير]\n[Handwritten Arabic (black ink): 11-8-38]"
+}

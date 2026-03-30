@@ -1,0 +1,30 @@
+{
+  "Reference_Number": null,
+  "Document_Date": null,
+  "Sender": "T. Baraze",
+  "Recipient": "Monsieur E. Baraize (Directeur de Travaux)",
+  "Excavation_Site": "Denderah",
+  "Entities_Mentioned": [
+    "The Service",
+    "Dir.",
+    "Chief Saffir",
+    "Inspector",
+    "T. Baraze",
+    "E. Baraize"
+  ],
+  "Thematic_Tags": [
+    "Sebakh removal",
+    "Financial misconduct",
+    "Internal investigation",
+    "Denderah"
+  ],
+  "Brief_Summary": "T. Baraze writes to E. Baraize concerning an investigation into irregular sebakh removal at Denderah, reporting that the Chief Saffir confessed to giving unregistered sebakh money to the Inspector, and urges Baraize to privately discuss these facts with the Saffir.",
+  "English_Translation": "Attached documents.\n\nDear Mr. Baraize,\nI would like to write to you in French; but I am afraid that I make many mistakes.\n\nWhen I came back here yesterday, I heard from The Service that the Director has charged you to verify the question of the irregular way which was used in removing Sebakh at Denderah. Please request my report on the case, if it is not sent to you, and compare it with the facts. I am sure that you would never find anything wrong in it.\nYesterday, on my way back, the Chief Saffir confessed to me that he gave the Inspector some Sebakh money which never had been registered to Service and that the Inspector said to him that such money were saved for the Service.\nPlease talk to the Chief Saffir privately of the fact; and of what he said to me yesterday. And please do not forget to ask him of what I said to the Inspector in his presence, while we were together at Denderah.\n\nAll what I want is to assure to Service, that I am saying the truth.\nYour Very Sincere\nT. Baraze\n\n[Marginalia, right side, faint:] othin ocks is o his the d on er l",
+  "Stamps_and_Annotations": [
+    "Pièces jointes.",
+    "Marginalia, right side, faint: othin ocks is o his the d on er l"
+  ],
+  "Confidence_Notes": "The marginalia on the right side is largely illegible. The sender's full name and title are not provided, only 'T. Baraze'.",
+  "_model": "gemini-2.5-flash",
+  "Full_Transcription": "Pièces jointes.\n\nCher Mon. Baraze\nI would like to write to you in\nfrench; but I am. afraid that I make many\nmistakes.\n\nWhen I came back here yesterday, I\nheard from The Service that the Dir. has\ncharged you to verify the question of The\nirregular way which was used in removing\nSebakh at Denderah. Please request my report\non the case, if it is not sent to you, & compare\nit with the facts. I am sure that you would\nnever find any thing wrong in it.\nYesterday, on my way back, the Chief Saffir\nconfessed to me that he gave the Inspector some\nSebakh money which never had been registered to\nService & that the Inspector said to him that\nsuch money were saved for the Service.\nPlease Talk to the Chief Saffir privately\nof the fact; & of what he said to me yesterday.\n& please do not forget to ask him of what I\nsaid to the Inspector in his presence, while we\nwere together at Denderah.\n\nAll what I want is to assure to\nService, that I am saying the truth.\nYour Very Sincere\nT. Baraze\n\n[Marginalia, right side, faint:]\nothin\nocks\nis o\nhis\nthe\nd\non\ner\nl"
+}
