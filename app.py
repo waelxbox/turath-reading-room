@@ -9,12 +9,14 @@ Launch with:
     streamlit run app.py
 """
 
+import io
 import sqlite3
 import subprocess
 import sys
 from pathlib import Path
 
 import streamlit as st
+from PIL import Image, ImageOps
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 DB_FILE = Path("data/archive_database.db")
@@ -28,18 +30,24 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Custom CSS for a polished, academic look ─────────────────────────────────
+# ── Custom CSS ────────────────────────────────────────────────────────────────
 st.markdown(
     """
     <style>
-        /* Sidebar background */
+        /* Sidebar */
         [data-testid="stSidebar"] { background-color: #1a1a2e; }
         [data-testid="stSidebar"] * { color: #e0e0e0 !important; }
 
-        /* Main area */
+        /* Bigger search textarea */
+        [data-testid="stSidebar"] textarea {
+            min-height: 100px !important;
+            font-size: 1rem !important;
+        }
+
+        /* Main area padding */
         .main .block-container { padding-top: 1.5rem; }
 
-        /* Document header badges */
+        /* Header badges */
         .badge {
             display: inline-block;
             background: #16213e;
@@ -64,9 +72,6 @@ st.markdown(
             margin: 2px;
         }
 
-        /* Section dividers */
-        hr { border-color: #333; }
-
         /* Translation block */
         .translation-block {
             background: #f9f6ef;
@@ -77,6 +82,14 @@ st.markdown(
             font-size: 0.97rem;
             line-height: 1.7;
         }
+
+        /* Nav arrow buttons */
+        div[data-testid="column"] button {
+            width: 100%;
+            font-size: 1.4rem;
+        }
+
+        hr { border-color: #333; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -85,7 +98,6 @@ st.markdown(
 
 # ── Database bootstrap ────────────────────────────────────────────────────────
 def ensure_database() -> None:
-    """Auto-build the database on first launch if it doesn't exist."""
     if not DB_FILE.exists():
         with st.spinner("Building archive database for the first time — please wait…"):
             result = subprocess.run(
@@ -107,6 +119,23 @@ def get_connection() -> sqlite3.Connection:
     return conn
 
 
+# ── Image helper: respect EXIF orientation ───────────────────────────────────
+@st.cache_data(show_spinner=False)
+def load_portrait_image(image_path: str) -> bytes | None:
+    """Load a PNG, apply EXIF rotation so it always displays portrait, return PNG bytes."""
+    try:
+        img = Image.open(image_path)
+        img = ImageOps.exif_transpose(img)   # applies EXIF orientation tag
+        # If still landscape after EXIF correction, rotate 90° CW to portrait
+        if img.width > img.height:
+            img = img.rotate(-90, expand=True)
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return buf.getvalue()
+    except Exception:
+        return None
+
+
 # ── Query helpers ─────────────────────────────────────────────────────────────
 def distinct_values(conn: sqlite3.Connection, column: str) -> list[str]:
     cur = conn.cursor()
@@ -126,7 +155,6 @@ def search_documents(
     cur = conn.cursor()
 
     if query.strip():
-        # Build FTS5 query: each word is OR-joined for broad matching
         fts_query = " OR ".join(f'"{w}"' for w in query.split() if w)
         cur.execute(
             """
@@ -150,8 +178,6 @@ def search_documents(
         )
 
     rows = cur.fetchall()
-
-    # Apply sidebar filters
     filtered = []
     for row in rows:
         if site != "All Sites" and row["Excavation_Site"] != site:
@@ -159,7 +185,6 @@ def search_documents(
         if sender != "All Senders" and row["Sender"] != sender:
             continue
         filtered.append(row)
-
     return filtered
 
 
@@ -188,9 +213,7 @@ def main() -> None:
     conn = get_connection()
 
     # ── Header ────────────────────────────────────────────────────────────────
-    st.markdown(
-        "## 🏛️ Project TURATH — Selim Hassan Digital Archive",
-    )
+    st.markdown("## 🏛️ Project TURATH — Selim Hassan Digital Archive")
     st.caption(
         "A digital reading room for the Selim Hassan archaeological correspondence "
         "and administrative records."
@@ -201,16 +224,17 @@ def main() -> None:
     with st.sidebar:
         st.markdown("### 🔍 Command Center")
 
-        search_query = st.text_input(
+        # Taller search box via text_area
+        search_query = st.text_area(
             "Natural Language & Keyword Search",
-            placeholder="e.g. letters about budget or salary",
+            placeholder="e.g. letters about budget or salary\ne.g. excavation permit Saqqara",
+            height=110,
             help="Searches across summaries, translations, and Arabic transcriptions via FTS5.",
         )
 
         st.markdown("#### Smart Filters")
         sites = ["All Sites"] + distinct_values(conn, "Excavation_Site")
         senders = ["All Senders"] + distinct_values(conn, "Sender")
-
         site_filter = st.selectbox("Excavation Site", sites)
         sender_filter = st.selectbox("Sender", senders)
 
@@ -220,27 +244,59 @@ def main() -> None:
 
         if not results:
             st.info("No documents match your criteria.")
+            st.session_state.doc_index = 0
             selected_id = None
         else:
+            # Build option labels
             options = []
             for row in results:
                 date_str = row["Document_Date"] or "Undated"
                 ref_str = row["Reference_Number"] or "—"
-                summary_snippet = (row["Brief_Summary"] or "")[:60]
+                snippet = (row["Brief_Summary"] or "")[:55]
                 label = f"{date_str}  ·  {ref_str}"
-                if summary_snippet:
-                    label += f"\n{summary_snippet}…"
+                if snippet:
+                    label += f"\n{snippet}…"
                 options.append((row["id"], label))
 
-            idx = st.selectbox(
-                "Select a document",
-                range(len(options)),
-                format_func=lambda i: options[i][1],
+            # Initialise / clamp session index
+            if "doc_index" not in st.session_state:
+                st.session_state.doc_index = 0
+            st.session_state.doc_index = max(
+                0, min(st.session_state.doc_index, len(options) - 1)
             )
-            selected_id = options[idx][0]
+
+            # ── Prev / Next arrows ────────────────────────────────────────────
+            arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
+            with arrow_l:
+                if st.button("◀", key="prev_btn", disabled=(st.session_state.doc_index == 0)):
+                    st.session_state.doc_index -= 1
+                    st.rerun()
+            with arrow_mid:
+                st.caption(
+                    f"Document {st.session_state.doc_index + 1} of {len(options)}"
+                )
+            with arrow_r:
+                if st.button("▶", key="next_btn", disabled=(st.session_state.doc_index == len(options) - 1)):
+                    st.session_state.doc_index += 1
+                    st.rerun()
+
+            # ── Dropdown selector (synced with arrow index) ───────────────────
+            chosen_idx = st.selectbox(
+                "Jump to document",
+                range(len(options)),
+                index=st.session_state.doc_index,
+                format_func=lambda i: options[i][1],
+                key="doc_selector",
+            )
+            # If user changed the dropdown, update the index
+            if chosen_idx != st.session_state.doc_index:
+                st.session_state.doc_index = chosen_idx
+                st.rerun()
+
+            selected_id = options[st.session_state.doc_index][0]
 
     # ── Main Stage (Split-Screen Viewer) ──────────────────────────────────────
-    if selected_id is None:
+    if not results or selected_id is None:
         st.markdown(
             "> 👈 Use the **Command Center** in the sidebar to search for documents "
             "and select one to begin exploring the archive."
@@ -257,10 +313,12 @@ def main() -> None:
     # ── Left: The Artifact ────────────────────────────────────────────────────
     with left:
         st.markdown("### 📜 The Artifact")
-        img_path = Path(doc["image_path"]) if doc["image_path"] else None
+        img_path = doc["image_path"]
 
-        if img_path and img_path.exists():
-            st.image(str(img_path), use_container_width=True)
+        img_bytes = load_portrait_image(img_path) if img_path else None
+
+        if img_bytes:
+            st.image(img_bytes, use_container_width=True)
         else:
             st.warning(
                 f"Image not found: `{img_path}`\n\n"
@@ -332,7 +390,6 @@ def main() -> None:
                 )
             else:
                 st.write("No transcription available.")
-
             if doc["Confidence_Notes"]:
                 st.caption(f"**Confidence Notes:** {doc['Confidence_Notes']}")
 
