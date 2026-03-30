@@ -266,6 +266,21 @@ def main() -> None:
             st.session_state.doc_index = max(
                 0, min(st.session_state.doc_index, len(options) - 1)
             )
+            with left:
+        st.markdown("### 📜 The Artifact")
+        
+        # --- DEBUG TOOL: What does Streamlit actually see? ---
+        if Path("data").exists():
+            st.info(f"Folders inside 'data/': {[f.name for f in Path('data').iterdir() if f.is_dir()]}")
+            if Path("data/images").exists():
+                st.info(f"Number of images found: {len(list(Path('data/images').iterdir()))}")
+            else:
+                st.error("The folder 'data/images' does NOT exist on the Streamlit server.")
+        else:
+            st.error("The 'data' folder does NOT exist on the Streamlit server.")
+        # -----------------------------------------------------
+
+        img_path = doc["image_path"]
 
             # ── Prev / Next arrows ────────────────────────────────────────────
             arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
