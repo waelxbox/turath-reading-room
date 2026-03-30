@@ -270,7 +270,7 @@ def main() -> None:
                 full_response = ""
                 try:
                     stream = client.chat.completions.create(
-                        model="gemini-2.0-flash",   # ← corrected model name
+                        model="gemini-2.5-flash",   # ← corrected model name
                         messages=[
                             {"role": "system", "content": system_prompt},
                             {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {prompt}"},
