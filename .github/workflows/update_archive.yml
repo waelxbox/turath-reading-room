@@ -18,16 +18,21 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # We force numpy < 2.0.0 here to keep ChromaDB happy in 2026
-          pip install "chromadb>=0.4.0" "numpy<2.0.0" pysqlite3-binary Pillow openai
+          pip install \
+            "chromadb==0.4.24" \
+            "numpy<2.0.0" \
+            "pysqlite3-binary" \
+            "Pillow>=9.0.0" \
+            "openai" \
+            "streamlit>=1.20.0"
 
       - name: Run Database Ingestion
         run: python build_db.py
