@@ -148,7 +148,7 @@ def build_archive() -> None:
     collection = chroma_client.get_or_create_collection(CHROMA_COLLECTION)
 
     # ── Find new JSON files ───────────────────────────────────────────────────
-    all_files = sorted(JSON_FOLDER.glob("*.json"))
+    all_files = sorted(JSON_FOLDER.rglob("*.json"))
     new_files  = [f for f in all_files if f.name not in already_indexed]
 
     if not new_files:
