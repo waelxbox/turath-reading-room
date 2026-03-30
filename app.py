@@ -266,7 +266,7 @@ def main() -> None:
             st.session_state.doc_index = max(
                 0, min(st.session_state.doc_index, len(options) - 1)
             )
-            with left:
+with left:
         st.markdown("### 📜 The Artifact")
         
         # --- DEBUG TOOL: What does Streamlit actually see? ---
@@ -278,6 +278,9 @@ def main() -> None:
                 st.error("The folder 'data/images' does NOT exist on the Streamlit server.")
         else:
             st.error("The 'data' folder does NOT exist on the Streamlit server.")
+        # -----------------------------------------------------
+
+        img_path = doc["image_path"]
         # -----------------------------------------------------
 
         img_path = doc["image_path"]
