@@ -274,7 +274,7 @@ def main() -> None:
         img_path = doc["image_path"]
 
             # ── Prev / Next arrows ────────────────────────────────────────────
-            arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
+        arrow_l, arrow_mid, arrow_r = st.columns([1, 3, 1])
             with arrow_l:
                 if st.button("◀", key="prev_btn", disabled=(st.session_state.doc_index == 0)):
                     st.session_state.doc_index -= 1
