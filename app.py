@@ -15,7 +15,6 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import io
 import sqlite3
-import subprocess
 from pathlib import Path
 
 import streamlit as st
@@ -65,20 +64,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ── Database bootstrap ────────────────────────────────────────────────────────
+# ── Database check ────────────────────────────────────────────────────────────
 def ensure_database() -> None:
-    """Build SQLite + ChromaDB from JSON files if the database is missing."""
+    """Verify the pre-built database exists (built by GitHub Actions, not at runtime)."""
     if not DB_FILE.exists():
-        with st.spinner("Building archive database for the first time — please wait…"):
-            result = subprocess.run(
-                [sys.executable, "build_db.py"],
-                capture_output=True, text=True,
-            )
-        if result.returncode != 0:
-            st.error(f"Database build failed:\n{result.stderr}")
-            st.stop()
-        st.success("Database built successfully. Welcome to the Reading Room.")
-        st.rerun()
+        st.error(
+            "⚠️ Archive database not found. "
+            "Please trigger the **Build Digital Archive Databases** GitHub Action "
+            "to generate `data/archive_database.db`, then redeploy."
+        )
+        st.stop()
 
 
 @st.cache_resource

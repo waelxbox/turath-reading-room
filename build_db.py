@@ -1,9 +1,13 @@
 """
-build_db.py — TURATH Archive Database Builder
-===============================================
-Reads all JSON files from data/selim_transcriptions/, builds:
-  1. SQLite database (data/archive_database.db) with FTS5 full-text search
-  2. ChromaDB vector store (data/chroma_db/) for semantic / AI chat search
+build_db.py — TURATH Archive Database Builder (Incremental)
+=============================================================
+Reads JSON files from data/selim_transcriptions/ and builds:
+  1. SQLite database  (data/archive_database.db)  — FTS5 full-text search
+  2. ChromaDB store   (data/chroma_db/)            — semantic / AI chat search
+
+INCREMENTAL: Only processes JSON files not already recorded in the database.
+             Re-running this script on an existing database is safe and fast —
+             it skips every file that has already been indexed.
 
 Run manually:   python build_db.py
 Auto-run by:    .github/workflows/update_archive.yml on every JSON push
@@ -15,7 +19,7 @@ from pathlib import Path
 
 import chromadb
 
-# ── Path configuration ────────────────────────────────────────────────────────
+# ── Paths ─────────────────────────────────────────────────────────────────────
 DATA_DIR    = Path("data")
 JSON_FOLDER = DATA_DIR / "selim_transcriptions"
 DB_FILE     = DATA_DIR / "archive_database.db"
@@ -24,9 +28,11 @@ IMAGE_DIR   = DATA_DIR / "images"
 
 DATA_DIR.mkdir(exist_ok=True)
 
-# ── Collection name — must match app.py exactly ───────────────────────────────
+# ── Chroma collection name — must match app.py exactly ───────────────────────
 CHROMA_COLLECTION = "turath_archive"
 
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def list_to_str(value) -> str:
     """Convert a JSON list to a comma-separated string; pass strings through."""
@@ -36,10 +42,7 @@ def list_to_str(value) -> str:
 
 
 def sanitize_metadata(data: dict, filename: str) -> dict:
-    """
-    Coerce all Chroma metadata values to plain strings.
-    ChromaDB rejects None, lists, or any non-scalar type.
-    """
+    """Coerce all Chroma metadata values to plain strings (no None, no lists)."""
     return {
         "sender":   str(data.get("Sender")          or "Unknown"),
         "date":     str(data.get("Document_Date")   or "Unknown"),
@@ -48,36 +51,39 @@ def sanitize_metadata(data: dict, filename: str) -> dict:
     }
 
 
-def create_schema(conn: sqlite3.Connection) -> None:
-    """Drop and recreate the documents table and FTS5 virtual table."""
+# ── Schema creation (only runs on a brand-new database) ──────────────────────
+
+def create_schema_if_needed(conn: sqlite3.Connection) -> None:
+    """
+    Create the documents table and FTS5 virtual table if they don't exist yet.
+    This is safe to call on an existing database — it is a no-op if the tables
+    are already present.
+    """
     cur = conn.cursor()
 
-    cur.execute("DROP TABLE IF EXISTS documents_fts")
-    cur.execute("DROP TABLE IF EXISTS documents")
-
     cur.execute("""
-        CREATE TABLE documents (
-            id                   INTEGER PRIMARY KEY AUTOINCREMENT,
-            Reference_Number     TEXT,
-            Document_Date        TEXT,
-            Sender               TEXT,
-            Recipient            TEXT,
-            Excavation_Site      TEXT,
-            Brief_Summary        TEXT,
-            English_Translation  TEXT,
-            Full_Transcription   TEXT,
-            image_path           TEXT,
-            Thematic_Tags        TEXT,
-            Entities_Mentioned   TEXT,
+        CREATE TABLE IF NOT EXISTS documents (
+            id                     INTEGER PRIMARY KEY AUTOINCREMENT,
+            source_file            TEXT UNIQUE,   -- JSON filename, used for dedup
+            Reference_Number       TEXT,
+            Document_Date          TEXT,
+            Sender                 TEXT,
+            Recipient              TEXT,
+            Excavation_Site        TEXT,
+            Brief_Summary          TEXT,
+            English_Translation    TEXT,
+            Full_Transcription     TEXT,
+            image_path             TEXT,
+            Thematic_Tags          TEXT,
+            Entities_Mentioned     TEXT,
             Stamps_and_Annotations TEXT,
-            Confidence_Notes     TEXT
+            Confidence_Notes       TEXT
         )
     """)
 
-    # FTS5 virtual table — indexes the three most search-relevant text columns.
-    # content= keeps it in sync with the documents table automatically via triggers.
+    # FTS5 virtual table — content= keeps it in sync via triggers
     cur.execute("""
-        CREATE VIRTUAL TABLE documents_fts USING fts5(
+        CREATE VIRTUAL TABLE IF NOT EXISTS documents_fts USING fts5(
             Brief_Summary,
             English_Translation,
             Full_Transcription,
@@ -86,84 +92,103 @@ def create_schema(conn: sqlite3.Connection) -> None:
         )
     """)
 
-    # Triggers to keep FTS5 in sync whenever documents rows change
+    # Triggers to keep FTS5 in sync with the documents table
     cur.execute("""
-        CREATE TRIGGER docs_ai AFTER INSERT ON documents BEGIN
-            INSERT INTO documents_fts(rowid, Brief_Summary, English_Translation, Full_Transcription)
-            VALUES (new.id, new.Brief_Summary, new.English_Translation, new.Full_Transcription);
+        CREATE TRIGGER IF NOT EXISTS docs_ai AFTER INSERT ON documents BEGIN
+            INSERT INTO documents_fts(
+                rowid, Brief_Summary, English_Translation, Full_Transcription
+            ) VALUES (
+                new.id, new.Brief_Summary, new.English_Translation, new.Full_Transcription
+            );
         END
     """)
     cur.execute("""
-        CREATE TRIGGER docs_ad AFTER DELETE ON documents BEGIN
-            INSERT INTO documents_fts(documents_fts, rowid, Brief_Summary, English_Translation, Full_Transcription)
-            VALUES ('delete', old.id, old.Brief_Summary, old.English_Translation, old.Full_Transcription);
+        CREATE TRIGGER IF NOT EXISTS docs_ad AFTER DELETE ON documents BEGIN
+            INSERT INTO documents_fts(
+                documents_fts, rowid, Brief_Summary, English_Translation, Full_Transcription
+            ) VALUES (
+                'delete', old.id, old.Brief_Summary, old.English_Translation, old.Full_Transcription
+            );
         END
     """)
     cur.execute("""
-        CREATE TRIGGER docs_au AFTER UPDATE ON documents BEGIN
-            INSERT INTO documents_fts(documents_fts, rowid, Brief_Summary, English_Translation, Full_Transcription)
-            VALUES ('delete', old.id, old.Brief_Summary, old.English_Translation, old.Full_Transcription);
-            INSERT INTO documents_fts(rowid, Brief_Summary, English_Translation, Full_Transcription)
-            VALUES (new.id, new.Brief_Summary, new.English_Translation, new.Full_Transcription);
+        CREATE TRIGGER IF NOT EXISTS docs_au AFTER UPDATE ON documents BEGIN
+            INSERT INTO documents_fts(
+                documents_fts, rowid, Brief_Summary, English_Translation, Full_Transcription
+            ) VALUES (
+                'delete', old.id, old.Brief_Summary, old.English_Translation, old.Full_Transcription
+            );
+            INSERT INTO documents_fts(
+                rowid, Brief_Summary, English_Translation, Full_Transcription
+            ) VALUES (
+                new.id, new.Brief_Summary, new.English_Translation, new.Full_Transcription
+            );
         END
     """)
 
     conn.commit()
 
 
+# ── Main build logic ──────────────────────────────────────────────────────────
+
 def build_archive() -> None:
-    print("🏗️  Initialising TURATH Build Process…")
+    print("🏗️  TURATH Incremental Build…")
 
     # ── SQLite ────────────────────────────────────────────────────────────────
     conn = sqlite3.connect(DB_FILE)
-    create_schema(conn)
+    create_schema_if_needed(conn)
     cur = conn.cursor()
 
-    # ── ChromaDB — delete existing collection so IDs don't collide on rebuild ─
-    chroma_client = chromadb.PersistentClient(path=str(CHROMA_DIR))
-    try:
-        chroma_client.delete_collection(CHROMA_COLLECTION)
-        print(f"🗑️  Deleted existing ChromaDB collection '{CHROMA_COLLECTION}'")
-    except Exception:
-        pass  # Collection didn't exist yet — that's fine
-    collection = chroma_client.create_collection(CHROMA_COLLECTION)
+    # Find which source files are already indexed (dedup by filename)
+    cur.execute("SELECT source_file FROM documents WHERE source_file IS NOT NULL")
+    already_indexed = {row[0] for row in cur.fetchall()}
 
-    # ── Process JSON files ────────────────────────────────────────────────────
-    files = sorted(JSON_FOLDER.glob("*.json"))
-    if not files:
-        print(f"⚠️  No JSON files found in {JSON_FOLDER}")
+    # ── ChromaDB ──────────────────────────────────────────────────────────────
+    chroma_client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    collection = chroma_client.get_or_create_collection(CHROMA_COLLECTION)
+
+    # ── Find new JSON files ───────────────────────────────────────────────────
+    all_files = sorted(JSON_FOLDER.glob("*.json"))
+    new_files  = [f for f in all_files if f.name not in already_indexed]
+
+    if not new_files:
+        print(f"✅  Nothing to do — all {len(all_files)} file(s) already indexed.")
         conn.close()
         return
 
-    print(f"📄  Processing {len(files)} records…")
+    print(f"📄  {len(already_indexed)} already indexed, "
+          f"{len(new_files)} new file(s) to process…")
 
-    for json_file in files:
+    added = 0
+    for json_file in new_files:
         try:
             with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)
 
-            # Synthesise image_path from the JSON filename (no image_path in JSON)
-            stem = json_file.stem                          # e.g. "IMG_7291"
-            image_path = str(IMAGE_DIR / f"{stem}.png")   # "data/images/IMG_7291.png"
+            # Synthesise image_path from the JSON filename
+            stem       = json_file.stem                        # e.g. "IMG_7291"
+            image_path = str(IMAGE_DIR / f"{stem}.png")       # "data/images/IMG_7291.png"
 
             # Serialise list fields to comma-separated strings for SQLite
-            thematic_tags        = list_to_str(data.get("Thematic_Tags"))
-            entities_mentioned   = list_to_str(data.get("Entities_Mentioned"))
-            stamps_annotations   = list_to_str(data.get("Stamps_and_Annotations"))
+            thematic_tags      = list_to_str(data.get("Thematic_Tags"))
+            entities_mentioned = list_to_str(data.get("Entities_Mentioned"))
+            stamps_annotations = list_to_str(data.get("Stamps_and_Annotations"))
 
-            translation_text     = data.get("English_Translation") or ""
-            brief_summary        = data.get("Brief_Summary") or ""
+            translation_text   = data.get("English_Translation") or ""
+            brief_summary      = data.get("Brief_Summary")       or ""
 
-            # 1. Insert into SQLite (triggers auto-populate FTS5)
+            # 1. Insert into SQLite (FTS5 triggers fire automatically)
             cur.execute("""
                 INSERT INTO documents (
+                    source_file,
                     Reference_Number, Document_Date, Sender, Recipient,
                     Excavation_Site, Brief_Summary, English_Translation,
                     Full_Transcription, image_path,
                     Thematic_Tags, Entities_Mentioned,
                     Stamps_and_Annotations, Confidence_Notes
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
+                json_file.name,
                 data.get("Reference_Number"),
                 data.get("Document_Date"),
                 data.get("Sender"),
@@ -188,14 +213,16 @@ def build_archive() -> None:
                 metadatas=[sanitize_metadata(data, json_file.name)],
             )
 
-            print(f"  ✅  {json_file.name}  →  SQLite id={row_id}")
+            print(f"  ✅  {json_file.name}  →  id={row_id}")
+            added += 1
 
         except Exception as e:
             print(f"  ❌  Error processing {json_file.name}: {e}")
 
     conn.commit()
     conn.close()
-    print("\n✨  Archive build complete — SQLite + FTS5 + ChromaDB are ready.")
+    print(f"\n✨  Done — {added} new record(s) added. "
+          f"Total: {len(already_indexed) + added} document(s) in archive.")
 
 
 if __name__ == "__main__":
