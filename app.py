@@ -98,23 +98,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-# ── Database bootstrap ────────────────────────────────────────────────────────
-def ensure_database() -> None:
-    if not DB_FILE.exists():
-        with st.spinner("Building archive database for the first time — please wait…"):
-            result = subprocess.run(
-                [sys.executable, "build_db.py"],
-                capture_output=True,
-                text=True,
-            )
-        if result.returncode != 0:
-            st.error(f"Database build failed:\n{result.stderr}")
-            st.stop()
-        st.success("Database built successfully. Welcome to the Reading Room.")
-        st.rerun()
-
-
 @st.cache_resource
 def get_connection() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_FILE, check_same_thread=False)
@@ -212,7 +195,6 @@ def render_pills(text: str, css_class: str = "tag-pill") -> None:
 
 # ── Main app ──────────────────────────────────────────────────────────────────
 def main() -> None:
-    ensure_database()
     conn = get_connection()
 
     # ── Header ────────────────────────────────────────────────────────────────
