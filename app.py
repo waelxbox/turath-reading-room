@@ -22,16 +22,25 @@ from PIL import Image, ImageOps
 from openai import OpenAI
 import chromadb
 
-def find_artifact_image(image_filename):
-    """Recursively searches for the image anywhere inside data/images/"""
-    if not image_filename:
+def find_artifact_image(image_path_or_stem) -> str | None:
+    """
+    Resolve an image path from the database to a real file on disk.
+    Handles three cases:
+      1. Stored path is already correct (e.g. data/images/pngs_box_7/IMG_7279.png)
+      2. Stored path is stale/flat (e.g. data/images/IMG_7279.png) — search by stem
+      3. Only a stem is passed — search recursively
+    """
+    if not image_path_or_stem:
         return None
-    
-    # Search through all subfolders for the exact filename
-    matches = list(Path("data/images").rglob(image_filename))
-    
+    p = Path(image_path_or_stem)
+    # Case 1: exact path exists
+    if p.exists():
+        return str(p)
+    # Case 2 & 3: search by stem across all subfolders
+    stem = p.stem  # e.g. "IMG_7279"
+    matches = list(Path("data/images").rglob(f"{stem}.png"))
     if matches:
-        return str(matches[0]) # Returns the correct path, even if it's nested!
+        return str(matches[0])
     return None
 # ── Paths ─────────────────────────────────────────────────────────────────────
 DB_FILE    = Path("data/archive_database.db")
@@ -147,7 +156,7 @@ def search_documents(
         cur.execute("""
             SELECT d.id, d.Reference_Number, d.Document_Date,
                    d.Brief_Summary, d.English_Translation,
-                   d.Excavation_Site, d.Sender
+                   d.Excavation_Site, d.Sender, d.box_label
             FROM documents d
             JOIN documents_fts fts ON d.id = fts.rowid
             WHERE documents_fts MATCH ?
@@ -157,7 +166,7 @@ def search_documents(
         cur.execute("""
             SELECT id, Reference_Number, Document_Date,
                    Brief_Summary, English_Translation,
-                   Excavation_Site, Sender
+                   Excavation_Site, Sender, box_label
             FROM documents ORDER BY Document_Date
         """)
     rows = cur.fetchall()
@@ -330,7 +339,8 @@ def main() -> None:
                     date_str = row["Document_Date"] or "Undated"
                     ref_str  = row["Reference_Number"] or "—"
                     snippet  = (row["Brief_Summary"] or "")[:55]
-                    label    = f"{date_str}  ·  {ref_str}"
+                    box_str  = row["box_label"] if "box_label" in row.keys() else ""
+                    label    = f"{box_str}  ·  {date_str}  ·  {ref_str}" if box_str else f"{date_str}  ·  {ref_str}"
                     if snippet:
                         label += f"\n{snippet}…"
                     options.append((row["id"], label))
@@ -388,12 +398,12 @@ def main() -> None:
 
         with left:
             st.markdown("### 📜 The Artifact")
-            img_path  = doc["image_path"]
+            img_path  = find_artifact_image(doc["image_path"]) if doc["image_path"] else None
             img_bytes = load_portrait_image(img_path) if img_path else None
             if img_bytes:
                 st.image(img_bytes, use_container_width=True)
             else:
-                st.warning(f"Image not found: `{img_path}`")
+                st.warning(f"Image not found: `{doc['image_path']}`")
                 st.markdown(
                     "<div style='height:300px;background:#1a1a2e;border-radius:8px;"
                     "display:flex;align-items:center;justify-content:center;"
