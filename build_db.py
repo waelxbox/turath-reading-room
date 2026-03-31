@@ -75,6 +75,22 @@ def sanitize_metadata(data: dict, rel_path: str) -> dict:
 
 # ── Schema creation (only runs on a brand-new database) ──────────────────────
 
+def migrate_schema(conn: sqlite3.Connection) -> None:
+    """
+    Apply any schema migrations needed for existing databases.
+    Safe to run on any version — each migration is idempotent.
+    """
+    cur = conn.cursor()
+    # Migration 1: add box_label column if missing (added in v2)
+    cur.execute("PRAGMA table_info(documents)")
+    columns = {row[1] for row in cur.fetchall()}
+    if "box_label" not in columns:
+        print("  🔧  Migrating schema: adding box_label column…")
+        cur.execute("ALTER TABLE documents ADD COLUMN box_label TEXT")
+        conn.commit()
+        print("  ✅  Migration complete.")
+
+
 def create_schema_if_needed(conn: sqlite3.Connection) -> None:
     """
     Create the documents table and FTS5 virtual table if they don't exist yet.
@@ -178,6 +194,7 @@ def build_archive() -> None:
     # ── SQLite ────────────────────────────────────────────────────────────────
     conn = sqlite3.connect(DB_FILE)
     create_schema_if_needed(conn)
+    migrate_schema(conn)
     cur = conn.cursor()
 
     # Dedup key = relative path from JSON_FOLDER (handles same filename in different boxes)

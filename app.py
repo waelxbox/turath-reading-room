@@ -103,6 +103,14 @@ def get_connection() -> sqlite3.Connection:
     return conn
 
 
+@st.cache_data(show_spinner=False)
+def has_column(_conn, table: str, column: str) -> bool:
+    """Return True if the given column exists in the given table."""
+    cur = _conn.cursor()
+    cur.execute(f"PRAGMA table_info({table})")
+    return any(row[1] == column for row in cur.fetchall())
+
+
 @st.cache_resource
 def get_chroma_collection():
     """Return the persistent ChromaDB collection."""
@@ -151,22 +159,25 @@ def search_documents(
     conn: sqlite3.Connection, query: str, site: str, sender: str
 ) -> list[sqlite3.Row]:
     cur = conn.cursor()
+    # Gracefully handle databases that pre-date the box_label column
+    box_col = "d.box_label" if has_column(conn, "documents", "box_label") else "NULL AS box_label"
+    box_col_plain = "box_label" if has_column(conn, "documents", "box_label") else "NULL AS box_label"
     if query.strip():
         fts_query = " OR ".join(f'"{w}"' for w in query.split() if w)
-        cur.execute("""
+        cur.execute(f"""
             SELECT d.id, d.Reference_Number, d.Document_Date,
                    d.Brief_Summary, d.English_Translation,
-                   d.Excavation_Site, d.Sender, d.box_label
+                   d.Excavation_Site, d.Sender, {box_col}
             FROM documents d
             JOIN documents_fts fts ON d.id = fts.rowid
             WHERE documents_fts MATCH ?
             ORDER BY rank
         """, (fts_query,))
     else:
-        cur.execute("""
+        cur.execute(f"""
             SELECT id, Reference_Number, Document_Date,
                    Brief_Summary, English_Translation,
-                   Excavation_Site, Sender, box_label
+                   Excavation_Site, Sender, {box_col_plain}
             FROM documents ORDER BY Document_Date
         """)
     rows = cur.fetchall()
